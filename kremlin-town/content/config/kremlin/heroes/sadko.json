@@ -1,0 +1,76 @@
+{
+	"rusSadko" :
+	{
+		"class" : "vityaz",
+		"female" : false,
+		
+		"texts" :
+		{
+			"name" : "Sadko",
+			"biography" : "Sadko was always considered the best merchant among others. He could find and deliver any product anywhere. They say that once he became a guest of the king of the sea, since then his ships could pass through any storms and storms, and Sadko himself was able to get treasures from the bottom of the sea that no one had ever seen on earth. An excellent sailor and merchant was one of the first called to take part in campaigns against neighboring countries.",
+			"specialty" :
+			{
+				"description" : "Receives a 5% per level bonus to Navigation skill percentage.",
+				"tooltip" : "Secondary skill: Navigation.",
+				"name" : "Navigation"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "kremlin/heroes/jabress/un32weak.png",
+			"specialtyLarge" : "kremlin/heroes/jabress/un44weak.png",
+			"large" : "kremlin/heroes/jabress/portrait-large.png",
+			"small" : "kremlin/heroes/jabress/portrait-small.png"
+		},
+		
+		"spellbook" :
+		[
+			"summonBoat"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "rusHearthkeeper",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "rusCotUcheniy",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "rusBear",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			},
+			{
+				"level" : "basic",
+				"skill" : "navigation"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"navigation" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : "heroMovementSea",
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}
+

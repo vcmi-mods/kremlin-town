@@ -1,0 +1,67 @@
+{
+	"rusCotUcheniy":
+	{
+		"name" :
+		{
+			"plural" : "Wise Cats",
+			"singular" : "Wise Cat"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 16
+		},
+		"faction" : "kremlin",
+		"aiValue" : 195,
+		"attack" : 8,
+		"cost" :
+		{
+			"gold" : 130
+		},
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 2
+		},
+		"defense" : 5,
+		"hasDoubleWeek": true,
+		"doubleWide" : true,
+		"fightValue" : 155,
+		"graphics" :
+		{
+			"animation" : "kremlin/battle/creatures/cot_ucheniy.def",
+			"map" : "kremlin/map/creatures/cot_ucheniy_map.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"iconSmall" : "kremlin/iconsSmall/creatures/ucheniys.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/ucheniy.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 9,
+		"hitPoints" : 12,
+		"level" : 2,
+		"upgrades": [ "rusCatBayun" ],
+		"sound" :
+		{
+			"attack": "FMLRATTK.wav",
+			"defend": "kremlin/sekhDef.wav",
+			"killed": "kremlin/sekhDie.wav",
+			"move": "kremlin/sekhWalk.wav",
+			"wince": "kremlin/sekhHit.wav"
+ 		},
+		"speed" : 8,
+		"abilities" :
+		{
+			"manaChannel" :
+			{
+				"type" : "MANA_CHANNELING",
+				"val" : 20
+			}
+		}
+	}
+}

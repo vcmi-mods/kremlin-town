@@ -1,0 +1,73 @@
+{
+	"rusVseglas" :
+	{
+		"class" : "volhv",
+
+		"texts" :
+		{
+			"name" : "Vseglas",
+			"biography" : "There were legends about the sorcerer-hermit Vseglas, people said that he knew the language of every nation in the world, understood animals and birds. Having learned about this, the prince called on Vseglas to take part in a diplomatic mission so that he could translate the speech of the inhabitants of other regions.",
+			"specialty" :
+			{
+				"description" : "Surrender cost is reduced by 40%",
+				"tooltip" : "{Diplomacy}\r\n\r\nCost of Surrender -40%",
+				"name" : "Diplomacy"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "kremlin/heroes/tuidhana/Un32Fmag.png",
+			"specialtyLarge" : "kremlin/heroes/tuidhana/Un44Fmag.png",
+			"large" : "kremlin/heroes/tuidhana/hpl300.png",
+			"small" : "kremlin/heroes/tuidhana/hps300.png"
+		},
+
+		"spellbook" :
+		[
+			"magicArrow"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "rusHearthkeeper",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "rusCotUcheniy",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "rusBear",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "diplomacy"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"discount" : {
+					"type" : "SURRENDER_DISCOUNT",
+					"val" : 40,
+					"propagator" : "HERO"
+				}
+			}
+		}
+	}
+}
+
+

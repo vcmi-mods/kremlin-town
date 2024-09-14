@@ -1,0 +1,23 @@
+{
+	"author" : "Olegmods.INC",
+
+	"contact" : "nope, unique mod",
+	"description" : "Bogatyrs hate Gorynyches",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType" : "Mechanics",
+	"name" : "Bogatyr Gorynych",
+	"version" : "1.0.0",	
+	
+	"depends" :
+	[
+		"wake-of-gods.creatures",
+		"kremlin-town"
+	],
+	
+	"creatures" :
+    [ 
+		"config/bogat.json"
+    ]
+
+}

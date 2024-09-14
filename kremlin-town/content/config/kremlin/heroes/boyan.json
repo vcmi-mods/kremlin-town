@@ -1,0 +1,71 @@
+{
+	"rusBoyan" :
+	{
+		"class" : "volhv",
+		"female" : false,
+
+		"texts" :
+		{
+			"name" : "Boyan",
+			"biography" : "Not a single battle took place without the participation of Boyan, the guslar, singer of heroes. The prince's squads went to battle to the majestic and menacing sounds of his songs with a firm belief in victory on the battlefield. And in battle, Boyan was a great magician; he uses his sonorous harp and casts his spells. And after the battle, with his songs he praised the victorious prince and the warriors who fell in battle.",
+			"specialty" :
+			{
+				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
+				"tooltip" : "{Logistics}\r\n\r\nReceives a 5% per level bonus too Logistics skill percentage.",
+				"name" : "Logistics"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "kremlin/heroes/mrimm/un32logi.png",
+			"specialtyLarge" : "kremlin/heroes/mrimm/un44logi.png",
+			"large" : "kremlin/heroes/mrimm/hpl285.png",
+			"small" : "kremlin/heroes/mrimm/hps285.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "rusHearthkeeper",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "rusCotUcheniy",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "rusBear",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"subtype" : "heroMovementLand",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MOVEMENT",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

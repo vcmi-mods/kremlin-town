@@ -1,0 +1,67 @@
+{
+	"rusOleg" :
+	{
+		"class" : "vityaz",
+		"female" : false,
+
+		"texts" :
+		{
+			"name" : "Oleg",
+			"biography" : "Oleg is claimed to be impossible to defeat due to his mastery in defence. As the most successfull general of the Kremlian Principalty, he is the man with the most power there and was not long ago crowned as the prince of his people.",
+			"specialty" :
+			{
+				"description" : "Receives a 5% per level bonus to Armorer skill percentage.",
+				"tooltip" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill percentage.",
+				"name" : "Armorer"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "kremlin/heroes/ultrin/Un32Defe.png",
+			"specialtyLarge" : "kremlin/heroes/ultrin/Un44Defe.png",
+			"large" : "kremlin/heroes/ultrin/hpl287.png",
+			"small" : "kremlin/heroes/ultrin/hps287.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "rusHearthkeeper",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "rusCotUcheniy",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "rusBear",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" : 
+		[
+			{
+				"level" : "advanced",
+				"skill" : "armorer"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

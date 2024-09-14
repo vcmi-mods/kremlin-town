@@ -1,0 +1,59 @@
+{
+	"rusBear":
+	{
+		"name" :
+		{
+			"plural" : "Bears",
+			"singular" : "Bear"
+		},
+		"advMapAmount" :
+		{
+			"max" : 20,
+			"min" : 12
+		},
+		"faction" : "kremlin",
+		"aiValue" : 360,
+		"attack" : 8,
+		"cost" :
+		{
+			"gold" : 200
+		},
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 3
+		},
+		"defense" : 9,
+		"hasDoubleWeek": true,
+		"doubleWide" : true,
+		"fightValue" : 340,
+		"graphics" :
+		{
+			"animation" : "kremlin/battle/creatures/CBEAR.def",
+			"map" : "kremlin/map/creatures/bear_map.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"iconSmall" : "kremlin/iconsSmall/creatures/bears.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/bear.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 7,
+		"hitPoints" : 25,
+		"level" : 3,
+		"upgrades": [ "rusCzarBear" ],
+		"sound" :
+		{
+			"attack": "BODRATTK.wav",
+			"defend": "HHNDDFND.wav",
+			"killed": "CGORKILL.wav",
+			"move": "CCYCMOVE.wav",
+			"wince": "CCYCWNCE.wav"
+ 		},
+		"speed" : 5
+	}
+}

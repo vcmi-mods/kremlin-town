@@ -1,0 +1,1145 @@
+{
+	"kremlin" : {
+		"alignment" : "neutral",
+		"boat" : "boatConflux",
+		"creatureBackground" : { "120px" : "kremlin/crbg120.bmp", "130px" : "kremlin/crbg130.bmp" },
+		"name" : "Kremlin",
+		"nativeTerrain" : "highlands", //need to link with HotA mod
+		"puzzleMap" : {
+			"prefix" : "kremlin/puzzle-map/PUZ",
+			"pieces" :
+			[
+{ "index" : 48, "x" : 6,  "y" : 7 },
+{ "index" : 47, "x" : 6,  "y" : 7 },
+{ "index" : 46, "x" : 6,  "y" : 7 },
+{ "index" : 45, "x" : 6,  "y" : 7 },
+{ "index" : 44, "x" : 6,  "y" : 7 },
+{ "index" : 43, "x" : 6,  "y" : 7 },
+{ "index" : 42, "x" : 6,  "y" : 7 },
+{ "index" : 41, "x" : 6,  "y" : 7 },
+{ "index" : 40, "x" : 6,  "y" : 7 },
+{ "index" : 39, "x" : 6,  "y" : 7 },
+{ "index" : 38, "x" : 6,  "y" : 7 },
+{ "index" : 37, "x" : 6,  "y" : 7 },
+{ "index" : 36, "x" : 6,  "y" : 7 },
+{ "index" : 35, "x" : 6,  "y" : 7 },
+{ "index" : 34, "x" : 6,  "y" : 7 },
+{ "index" : 33, "x" : 6,  "y" : 7 },
+{ "index" : 32, "x" : 6,  "y" : 7 },
+{ "index" : 31, "x" : 6,  "y" : 7 },
+{ "index" : 30, "x" : 6,  "y" : 7 },
+{ "index" : 29, "x" : 6,  "y" : 7 },
+{ "index" : 28, "x" : 6,  "y" : 7 },
+{ "index" : 27, "x" : 6,  "y" : 7 },
+{ "index" : 26, "x" : 6,  "y" : 7 },
+{ "index" : 25, "x" : 6,  "y" : 7 },
+{ "index" : 24, "x" : 6,  "y" : 7 },
+{ "index" : 23, "x" : 6,  "y" : 7 },
+{ "index" : 22, "x" : 6,  "y" : 7 },
+{ "index" : 21, "x" : 6,  "y" : 7 },
+{ "index" : 20, "x" : 6,  "y" : 7 },
+{ "index" : 19, "x" : 6,  "y" : 7 },
+{ "index" : 18, "x" : 6,  "y" : 7 },
+{ "index" : 17, "x" : 6,  "y" : 7 },
+{ "index" : 16, "x" : 6,  "y" : 7 },
+{ "index" : 15, "x" : 6,  "y" : 7 },
+{ "index" : 14, "x" : 6,  "y" : 7 },
+{ "index" : 13, "x" : 6,  "y" : 7 },
+{ "index" : 12, "x" : 6,  "y" : 7 },
+{ "index" : 11, "x" : 6,  "y" : 7 },
+{ "index" : 10, "x" : 6,  "y" : 7 },
+{ "index" : 9, "x" : 6,  "y" : 7 },
+{ "index" : 8, "x" : 6,  "y" : 7 },
+{ "index" : 7, "x" : 6,  "y" : 7 },
+{ "index" : 6, "x" : 6,  "y" : 7 },
+{ "index" : 5, "x" : 6,  "y" : 7 },
+{ "index" : 4, "x" : 6,  "y" : 7 },
+{ "index" : 3, "x" : 6,  "y" : 7 },
+{ "index" : 2, "x" : 6,  "y" : 7 },
+{ "index" : 1, "x" : 6,  "y" : 7 }
+			]
+		},
+		"town" : {
+		    "defaultTavern" : 5,
+			"buildings" : {
+				"mageGuild1" :
+				{
+					
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1",
+					"cost" :
+					{
+						"wood" : 5,
+						"ore" : 5,
+						"gold" : 2000
+					},
+					"id" : 0
+				},
+				"mageGuild2" :
+				{
+					
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000
+					},
+					"id" : 1,
+					"upgrades" : "mageGuild1"
+				},
+				"mageGuild3" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000
+					},
+					"id" : 2,
+					"upgrades" : "mageGuild2"
+				},
+				"mageGuild4" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 8,
+						"ore" : 5,
+						"sulfur" : 8,
+						"crystal" : 8,
+						"gems" : 8,
+						"gold" : 1000
+					},
+					"id" : 3,
+					"upgrades" : "mageGuild3"
+				},
+				"tavern" :
+				{
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city.",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					},
+					"id" : 5
+				},
+				"dock" :
+				{
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
+					"cost" :
+					{
+						"wood" : 20,
+						"gold" : 2000
+					},
+					"id" : 6
+				},
+				"fort" :
+				{
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
+					"cost" :
+					{
+						"wood" : 20,
+						"ore" : 20,
+						"gold" : 5000
+					},
+					"id" : 7
+				},
+				"citadel" :
+				{
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 2500
+					},
+					"id" : 8,
+					"upgrades" : "fort"
+				},
+				"castle" :
+				{
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"cost" :
+					{
+						"wood" : 10,
+						"ore" : 10,
+						"gold" : 5000
+					},
+					"id" : 9,
+					"upgrades" : "citadel"
+				},
+				"villageHall" :
+				{
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"id" : 10,
+					"mode" : "auto"
+				},
+				"townHall" :
+				{
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"cost" :
+					{
+						"gold" : 2500
+					},
+					"id" : 11,
+					"requires" : [ "tavern" ],
+					"upgrades" : "villageHall"
+				},
+				"cityHall" :
+				{
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"cost" :
+					{
+						"gold" : 5000
+					},
+					"requires" : [ "allOf", ["mageGuild1"], ["marketplace"], ["blacksmith"] ],
+					"id" : 12,
+					"upgrades" : "townHall"
+				},
+				"capitol" :
+				{
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"cost" :
+					{
+						"gold" : 10000
+					},
+					"id" : 13,
+					"requires" : [ "castle" ],
+					"upgrades" : "cityHall"
+				},
+				"marketplace" :
+				{
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					},
+					"id" : 14
+				},
+				"resourceSilo" :
+				{
+					"description" : "The Resource Silo provides you with an additional +1 gem each day.",
+					"name" : "Resource Silo",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 5000
+					},
+					"requires" : [ "marketplace" ],
+					"id" : 15
+				},
+				"blacksmith" :
+				{
+					"description" : "The Blacksmith provides your armies with First Aid Tents.",
+					"name" : "Blacksmith",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 1000
+					},
+					"id" : 16
+				},
+				"horde2" :
+				{
+					"description" : "The Gatehouse increases Ratniks production by 3 per week.",
+					"name" : "Gatehouse",
+					"cost" : 
+					{
+						"gold" : 1000
+					},
+					"id" : 25,
+					"upgrades" : "dwellingLvl4",
+					"requires" : [ "fort" ]
+				},
+				"horde2Upgr" :
+				{
+					"description" : "The Gatehouse increases Druginniks production by 3 per week.",
+					"name" : "Gatehouse",
+					"cost" : 
+					{
+						"gold" : 1000
+					},
+					"requires" : [ "horde2" ],
+					"upgrades" : "dwellingUpLvl4",
+					"id" : 24,
+					"mode" : "auto"
+				},
+				"boat" :
+				{
+					"description" : "The Shipyard allows you to purchase ships.",
+					"name" : "Shipyard",
+					"id" : 20
+				},
+				"special1" :
+				{
+					"description" : "The Well increases the Power skill of any visiting hero by +1.",
+					"name" : "Well",
+					"cost" : {
+						"gold" : 500
+					},
+					"type" : "spellPowerVisitingBonus",
+					"requires" : [ "allOf", ["blacksmith"],["fort"] ],
+					"id" : 17
+				},
+				"special2" :
+				{
+					"description" : "The Banya increases the Attack skill of any visiting hero by +1.",
+					"name" : "Banya",
+					"cost" : {
+						"gold" : 500
+					},
+					"type" : "attackVisitingBonus",
+					"requires" : [ "allOf", ["blacksmith"],["fort"] ],
+					"id" : 21
+				},
+				"horde1" : 
+				{
+					"description" : "The Water Wheel increases Hearthkeepers production by 8 per week.",
+					"name" : "Water Wheel", 
+					"cost" : 
+					{
+						"gold" : 1000
+					},
+					"upgrades" : "dwellingLvl1",
+					"requires" : [ "fort" ],
+					"id" : 18
+				},	
+				"horde1Upgr" : 
+				{
+					"description" : "The Water Wheel increases Housekeepers production by 8 per week.",
+					"name" : "Water Wheel",
+					"cost" : 
+					{
+						"gold" : 1000
+					},
+					"upgrades" : "dwellingUpLvl1",
+					"requires" : [ "horde1" ],
+					"id" : 19,
+					"mode" : "auto"
+				},	
+				"grail" :
+				{
+					"description" : "The Alatyr Stone increases weekly creature generation by 50 percent, adds 5000 gold per day and increases defending hero's Power by 8 during siege.",
+					"name" : "Alatyr Stone",
+					"id" : 26,
+					"mode" : "grail",
+					"bonuses": [ 
+					{ "type": "PRIMARY_SKILL", "subtype": "primarySkill.spellpower", "val": 8 }
+					]
+				},
+				"dwellingLvl1" :
+				{
+					"description" : "The Farmstead allows you to recruit Hearthkeepers.",
+					"name" : "Farmstead",
+					"cost" : 
+					{
+						"gold" : 350,
+						"wood" : 10
+					},
+					"requires" : [ "fort" ],
+					"id" : 30
+				},
+				"dwellingLvl2" :
+				{
+					"description" : "The Cat Tree allows you to recruit Wise Cats.",
+					"name" : "Cat Tree",
+					"cost" : 
+					{
+						"gold" : 1000,
+						"wood" : 5,
+						"ore" : 5
+					},
+					"requires" : [ "dwellingLvl1" ],
+					"id" : 31
+				},
+				"dwellingLvl3" :
+				{
+					"description" : "The Bear Den allows you to recruit Bears.",
+					"name" : "Bear Den",
+					"cost" : 
+					{
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"requires" : [ "dwellingLvl1" ],
+					"id" : 32
+				},
+				"dwellingLvl4" :
+				{
+					"description" : "The Ratniks' Quarters allows you to recruit Ratniks.",
+					"name" : "Ratniks' Quarters",
+					"cost" : 
+					{
+						"wood" : 5,
+						"gold" : 2500,
+						"ore" : 5
+					},
+					"requires" : [ "allOf", ["dwellingLvl1"], ["dwellingLvl3"] ],
+					"id" : 33
+				},
+				"dwellingLvl5" :
+				{
+					"description" : "The Forest Glade allows you to recruit Lesoviks.",
+					"name" : "Forest Glade",
+					"cost" : 
+					{
+						"gold" : 2500,
+						"wood" : 10,
+						"ore" : 5,
+						"crystal" : 5
+					},
+					"requires" : [ "allOf", ["dwellingLvl2"], ["mageGuild1"], [ "noneOf", [ "dwellingLvl5B" ] ]  ],
+					"id" : 34
+				},
+				"dwellingLvl5B" :
+				{
+					"description" : "The Hut on Chicken Legs allows you to recruit Forest Witches.",
+					"name" : "Hut on Chicken Legs",
+					"cost" : 
+					{
+						"gold" : 3000,
+						"wood" : 15,
+						"ore" : 5,
+						"gems" : 5
+					},
+					"requires" : [ "allOf", ["dwellingLvl2"], ["mageGuild1"], ["special1"], [ "noneOf", [ "dwellingLvl5" ] ]  ],
+					"id" : 48
+				},
+				"dwellingLvl6" :
+				{
+					"description" : "The Iriy allows you to recruit Sirins.",
+					"name" : "Iriy",
+					"cost" : 
+					{
+						"gold" : 3500,
+						"wood" : 10,
+						"mercury" : 5
+					},
+					"requires" : [ "anyOf", ["dwellingLvl5"], ["dwellingLvl5B"] ],
+					"id" : 35
+				},
+				"dwellingLvl7" :
+				{
+					"description" : "The Khoromy allows you to recruit Bogatyrs.",
+					"name" : "Khoromy",
+					"cost" : 
+					{
+						"gold" : 5000,
+						"ore" : 10,
+						"gems" : 10,
+						"wood" : 10
+					},
+					"requires" : [ "allOf", ["blacksmith"], ["dwellingLvl4"] ],
+					"id" : 36
+				},
+				"dwellingUpLvl1" :
+				{
+					"description" : "The Upg. Farmstead allows you to recruit Housekeepers.",
+					"name" : "Upg. Farmstead",
+					"cost" :
+					{
+						"gold" : 750,
+						"wood" : 10
+					},
+					"id" : 37,
+					"requires" : [ "tavern" ],
+					"upgrades" : "dwellingLvl1"
+				},
+				"dwellingUpLvl2" :
+				{
+					"description" : "The Upg. Cat Tree allows you to recruit Cat Bayuns.",
+					"name" : "Upg. Cat Tree",
+					"cost" : 
+					{
+						"gold" : 1000,
+						"wood" : 5,
+						"ore" : 5
+					},
+					"id" : 38,
+					"upgrades" : "dwellingLvl2"
+				},
+				"dwellingUpLvl3" :
+				{
+					"description" : "The Upg. Bear Den allows you to recruit Tzar Bears.",
+					"name" : "Upg. Bear Den",
+					"cost" : 
+					{
+						"gold" : 1500,
+						"wood" : 5,
+						"ore" : 5
+					},
+					"id" : 39,
+					"upgrades" : "dwellingLvl3"
+				},
+				"dwellingUpLvl4" :
+				{
+					"description" : "The Upg. Ratniks' Quarters allows you to recruit Druginniks.",
+					"name" : "Upg. Ratniks' Quarters",
+					"cost" : 
+					{
+						"wood" : 5,
+						"gold" : 2500,
+						"ore" : 5
+					},
+					"id" : 40,
+					"upgrades" : "dwellingLvl4"
+				},
+				"dwellingUpLvl5" :
+				{
+					"description" : "The Upg. Forest Glade allows you to recruit Leshiys.",
+					"name" : "Upg. Forest Glade",
+					"cost" : 
+					{
+						"wood" : 5,
+						"gold" : 2000,
+						"ore" : 5,
+						"crystal" : 5
+					},
+					"id" : 41,
+					"requires" : [ "mageGuild2" ],
+					"upgrades" : "dwellingLvl5"
+				},
+				"dwellingUpLvl5B" :
+				{
+					"description" : "The Upg. Hut on Chicken Legs allows you to recruit Babas Yagas.",
+					"name" : "Upg. Hut on Chicken Legs",
+					"cost" : 
+					{
+						"wood" : 5,
+						"gold" : 3000,
+						"ore" : 5,
+						"gems" : 5
+					},
+					"id" : 55,
+					"requires" : [ "allOf", ["mageGuild2"], ["dwellingUpLvl2"] ],
+					"upgrades" : "dwellingLvl5B"
+				},
+				"dwellingUpLvl6" :
+				{
+					"description" : "The Upg. Iriy allows you to recruit Alconosts.",
+					"name" : "Upg. Iriy",
+					"cost" : 
+					{
+						"gold" : 3000,
+						"wood" : 10,
+						"mercury" : 10,
+						"gems" : 5
+					},
+					"id" : 42,
+					"requires" : [ "anyOf", ["dwellingUpLvl5"], ["dwellingUpLvl5B"] ],
+					"upgrades" : "dwellingLvl6"
+				},
+				"dwellingUpLvl7" :
+				{
+					"description" : "The Upg. Khoromy allows you to recruit Epic Bogatyrs.",
+					"name" : "Upg. Khoromy",
+					"cost" : 
+					{
+						"wood" : 20,
+						"gold" : 20000,
+						"gems" : 15,
+						"ore"  : 20
+					},
+					"id" : 43,
+					"requires" : [ "allOf", ["dwellingUpLvl4"], ["special2"] ],
+					"upgrades" : "dwellingLvl7"
+				}				
+			},
+			"buildingsIcons" : "kremlin/hallnew.def",
+			"creatures" : [
+				[ "rusHearthkeeper", "rusHousekeeper" ],
+				[ "rusCotUcheniy", "rusCatBayun" ],
+				[ "rusBear", "rusCzarBear" ],
+				[ "rusRatnik", "rusDruginnik" ],
+				[ "tumborovik", "tumleshiy", "tumyaga", "rusYaga" ],
+				[ "rusSirin", "rusAlconost" ],
+				[ "rusBogatyr", "tumBogatyr" ]
+			],
+			"guildBackground" : "TPMAGE.bmp",
+			"guildSpells" : {
+				"bless"          : 2,
+				"bloodlust"      : 5,
+				"cure"           : 4,
+				"curse"          : 3,
+				"dispel"         : 10,
+				"haste"          : 10,
+				"magicArrow"     : 25,
+				"protectAir"     : 5,
+				"protectFire"    : 3,
+				"shield"         : 5,
+				"slow"           : 15,
+				"stoneSkin"      : 2,
+				"summonBoat"     : 5,
+				"viewAir"        : 3,
+				"viewEarth"      : 3,
+				"disguise"       : 2,
+				"disruptingRay"  : 8,
+				"fireWall"       : 3,
+				"fortune"        : 10,
+				"iceBolt"        : 10,
+				"lightningBolt"  : 35,
+				"precision"      : 6,
+				"quicksand"      : 4,
+				"removeObstacle" : 6,
+				"scuttleBoat"    : 4,
+				"visions"        : 2,
+				"weakness"       : 10,
+				"airShield"      : 2,
+				"antiMagic"      : 20,
+				"earthquake"     : 30,
+				"fireball"       : 2,
+				"forceField"     : 4,
+				"forgetfulness"  : 8,
+				"frostRing"      : 10,
+				"hypnotize"      : 2,
+				"landMine"       : 4,
+				"mirth"          : 2,
+				"misfortune"     : 4,
+				"protectEarth"   : 8,
+				"protectWater"   : 2,
+				"teleport"       : 2,
+				"berserk"        : 5,
+				"chainLightning" : 10,
+				"clone"          : 5,
+				"counterstrike"  : 5,
+				"fireShield"     : 5,
+				"frenzy"         : 5,
+				"inferno"        : 5,
+				"meteorShower"   : 5,
+				"prayer"         : 5,
+				"resurrection"   : 5,
+				"slayer"         : 5,
+				"sorrow"         : 5,
+				"townPortal"     : 15,
+				"waterWalk"      : 5,
+				"airElemental"   : 4,
+				"dimensionDoor"  : 15,
+				"earthElemental" : 10,
+				"fireElemental"  : 10,
+				"fly"            : 15,
+				"implosion"      : 15,
+				"magicMirror"    : 15,
+				"sacrifice"      : 11,
+				"waterElemental" : 5
+			},
+			"guildWindow" : "kremlin/town-screen/mage-guild.bmp",
+			"hallBackground" : "kremlin/hallbg",
+			"horde" : [ 0, 3 ],
+			"moatAbility" : "rampartMoat",
+			"icons" : {
+				"village" : {
+					"normal" : {"small" : "kremlin/icons/hall-small.bmp", "large" : "kremlin/icons/hall-big.bmp" },
+					"built"  : {"small" : "kremlin/icons/hall-small_builded.bmp", "large" : "kremlin/icons/hall-big_builded.bmp" }
+				},
+				"fort" : {
+					"normal" : {"small" : "kremlin/icons/fort-small.bmp", "large" : "kremlin/icons/fort-big.bmp" },
+					"built"  : {"small" : "kremlin/icons/fort-small_builded.bmp", "large" : "kremlin/icons/fort-big_builded.bmp" }
+				}
+			},
+			"mapObject" : {
+				"filters" : {
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+				},
+				"templates" : {
+					"capitol" : { "animation" : "kremlin/map/krcap.def" },
+					"castle" : { "animation" : "kremlin/map/krcas.def" },
+					"citadel" : { "animation" : "kremlin/map/krcit.def" },
+					"fort" : { "animation" : "kremlin/map/krfort.def" },
+					"village" : { "animation" : "kremlin/map/krhall.def" }
+				}
+			},
+			"mageGuild" : 3,
+			
+			"musicTheme" : "music/factions/PaleRider.mp3",
+			"names" : [
+				"Moscow",
+				"Novgorod",
+				"Kyiv",
+				"Vologda",
+				"Pskov",
+				"Vladimir",
+				"Suzdal",
+				"Tver",
+				"Sviyazhsk",
+				"Tula",
+			],
+			"primaryResource" : "gems",
+			"siege" : {
+				"shooter" : "tumleshiy",
+				"imagePrefix" : "kremlin/siege/sgkm",
+				"towerIconSmall" : "kremlin/icons/towersmall",
+				"towerIconLarge" : "kremlin/icons/towerlarge",
+
+				"gate" :
+				{
+					"arch" : { "x" : 460, "y" : 220 },
+					"gate" : { "x" : 403, "y" : 271 }
+				},
+				"moat" :
+				{
+					"bank" : { "x" : 410, "y" : 97 },
+					"moat" : { "x" : 410, "y" : 77 }
+				},
+				"static" :
+				{
+					"background" : { "x" : 608, "y" : 46 },
+					"bottom" : { "x" : 510, "y" : 364 },
+					"top" : { "x" : 492, "y" : 103 }
+				},
+				"towers" :
+				{
+					"bottom" :
+					{
+						"battlement" : { "x" : 594, "y" : 511 },
+						"creature" : { "x" : 371, "y" : 296 },
+						"tower" : { "x" : 594, "y" : 511 }
+					},
+					"keep" :
+					{
+						"battlement" : { "x" : 724, "y" : 189 },
+						"creature" : { "x" : 532, "y" : -27 },
+						"tower" : { "x" : 724, "y" : 189 }
+					},
+					"top" :
+					{
+						"battlement" : { "x" : 566, "y" : 31 },
+						"creature" : { "x" : 341, "y" : -186 },
+						"tower" : { "x" : 565, "y" : 31 }
+					}
+				},
+				"walls" :
+				{
+					"bottom" : { "x" : 549, "y" : 451 },
+					"bottomMid" : { "x" : 469, "y" : 309 },
+					"upper" : { "x" : 530, "y" : 57 },
+					"upperMid" : { "x" : 469, "y" : 186 }
+				}
+			},
+			"structures" : {
+				"mageGuild1" :
+				{
+					"animation" : "kremlin/town-screen/buildings/mage1",
+					"area" : "kremlin/town-screen/buildings-area/mage1a",
+					"border" : "kremlin/town-screen/buildings-border/mage1b",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"mageGuild2" :
+				{
+					"animation" : "kremlin/town-screen/buildings/mage2",
+					"area" : "kremlin/town-screen/buildings-area/mage2a",
+					"border" : "kremlin/town-screen/buildings-border/mage2b",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"mageGuild3" :
+				{
+					"animation" : "kremlin/town-screen/buildings/mage3",
+					"area" : "kremlin/town-screen/buildings-area/mage3a",
+					"border" : "kremlin/town-screen/buildings-border/mage3b",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"mageGuild4" :
+				{
+					"animation" : "kremlin/town-screen/buildings/mage4",
+					"area" : "kremlin/town-screen/buildings-area/mage4a",
+					"border" : "kremlin/town-screen/buildings-border/mage4b",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"tavern" :
+				{
+					"animation" : "kremlin/town-screen/buildings/tavern",
+					"area" : "kremlin/town-screen/buildings-area/taverna",
+					"border" : "kremlin/town-screen/buildings-border/tavernb",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"dock" :
+				{
+					"animation" : "kremlin/town-screen/buildings/shipyard",
+					"area" : "kremlin/town-screen/buildings-area/shipyarda",
+					"border" : "kremlin/town-screen/buildings-border/shipyardb",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"fort" :
+				{
+					"animation" : "kremlin/town-screen/buildings/fort",
+					"area" : "kremlin/town-screen/buildings-area/forta",
+					"border" : "kremlin/town-screen/buildings-border/fortb",
+					"x" : 0,
+					"y" : 0
+				},
+				"citadel" :
+				{
+					"animation" : "kremlin/town-screen/buildings/citadel",
+					"area" : "kremlin/town-screen/buildings-area/citadela",
+					"border" : "kremlin/town-screen/buildings-border/citadelb",
+					"x" : 0,
+					"y" : 0
+				},
+				"castle" :
+				{
+					"animation" : "kremlin/town-screen/buildings/castle",
+					"area" : "kremlin/town-screen/buildings-area/castlea",
+					"border" : "kremlin/town-screen/buildings-border/castleb",
+					"x" : 0,
+					"y" : 0
+				},
+				"villageHall" :
+				{
+					"animation" : "kremlin/town-screen/buildings/village",
+					"area" : "kremlin/town-screen/buildings-area/villagea",
+					"border" : "kremlin/town-screen/buildings-border/villageb",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"townHall" :
+				{
+					"animation" : "kremlin/town-screen/buildings/town",
+					"area" : "kremlin/town-screen/buildings-area/towna",
+					"border" : "kremlin/town-screen/buildings-border/townb",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"cityHall" :
+				{
+					"animation" : "kremlin/town-screen/buildings/city",
+					"area" : "kremlin/town-screen/buildings-area/citya",
+					"border" : "kremlin/town-screen/buildings-border/cityb",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"capitol" :
+				{
+					"animation" : "kremlin/town-screen/buildings/capitol",
+					"area" : "kremlin/town-screen/buildings-area/capitola",
+					"border" : "kremlin/town-screen/buildings-border/capitolb",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"marketplace" :
+				{
+					"animation" : "kremlin/town-screen/buildings/market",
+					"area" : "kremlin/town-screen/buildings-area/marketa",
+					"border" : "kremlin/town-screen/buildings-border/marketb",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"resourceSilo" :
+				{
+					"animation" : "kremlin/town-screen/buildings/silo",
+					"area" : "kremlin/town-screen/buildings-area/siloa",
+					"border" : "kremlin/town-screen/buildings-border/silob",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"blacksmith" :
+				{
+					"animation" : "kremlin/town-screen/buildings/blacksmith",
+					"area" : "kremlin/town-screen/buildings-area/blacksmitha",
+					"border" : "kremlin/town-screen/buildings-border/banyab",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"horde1" :
+				{
+					"animation" : "kremlin/town-screen/buildings/waterwheel",
+					"area" : "kremlin/town-screen/buildings-area/hutora",
+					"border" : "kremlin/town-screen/buildings-border/hutorb",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0,
+					"hidden" : true
+				},
+				"horde1Upgr" :
+				{
+					"animation" : "kremlin/town-screen/buildings/waterwheelup",
+					"area" : "kremlin/town-screen/buildings-area/hutorupa",
+					"border" : "kremlin/town-screen/buildings-border/hutorub",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0,
+					"hidden" : true,
+					"builds" : "horde1"
+				},
+				"boat" :
+				{
+					"animation" : "kremlin/town-screen/buildings/ship",
+					"area" : "kremlin/town-screen/buildings-area/shipa",
+					"border" : "kremlin/town-screen/buildings-border/shipb",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"special1" : 
+				{
+					"animation" : "kremlin/town-screen/buildings/well",
+					"area" : "kremlin/town-screen/buildings-area/wella",
+					"border" : "kremlin/town-screen/buildings-border/wellb",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"special2" : 
+				{
+					"animation" : "kremlin/town-screen/buildings/banya",
+					"area" : "kremlin/town-screen/buildings-area/banyaa",
+					"border" : "kremlin/town-screen/buildings-border/blacksmithb",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"horde2" :
+				{
+					"animation" : "kremlin/town-screen/buildings/storogka",
+					"area" : "kremlin/town-screen/buildings-area/rata",
+					"border" : "kremlin/town-screen/buildings-border/ratb",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2,
+					"hidden" : true
+				},
+				"horde2Upgr" :
+				{
+					"animation" : "kremlin/town-screen/buildings/storogkaup",
+					"area" : "kremlin/town-screen/buildings-area/ratupaa",
+					"border" : "kremlin/town-screen/buildings-border/ratub",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2,
+					"hidden" : true,
+					"builds" : "horde2"
+				},	
+				"grail" :
+				{
+					"animation" : "kremlin/town-screen/buildings/grail",
+					"area" : "kremlin/town-screen/buildings-area/graila",
+					"border" : "kremlin/town-screen/buildings-border/grailb",
+					"x" : 0,
+					"y" : 0,
+					"z" : 5
+				},
+				"dwellingLvl1" :
+				{
+					"animation" : "kremlin/town-screen/buildings/dw1",
+					"area" : "kremlin/town-screen/buildings-area/dw1a",
+					"border" : "kremlin/town-screen/buildings-border/dw1b",
+					"x" : 0,
+					"y" : 0,
+					"z" : 3
+				},
+				"dwellingLvl2" :
+				{
+					"animation" : "kremlin/town-screen/buildings/dw2",
+					"area" : "kremlin/town-screen/buildings-area/dw2a",
+					"border" : "kremlin/town-screen/buildings-border/dw2b",
+					"x" : 0,
+					"y" : 0,
+					"z" : 11		
+				},
+				"dwellingLvl3" :
+				{
+					"animation" : "kremlin/town-screen/buildings/dw3",
+					"area" : "kremlin/town-screen/buildings-area/dw3a",
+					"border" : "kremlin/town-screen/buildings-border/dw3b",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"dwellingLvl4" :
+				{
+					"animation" : "kremlin/town-screen/buildings/dw4",
+					"area" : "kremlin/town-screen/buildings-area/dw4a",
+					"border" : "kremlin/town-screen/buildings-border/dw4b",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"dwellingLvl5" :
+				{
+					"animation" : "kremlin/town-screen/buildings/dw5",
+					"area" : "kremlin/town-screen/buildings-area/dw5a",
+					"border" : "kremlin/town-screen/buildings-border/dw5b",
+					"x" : 0,
+					"y" : 0,
+					"z" : 3
+				},
+				"dwellingLvl5B" :
+				{
+					"animation" : "kremlin/town-screen/buildings/dw5b",
+					"area" : "kremlin/town-screen/buildings-area/dw5ba",
+					"border" : "kremlin/town-screen/buildings-border/dw5bb",
+					"x" : 0,
+					"y" : 0,
+					"z" : 3
+				},
+				"dwellingLvl6" :
+				{
+					"animation" : "kremlin/town-screen/buildings/dw6",
+					"area" : "kremlin/town-screen/buildings-area/dw6a",
+					"border" : "kremlin/town-screen/buildings-border/dw6b",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"dwellingLvl7" :
+				{
+					"animation" : "kremlin/town-screen/buildings/dw7",
+					"area" : "kremlin/town-screen/buildings-area/dw7a",
+					"border" : "kremlin/town-screen/buildings-border/dw7b",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"dwellingUpLvl1" :
+				{
+					"animation" : "kremlin/town-screen/buildings/dw1u",
+					"area" : "kremlin/town-screen/buildings-area/dw1ua",
+					"border" : "kremlin/town-screen/buildings-border/dw1ub",
+					"x" : 0,
+					"y" : 0,
+					"z" : 3
+				},
+				"dwellingUpLvl2" :
+				{
+					"animation" : "kremlin/town-screen/buildings/dw2u",
+					"area" : "kremlin/town-screen/buildings-area/dw2ua",
+					"border" : "kremlin/town-screen/buildings-border/dw2ub",
+					"x" : 0,
+					"y" : 0,
+					"z" : 11
+				},
+				"dwellingUpLvl3" :
+				{
+					"animation" : "kremlin/town-screen/buildings/dw3u",
+					"area" : "kremlin/town-screen/buildings-area/dw3ua",
+					"border" : "kremlin/town-screen/buildings-border/dw3ub",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"dwellingUpLvl4" :
+				{
+					"animation" : "kremlin/town-screen/buildings/dw4u",
+					"area" : "kremlin/town-screen/buildings-area/dw4ua",
+					"border" : "kremlin/town-screen/buildings-border/dw4ub",
+					"x" : 0,
+					"y" : 0,
+					"z" : 3
+				},
+				"dwellingUpLvl5" :
+				{
+					"animation" : "kremlin/town-screen/buildings/dw5u",
+					"area" : "kremlin/town-screen/buildings-area/dw5ua",
+					"border" : "kremlin/town-screen/buildings-border/dw5ub",
+					"x" : 0,
+					"y" : 0,
+					"z" : 3
+				},
+				"dwellingUpLvl5B" :
+				{
+					"animation" : "kremlin/town-screen/buildings/dw5bu",
+					"area" : "kremlin/town-screen/buildings-area/dw5bua",
+					"border" : "kremlin/town-screen/buildings-border/dw5bub",
+					"x" : 0,
+					"y" : 0,
+					"z" : 3
+				},
+				"dwellingUpLvl6" :
+				{
+					"animation" : "kremlin/town-screen/buildings/dw6u",
+					"area" : "kremlin/town-screen/buildings-area/dw6ua",
+					"border" : "kremlin/town-screen/buildings-border/dw6ub",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"dwellingUpLvl7" :
+				{
+					"animation" : "kremlin/town-screen/buildings/dw7u",
+					"area" : "kremlin/town-screen/buildings-area/dw7ua",
+					"border" : "kremlin/town-screen/buildings-border/dw7ub",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				}
+			},
+		"tavernVideo" : "TAVERN.BIK",
+		"townBackground" : "kremlin/town-screen/back.bmp",
+		"warMachine" : "firstAidTent",
+		"hallSlots" : [
+				[
+					[ "villageHall", "townHall", "cityHall", "capitol" ],
+					[ "fort", "citadel", "castle" ],
+					[ "tavern" ],
+					[ "blacksmith" ]
+				],
+				[
+					[ "marketplace", "resourceSilo" ],
+					[ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4" ],
+					[ "special2" ],
+					[ "dock" ]
+				],
+				[ 
+					[ "special1" ],
+					[ "horde1", "horde1Upgr" ],
+			    	[ "horde2", "horde2Upgr" ]
+				],
+				[
+					[ "dwellingLvl1", "dwellingUpLvl1" ],
+					[ "dwellingLvl2", "dwellingUpLvl2" ],
+					[ "dwellingLvl3", "dwellingUpLvl3" ],
+					[ "dwellingLvl4", "dwellingUpLvl4" ]
+				],
+				[
+					[ "dwellingLvl5", "dwellingUpLvl5" ],
+					[ "dwellingLvl5B", "dwellingUpLvl5B" ],
+					[ "dwellingLvl6", "dwellingUpLvl6" ],
+					[ "dwellingLvl7", "dwellingUpLvl7" ]
+				]
+			]
+		}
+	}
+}

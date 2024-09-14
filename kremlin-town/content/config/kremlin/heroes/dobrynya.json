@@ -1,0 +1,58 @@
+{
+	"rusDobrynya" :
+	{
+		"class" : "vityaz",
+
+		"texts" :
+		{
+			"name" : "Dobrynya",
+			"biography" : "Dobrynya is known as the one of the legendary Three Bogatyrs. He personally slain a horde of Zmei Gorynychs during the reign of prince Ruric and is honored for many other deeds. Now he with the other two serve prince Oleg as his personal guard and is responsible for training the drugina - the prince's personal army.",
+			"specialty" :
+			{
+				"description" : "Increases the Attack and Defense skills of Ratniks and Druginniks or each level attained after 4th level.",
+				"tooltip" : "{Ratniks}\r\n\r\nIncreases the Attack and Defense skills of Ratniks and Druginniks or each level attained after 4th level.",
+				"name" : "Ratniks"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "kremlin/heroes/sithyrr/un32ball.png",
+			"specialtyLarge" : "kremlin/heroes/sithyrr/un44ball.png",
+			"large" : "kremlin/heroes/sithyrr/hpl290.png",
+			"small" : "kremlin/heroes/sithyrr/hps290.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "rusHearthkeeper",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "rusCotUcheniy",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "rusRatnik",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "offence"
+			}
+		],
+		
+		"specialty":
+			{
+				"creature" : "rusRatnik"
+			} 
+	}
+}

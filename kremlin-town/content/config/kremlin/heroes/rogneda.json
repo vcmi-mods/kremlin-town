@@ -1,0 +1,75 @@
+{
+	"rusRogneda" :
+	{
+		"class" : "volhv",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Rogneda",
+			"biography" : "Rogneda differs from the most volhvs due to her scholarship in magic. She studied in Bracada and was very succesfull as the mage. But something felt wrong about Bracada's snowy landscape. When Kremlian Principalty was created, Rogneda decided to move here, because she was born in these places, then her family moved. There she met many interested apprentices and now Rogneda lives the live of stranger.",
+			"specialty" :
+			{
+				"description" : "Receives a 5% per level bonus to Sorcery skill percentage.",
+				"tooltip" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill percentage.",
+				"name" : "Sorcery"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "kremlin/heroes/ssin/un32sorc.png",
+			"specialtyLarge" : "kremlin/heroes/ssin/un44sorc.png",
+			"large" : "kremlin/heroes/ssin/hpl297.png",
+			"small" : "kremlin/heroes/ssin/hps297.png"
+		},
+
+		"spellbook" :
+		[
+			"magicArrow"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "rusHearthkeeper",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "rusCotUcheniy",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "rusBear",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"sorcery" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SPELL_DAMAGE",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

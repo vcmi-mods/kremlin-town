@@ -1,0 +1,58 @@
+{
+	"rusRatnik":
+	{
+		"name" :
+		{
+			"plural" : "Ratniks",
+			"singular" : "Ratnik"
+		},
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 10
+		},
+		"faction" : "kremlin",
+		"aiValue" : 445,
+		"attack" : 11,
+		"cost" :
+		{
+			"gold" : 300
+		},
+		"damage" :
+		{
+			"max" : 9,
+			"min" : 6
+		},
+		"defense" : 11,
+		"fightValue" : 430,
+		"graphics" :
+		{
+			"animation" : "kremlin/battle/creatures/ratnik.def",
+			"map" : "kremlin/map/creatures/ratnik_map.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"iconSmall" : "kremlin/iconsSmall/creatures/ratnikics.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/ratnikic.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 4,
+		"horde" : 3,
+		"hitPoints" : 35,
+		"level" : 4,
+		"upgrades": [ "rusDruginnik" ],
+		"sound" :
+		{
+			"attack": "SWRDATTK.wav",
+			"defend": "SWRDDFND.wav",
+			"killed": "SWRDKILL.wav",
+			"move": "SWRDMOVE.wav",
+			"wince": "SWRDWNCE.wav"
+ 		},
+		"speed" : 5
+	}
+}

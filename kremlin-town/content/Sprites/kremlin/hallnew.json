@@ -1,0 +1,10 @@
+{
+    "basepath" : "kremlin/townhall/",
+	"images" :
+	[
+		{ "frame" : 21, "file" : "newbanya"},
+		{ "frame" : 26, "file" : "grail"},
+		{ "frame" : 35, "file" : "dw6"},
+		{ "frame" : 42, "file" : "dw6u"}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"tumborovik":
+	{
+		"faction" : "kremlin",
+		"graphics" :
+		{
+			"iconLarge" : "kremlin/iconsBig/creatures/lesovik.png"
+		}
+	}
+}

@@ -1,0 +1,83 @@
+{
+	"rusYaga":
+	{
+		"name" :
+		{
+			"plural" : "Babas Yagas",
+			"singular" : "Baba Yaga"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 8
+		},
+		"faction" : "kremlin",
+		"aiValue" : 1124,
+		"doubleWide" : true,
+		"attack" : 18,
+		"hasDoubleWeek" : false,
+                "cost" :
+		{
+			"gold" : 450
+		},
+		"damage" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"defense" : 7,
+		"fightValue" : 1010,
+		"graphics" :
+		{
+			"animation" : "kremlin/battle/creatures/yaganew.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "kremlin/map/creatures/yagasnew.def",
+			"iconSmall" : "kremlin/iconsSmall/creatures/yagasnew.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/yaganew.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile": "kremlin/battle/creatures/projectile/tw_short.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+			
+		},
+		"growth" : 3,
+		"hitPoints" : 30,
+		"level" : 5,
+		"shots" : 24,
+		"sound" :
+		{
+			"attack" : "kremlin/WTCHSHOT.wav",
+			"defend" : "kremlin/WTCHDFND.wav",
+			"killed" : "kremlin/WTCHKILL.wav",
+			"move"   : "kremlin/WTCHMOVE.wav",
+			"shoot"  : "kremlin/WTCHSHOT.wav",
+			"wince"  : "HHAGWNCE.wav"            
+		},
+		"speed" : 9,
+		"abilities" :
+		{
+   	            "shots":
+			{	
+				"type" : "SHOOTER"
+	 		},
+			"petrify" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"val" : 75
+			}
+		}	
+	}
+}

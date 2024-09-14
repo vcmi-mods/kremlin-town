@@ -1,0 +1,86 @@
+{
+	"rusHousekeeper":
+	{
+		"name" :
+		{
+			"plural" : "Housekeepers",
+			"singular" : "Housekeeper"
+		},
+		"advMapAmount" :
+		{
+			"max" : 50,
+			"min" : 20
+		},
+		"faction" : "kremlin",
+		"aiValue" : 90,
+		"attack" : 3,
+		"cost" :
+		{
+			"gold" : 50
+		},
+		"damage" :
+		{
+			"max" : 2,
+			"min" : 1
+		},
+		"defense" : 1,
+		"fightValue" : 115,
+		"graphics" :
+		{
+			"animation" : "kremlin/battle/creatures/t1u.def",
+			"map" : "kremlin/map/creatures/house_map.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"iconSmall" : "kremlin/iconsSmall/creatures/housekeepers.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/housekeeper.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile" : "CPRGOGX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 30,
+					"upperY" : -80,
+					"middleX" : 30,
+					"middleY" : -80,
+					"lowerX" : 30,
+					"lowerY" : -80
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"growth" : 20,
+		"hitPoints" : 4,
+		"shots" :8,
+		"horde" : 8,
+		"abilities":
+		{
+			"shoots" :
+                        {
+				"type" : "SHOOTER"
+			},
+			"flying" :
+			{
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			}
+		},
+        "level" : 1,
+		"sound" :
+		{
+			"attack": "MAGEATTK.wav",
+			"shoot": "MAGESHOT.wav",
+			"defend": "ENCHDFND.wav",
+			"killed": "MAGEKILL.wav",
+			"move": "CALFMOVE.wav",
+			"wince": "MAGEWNCE.wav"
+        	},
+		"speed" : 5			
+	}
+}

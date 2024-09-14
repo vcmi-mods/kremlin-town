@@ -1,0 +1,73 @@
+{
+	"ftN_Warela" :
+	{
+		"class" : "warden",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Warela",
+			"biography" : "One of Elrisa's best students, Warela is said to be able to cast the most accurate and powerful Magic Arrows in all of Fairydom.",
+			"specialty" :
+			{
+				"description" : "Casts Magic Arrow with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"tooltip" : "{Magic Arrow}\r\n\r\nCasts Magic Arrow with increased effect.",
+				"name" : "Magic Arrow"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "kremlin/heroes/wanre/UN32Summ.png",
+			"specialtyLarge" : "kremlin/heroes/wanre/UN44Summ.png",
+			"large" : "kremlin/heroes/wanre/hpl294.png",
+			"small" : "kremlin/heroes/wanre/hps294.png"
+		},
+
+		"spellbook" :
+		[
+			"magicArrow"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "ftFairy1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "ftFench1",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "ftNoble1",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"magicArrow" : {
+					"subtype" : "spell.magicArrow",
+					"type" : "SPECIFIC_SPELL_DAMAGE",
+					"val" : 50,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"rusDruginnik":
+	{
+		"name" :
+		{
+			"plural" : "Druginninks",
+			"singular" : "Druginnink"
+		},
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 10
+		},
+		"faction" : "kremlin",
+		"aiValue" : 588,
+		"attack" : 12,
+		"cost" :
+		{
+			"gold" : 300
+		},
+		"damage" :
+		{
+			"max" : 12,
+			"min" : 7
+		},
+		"defense" : 12,
+		"fightValue" : 560,
+		"graphics" :
+		{
+			"animation" : "kremlin/battle/creatures/druginnik.def",
+			"map" : "kremlin/map/creatures/druginnik_map.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"iconSmall" : "kremlin/iconsSmall/creatures/druginnikis.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/druginniki.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 4,
+		"hitPoints" : 35,
+		"horde" : 3,
+		"level" : 4,
+		"sound" :
+		{
+			"attack": "OORCATTK.wav",
+			"defend": "OORCDFND.wav",
+			"killed": "CRUSKILL.wav",
+			"move": "SWRDMOVE.wav",
+			"wince": "CRUSWNCE.wav"
+ 		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"battleRage" :
+			{
+				"type" : "FEROCITY"
+			}
+		}
+	}
+}

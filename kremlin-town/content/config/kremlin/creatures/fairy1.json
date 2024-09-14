@@ -1,0 +1,61 @@
+{
+	"rusHearthkeeper":
+	{
+		"name" :
+		{
+			"plural" : "Hearthkeepers",
+			"singular" : "Hearthkeeper"
+		},
+		"advMapAmount" :
+		{
+			"max" : 50,
+			"min" : 20
+		},
+		"faction" : "kremlin",
+		"aiValue" : 90,
+		"attack" : 3,
+		"cost" :
+		{
+			"gold" : 30
+		},
+		"damage" :
+		{
+			"max" : 2,
+			"min" : 1
+		},
+		"defense" : 1,
+		"fightValue" : 50,
+		"graphics" :
+		{
+			"animation" : "kremlin/battle/creatures/t1.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"map" : "kremlin/map/creatures/hearth_map.def",
+			"iconSmall" : "kremlin/iconsSmall/creatures/hearthkeepers.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/hearthkeeper.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 20,
+		"hitPoints" : 4,
+		"horde" : 8,
+        "level" : 1,
+		"upgrades":
+		[
+			"rusHousekeeper"
+		],
+		"sound" :
+		{
+			"attack": "MAGEATTK.wav",
+			"defend": "ENCHDFND.wav",
+			"killed": "MAGEKILL.wav",
+			"move": "MONKMOVE.wav",
+			"wince": "MAGEWNCE.wav"
+        	},
+		"speed" : 5			
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"tumleshiy":
+	{
+		"faction" : "kremlin",
+		"graphics" :
+		{
+			"iconLarge" : "kremlin/iconsBig/creatures/leshiy.png"
+		}
+	}
+}

@@ -1,0 +1,95 @@
+{
+	"roseBolt":
+	{
+		"type": "ability", 
+		"name": "Rose Bolt",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 5,
+		"power": 10,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+			"castle": 0,
+			"rampart": 0,
+			"conflux" : 0
+		},
+ 
+		//forgetfulness animation
+		"animation":{
+			"affect":["kremlin/spells/frysp3.def"]
+		},
+ 
+		"flags" : {
+			"damage": true,
+			"indifferent": true,
+			"negative": true
+		},
+		"targetCondition" : {
+			"allOf" : {
+				"spell.blossomEff" : "absolute"
+			}
+		},
+ 
+ 
+		"graphics":
+		{
+			"iconEffect": "kremlin/spells/fryspell3.bmp"
+		},
+
+		"sounds":
+		{
+			"cast":"FORTUNE"
+		},
+		"targetType" : "CREATURE",
+ 
+		"levels" : {
+			"base":{
+				"range" : "0-16",
+				"battleEffects" : {
+					"directDamage" : {
+						"type":"core:damage"
+					}
+				},
+				"targetModifier":{"smart":true}
+			},
+			"none":
+			{
+				"description": "{Rose Bolt}\r\n\r\nYou cannot see this description.",
+	 
+				"cost": 0,
+				"aiValue": 12,
+				"power": 10
+			},
+			"basic":
+			{
+				"description": "{Rose Bolt}\r\n\r\nYou cannot see this description.",
+	 
+				"cost": 0,
+				"aiValue": 12,
+				"power": 10
+			},
+			"advanced":
+			{
+				"description": "{Rose Bolt}\r\n\r\nYou cannot see this description.。",
+	 
+				"cost": 0,
+				"aiValue": 12,
+				"power": 10
+			},
+			"expert":
+			{
+				"description": "{Rose Bolt}\r\n\r\nYou cannot see this description.",
+	 
+				"cost": 0,
+				"aiValue": 12,
+				"power": 10
+			}
+			}
+		}
+	}

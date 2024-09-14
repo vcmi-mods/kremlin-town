@@ -1,0 +1,70 @@
+{
+	"rusIlya" :
+	{
+		"class" : "vityaz",
+
+		"texts" :
+		{
+			"name" : "Ilya",
+			"biography" : "Ilya is considered as the leader of the mighty Three Bogatyrs. He fought against the Solovei the Brigand, the Idolishe Poganoe. Also Ilya competed with the epic bogatyr Svatogor and won. Now he is one of the most famous heroes in the principalty and isn't willing to give this title to anyone else.",
+			"specialty" :
+			{
+				"description" : "All creatures under hero's command get +1 to damage (both min and max).",
+				"tooltip" : "{Rage}\r\n\r\nAll creatures get +1 to damage.",
+				"name" : "Rage"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "kremlin/heroes/velve/UN32Blsh.png",
+			"specialtyLarge" : "kremlin/heroes/velve/UN44Blsh.png",
+			"large" : "kremlin/heroes/velve/hpl298.png",
+			"small" : "kremlin/heroes/velve/hps298.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "rusHearthkeeper",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "rusCotUcheniy",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "rusBear",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			}
+		],
+		"specialty":
+		{
+			"bonuses": {
+				"damageBoost" :
+				{
+						"type": "CREATURE_DAMAGE",
+						"subtype": "creatureDamageBoth",
+						"val" : 1,
+						"valueType" : "BASE_NUMBER"
+				}
+			}
+		}	
+	}
+}
+
+

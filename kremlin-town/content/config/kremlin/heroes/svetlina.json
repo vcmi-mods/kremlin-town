@@ -1,0 +1,64 @@
+{
+	"rusSvetlina" :
+	{
+		"class" : "volhv",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Svetlina",
+			"biography" : "Svetlina has a beautiful voice. When she sang, not only people listened to her with bated breath, but also the mysterious creatures of Iria - the sirens descended from the sky to listen to her singing. No one could tame these powerful and proud creatures better than her.",
+			"specialty" :
+			{
+				"description" : "Increases the Attack and Defense skills of Sirins or Alconosts or each level attained after 6th level.",
+				"tooltip" : "{Sirins}\r\n\r\nIncreases the Attack and Defense skills of Sirins or Alconosts or each level attained after 6th level.",
+				"name" : "Sirins"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "kremlin/heroes/phindara/un32bsrd.png",
+			"specialtyLarge" : "kremlin/heroes/phindara/un44bsrd.png",
+			"large" : "kremlin/heroes/phindara/hpl288.png",
+			"small" : "kremlin/heroes/phindara/hps288.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "rusHearthkeeper",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "rusCotUcheniy",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "rusBear",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		
+		"specialty":
+			{
+				"creature" : "rusSirin"
+			} 
+	}
+}
+

@@ -1,0 +1,17 @@
+{
+	"tumyaga":
+	{
+		"name" :
+		{
+			"plural" : "Forest Witches",
+			"singular" : "Forest Witch"
+		},
+		"extraNames": [ "rusForestWitch" ],
+		"upgrades": [ "rusYaga" ],
+		"graphics" :
+		{
+			"iconLarge" : "kremlin/iconsBig/creatures/yaga.png"
+		},
+		"faction" : "kremlin"
+	}
+}

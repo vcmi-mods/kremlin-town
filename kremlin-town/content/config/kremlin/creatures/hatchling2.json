@@ -1,0 +1,91 @@
+{
+	"rusAlconost":
+	{
+		"name" :
+		{
+			"plural" : "Alconosts",
+			"singular" : "Alconost"
+		},
+		"advMapAmount" :
+		{
+			"max" : 12,
+			"min" : 8
+		},
+		"faction" : "kremlin",
+		"aiValue" : 5900,
+		"attack" : 16,
+		"cost" :
+		{
+			"gold" : 1400
+		},
+		"damage" :
+		{
+			"max" : 24,
+			"min" : 18
+		},
+		"defense" : 12,
+		"fightValue" : 5890,
+		"graphics" :
+		{
+			"animation" : "kremlin/battle/creatures/alconost.def",
+			"map" : "kremlin/map/creatures/alconost_map.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"iconSmall" : "kremlin/iconsSmall/creatures/alconostis.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/alconosti.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			}
+	        },
+		"growth" : 2,
+		"hitPoints" : 80,
+		"level" : 6,
+		"sound" :
+		{
+			"attack": "SPRTATTK.wav",
+			"defend": "SPRTDFND.wav",
+			"killed": "kremlin/sirKILL.wav",
+			"move": "ANGLMOVE.wav",
+			"wince": "kremlin/sirWNCE.wav"
+		},
+		"speed" : 12,
+		"abilities":
+		{
+			 "canfly" :
+			{
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			 "sppower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 5
+			},
+			"counter" :
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"forget" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.forgetfulness",
+				"val" : 100,
+				"addInfo" : [2,0,1]
+			},
+			"hypno" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.hypnotize",
+				"val" : 100,
+				"addInfo" : [2,0,2]
+			},
+			"immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			}
+		}
+	}
+}

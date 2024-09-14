@@ -1,0 +1,73 @@
+{
+	"rusVertodub" :
+	{
+		"class" : "volhv",
+	
+		"texts" :
+		{
+			"name" : "Vertodub",
+			"biography" : "Since time immemorial, the forces of the forest and the people of the Kremlin lived in peace according to the terms of an ancient treaty concluded by their ancestors. One of those who was present at the conclusion of this peace was Vertodub. Only he, as the most ancient, preserved that day in memory. All the forces of the forest, trees, stones, animals and birds obey Vertodub.",
+			"specialty" :
+			{
+				"description" : "Casts Stone Skin with increased effect, based on the level of the target unit.",
+				"tooltip" : "{Stone Skin}\r\n\r\nCasts Stone Skin with increased effect.",
+				"name" : "Stone Skin"
+			}
+		},
+	
+		"images" :
+		{
+			"specialtySmall" : "kremlin/heroes/sargh/Un32Warl.png",
+			"specialtyLarge" : "kremlin/heroes/sargh/Un44Warl.png",
+			"large" : "kremlin/heroes/sargh/hpl291.png",
+			"small" : "kremlin/heroes/sargh/hps291.png"
+		},
+		
+		"spellbook" :
+		[
+			"stoneSkin" 
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "rusHearthkeeper",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "rusCotUcheniy",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "rusBear",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"stoneSkin" : {
+					"addInfo" : 0,
+					"subtype" : "spell.stoneSkin",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}
+
+

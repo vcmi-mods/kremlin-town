@@ -1,0 +1,235 @@
+{
+	"frySolarPower" : {
+		"type": "ability",
+		"name": "Solar Power",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"targetType": "CREATURE",
+		"targetCondition" : {
+			"anyOf" : {
+				"fairy-town:creature.ftNoble2":"absolute"}
+		},
+		"level": 1,
+		"power": 10,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+		"animation":{
+			"affect":["kremlin/spells/frysp1.def"]
+		},
+		"flags" : {"positive": true},
+		"sounds": {
+			"cast": "BLESS"
+		},
+		"graphics":
+		{
+			"iconEffect": "kremlin/spells/fryspell1.bmp"
+		},
+		"levels" : {
+			"base":{
+		
+				"range": "0-1",
+				"power": 10,
+				"cost": 0,
+				"aiValue": 20,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"battleEffects":
+			{
+
+					"lifeEater" :
+				{
+					"type": "core:timed",
+					"cumulative": true,
+					"bonus":
+					{
+					"boostAttack":
+                    {
+                        "type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 10,
+						"valueType" : "PERCENT_TO_ALL",
+                        "duration": "PERMANENT"
+					},
+					"boostDefense":
+                    {
+                        "type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 10,
+						"valueType" : "PERCENT_TO_ALL",
+                        "duration": "PERMANENT"
+					}
+					}
+				}
+			},
+				"description": " "
+			},
+			"none":
+			{
+			
+			"range": "0-1",
+				"power": 10,
+				"cost": 0,
+				"aiValue": 20,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"battleEffects":{
+
+					"lifeEater" :
+					{
+					"type": "core:timed",
+					"cumulative": true,
+					"bonus":
+					{
+					"boostAttack":
+                    {
+                        "type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 10,
+						"valueType" : "PERCENT_TO_ALL",
+                        "duration": "PERMANENT"
+					},
+					"boostDefense":
+                    {
+                        "type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 10,
+						"valueType" : "PERCENT_TO_ALL",
+                        "duration": "PERMANENT"
+					}
+					}
+			}
+				},
+				"description": " "
+			},
+			"basic":
+			{
+			"range": "0-1",
+				"power": 10,
+				"cost": 0,
+				"aiValue": 20,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"battleEffects":{
+
+					"lifeEater" :
+					{
+					"type": "core:timed",
+					"cumulative": true,
+					"bonus":
+					{
+					"boostAttack":
+                    {
+                        "type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 10,
+						"valueType" : "PERCENT_TO_ALL",
+                        "duration": "PERMANENT"
+					},
+					"boostDefense":
+                    {
+                        "type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 10,
+						"valueType" : "PERCENT_TO_ALL",
+                        "duration": "PERMANENT"
+					}
+					}
+			}
+				},
+				"description": " "
+			},
+			"advanced":
+			{
+			"range": "0-1",
+				"power": 10,
+				"cost": 0,
+				"aiValue": 20,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"battleEffects":{
+
+					"lifeEater" :
+					{
+					"type": "core:timed",
+					"cumulative": true,
+					"bonus":
+					{
+					"boostAttack":
+                    {
+                        "type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 10,
+						"valueType" : "PERCENT_TO_ALL",
+                        "duration": "PERMANENT"
+					},
+					"boostDefense":
+                    {
+                        "type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 10,
+						"valueType" : "PERCENT_TO_ALL",
+                        "duration": "PERMANENT"
+					}
+					}
+			}
+				},
+				"description": " "
+			},
+			"expert":
+			{
+			"range": "0-1",
+				"power": 10,
+				"cost": 0,
+				"aiValue": 20,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"battleEffects":{
+
+					"lifeEater" :
+					{
+					"type": "core:timed",
+					"cumulative": true,
+					"bonus":
+					{
+					"boostAttack":
+                    {
+                        "type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 10,
+						"valueType" : "PERCENT_TO_ALL",
+                        "duration": "PERMANENT"
+					},
+					"boostDefense":
+                    {
+                        "type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 10,
+						"valueType" : "PERCENT_TO_ALL",
+                        "duration": "PERMANENT"
+					}
+					}
+			}
+				},
+				"description": "吞食目标生物的生命值来强化自身。"
+			}
+		}
+	}
+}
+

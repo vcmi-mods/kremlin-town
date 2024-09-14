@@ -1,0 +1,102 @@
+{
+	"kuznets" :
+	{
+		"name" :
+		{
+			"singular" : "Blacksmith",
+			"plural" : "Blacksmith"
+		},
+		"special" : true,
+		"faction": "kremlin",
+		"level": 0,
+		"cost" :
+		{
+			"gold" : 140
+		},
+		"speed" : 4,
+		"hitPoints" : 40,
+		"shots" : 24,
+		"attack" : 5,
+		"defense" : 5,
+		"damage" :
+		{
+			 "min" : 6,
+			 "max" : 12
+		},
+		"fightValue" : 130,
+		"aiValue" : 156,
+		"advMapAmount" :
+		{
+			 "min" : 16,
+			 "max" : 25
+		},
+		"growth" : 9,
+		"hasDoubleWeek": false,
+		"abilities":
+		{
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.repair",
+				"val" : 3
+			}
+		},
+		"graphics" :
+		{
+			"animation": "kremlin/battle/creatures/kuznets.DEF",
+			"iconSmall" : "kremlin/iconsSmall/creatures/kuznetss",
+			"iconLarge" : "kremlin/iconsBig/creatures/kuznets",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.0,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "PORCHX.def",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 10,
+					"upperY" : -100,
+					"middleX" : 10,
+					"middleY" : -100,
+					"lowerX" : 10,
+					"lowerY" : -100,
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" :
+		{
+			"attack": "SWRDATTK.wav",
+			"defend": "ORCCDFND.wav",
+			"killed": "SWRDKILL.wav",
+			"move": "SWRDMOVE.wav",
+			"shoot": "ORCCSHOT.wav",
+			"wince": "SWRDWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,83 @@
+{
+	"rusSirin":
+	{
+		"name" :
+		{
+			"plural" : "Sirins",
+			"singular" : "Sirin"
+		},
+		"advMapAmount" :
+		{
+			"max" : 12,
+			"min" : 8
+		},
+		"faction" : "kremlin",
+		"aiValue" : 2000,
+		"attack" : 16,
+		"cost" :
+		{
+			"gold" : 1000
+		},
+		"damage" :
+		{
+			"max" : 20,
+			"min" : 16
+		},
+		"defense" : 12,
+		"fightValue" : 1950,
+		"graphics" :
+		{
+			"animation" : "kremlin/battle/creatures/sirin.def",
+			"map" : "kremlin/map/creatures/sirin_map.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"iconSmall" : "kremlin/iconsSmall/creatures/sirinis.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/sirini.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			}
+	        },
+		"growth" : 2,
+		"hitPoints" : 80,
+		"level" : 6,
+		"upgrades":
+		[
+			"rusAlconost"
+		],
+		"sound" :
+		{
+			"attack": "SPRTATTK.wav",
+			"defend": "SPRTDFND.wav",
+			"killed": "kremlin/sirKILL.wav",
+			"move": "ANGLMOVE.wav",
+			"wince": "kremlin/sirWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities":
+		{
+			 "canfly" :
+			{
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"counter" :
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"forget" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.forgetfulness",
+				"val" : 100,
+				"addInfo" : [1,0]
+			},
+			"immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			}
+		}
+	}
+}

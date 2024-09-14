@@ -1,0 +1,70 @@
+{
+	"rusCatBayun":
+	{
+		"name" :
+		{
+			"plural" : "Cat Bayuns",
+			"singular" : "Cat Bayun"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 16
+		},
+		"faction" : "kremlin",
+		"aiValue" : 315,
+		"attack" : 10,
+		"cost" :
+		{
+			"gold" : 170
+		},
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 3
+		},
+		"defense" : 5,
+		"hasDoubleWeek": true,
+		"doubleWide" : true,
+		"fightValue" : 280,
+		"graphics" :
+		{
+			"animation" : "kremlin/battle/creatures/cot_bayun.def",
+			"map" : "kremlin/map/creatures/cot_bauyn_map.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"iconSmall" : "kremlin/iconsSmall/creatures/bayuns.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/bayun.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 9,
+		"hitPoints" : 14,
+		"level" : 2,
+		"sound" :
+		{
+			"attack": "FMLRATTK.wav",
+			"defend": "kremlin/sekhDef.wav",
+			"killed": "kremlin/sekhDie.wav",
+			"move": "kremlin/sekhWalk.wav",
+			"wince": "kremlin/sekhHit.wav"
+ 		},
+		"speed" : 10,
+		"abilities" :
+		{
+			"manaChannel" :
+			{
+				"type" : "MANA_CHANNELING",
+				"val" : 20
+			},
+			"nocounter" :
+			{
+				"type" : "BLOCKS_RETALIATION"
+			}
+		}
+	}
+}
