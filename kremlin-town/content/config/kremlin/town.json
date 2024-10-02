@@ -674,7 +674,7 @@
 					"village" : { "animation" : "kremlin/map/krhall.def" }
 				}
 			},
-			"mageGuild" : 3,
+			"mageGuild" : 4,
 			
 			"musicTheme" : "music/factions/PaleRider.mp3",
 			"names" : [
