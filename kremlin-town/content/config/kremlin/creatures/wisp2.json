@@ -57,7 +57,8 @@
 		{
 			"battleRage" :
 			{
-				"type" : "FEROCITY"
+				"type" : "FEROCITY",
+				"val" : 1
 			}
 		}
 	}
