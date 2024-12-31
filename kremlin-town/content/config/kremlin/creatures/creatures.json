@@ -287,7 +287,8 @@
 			"defend" : "BLRDDFND.wav",
 			"killed" : "CHMPKILL.wav",
 			"move"   : "BLRDMOVE.wav",
-			"wince"  : "CAVAWNCE.wav"            
+			"wince"  : "CAVAWNCE.wav",
+			"wince"  : "CNTRSHOT.wav"
 		},
 		"speed" : 11,
 		"abilities" :
