@@ -15,7 +15,7 @@
 	"modType" : "Objects",	
 	"depends" :
 	[
-///		"kremlin-town"
+		"kremlin-town"
 	],
 		
     "objects" :
