@@ -1,0 +1,97 @@
+{
+	"summonTree":
+	{
+		"type": "combat", 
+		"name": "Forest Guardians",
+		"school":
+		{
+			"air": false,
+			"earth": true,
+			"fire": false,
+			"water": false
+		},
+		"level": 5,
+		"power": 20,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+			"kremlin": 10
+		},
+		"flags" : 
+		{
+			"indifferent": true,
+			"special": true
+        	}, 
+        
+		"graphics":
+		{
+			"iconBook": "spells/spellBookKr",
+			"iconScroll": "spells/spellScrollKr",
+			"iconScenarioBonus": "spells/bonusSpellKr"
+		},
+		"sounds":
+		{
+			"cast": "SYSMSG"
+		},
+		"targetType": "NO_TARGET",
+		"levels":
+		{
+			"base":
+			{
+				"description": "{Forest Guardians}\r\n\r\nAllows you to summon Meadow Guards. Once cast, any other creature can be summoned.",
+				"power": 1,
+				"cost": 30,
+				"aiValue": 40,
+				"range": "X",
+				"targetModifier":{"smart":true},
+				"battleEffects":{
+					"summon":{
+						"exclusive":false, //so it means that other creature can be summoned?
+						"id":"rusMeadowGuard",
+						"permanent":false,
+						"type":"core:summon"
+					}
+				}				
+			},
+			"none":
+			{
+			},
+			"basic":
+			{
+				"cost": 30,
+				"power": 2
+
+			},
+			"advanced":
+			{
+				"cost": 26,
+				"power": 2
+				"battleEffects":{
+					"summon":{
+						"exclusive":false, //so it means that other creature can be summoned?
+						"id":"rusForestProtector",
+						"permanent":false,
+						"type":"core:summon"
+					}
+				}
+			},
+			"expert":
+			{
+				"description": "{Forest Guardians}\r\n\r\nAllows you to summon Forest Protectors. Once cast, any other creature can be summoned.",
+				"power": 3,
+				"cost": 26,
+				"aiValue": 120,
+				"range": "X",
+				"targetModifier":{"smart":true},
+				"battleEffects":{
+					"summon":{
+						"exclusive":false, //so it means that other creature can be summoned?
+						"id":"rusForestProtector",
+						"permanent":true,
+						"type":"core:summon"
+					}
+				}
+			}
+		}
+	}
+}

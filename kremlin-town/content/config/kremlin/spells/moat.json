@@ -3,7 +3,7 @@
     {
         "targetType" : "CREATURE",
         "type": "ability",
-        "name": "Enchanted Flowers",
+        "name": "Moat with Water",
         "school": {},
         "level": 0,
         "power": 0,

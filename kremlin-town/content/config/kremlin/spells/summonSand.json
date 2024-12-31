@@ -1,0 +1,125 @@
+{
+	"summonSand":
+	{
+		"type": "combat", 
+		"targetType" : "LOCATION",
+		"name": "Summon Quicksand",
+		"school":
+		{
+			"air": false,
+			"earth": true,
+			"fire": false,
+			"water": false
+		},
+		"level": 5,
+		"power": 20,
+		"defaultGainChance": 0,
+		"flags" : 
+		{
+			"indifferent": true,
+			"special": true
+        	}, 
+        
+		"graphics":
+		{
+			"iconBook": "spells/spellBookKr",
+			"iconScroll": "spells/spellScrollKr",
+			"iconScenarioBonus": "spells/bonusSpellKr"
+		},
+		"sounds":
+		{
+			"cast": "TREEATTK"
+		},
+		"targetType" : "LOCATION",
+		"levels":
+		{
+			"base":{
+				"cost": 22,
+				"power": 2,
+				"aiValue": 100,
+				"range" : "0",
+				"targetModifier":{
+					"clearAffected": true
+				},
+				"battleEffects" : {
+					"obstacle" : {
+						"type":"core:obstacle",
+						"hidden" : true,
+						"passable" : true,
+						"trap" : true,
+						"turnsRemaining" : 2,
+						"attacker" :{
+							"animation" : "C17SPE1",
+							"appearAnimation" : "C17SPE0",
+							"appearSound" : "QUIKSAND",
+							"offsetY" : -42
+						},
+						"defender" :{
+							"animation" : "C17SPE1",
+							"appearAnimation" : "C17SPE0",
+							"appearSound" : "QUIKSAND",
+							"offsetY" : -42
+						}
+					}
+				}
+			},
+			"none":
+			{
+			},
+			"basic":
+			{
+				"cost": 20,
+				"power": 2
+
+			},
+			"advanced":
+			{
+				"battleEffects" : {
+					"obstacle" : {
+						"type":"core:obstacle",
+						"hidden" : true,
+						"passable" : true,
+						"trap" : true,
+						"turnsRemaining" : 3,
+						"attacker" :{
+							"animation" : "C17SPE1",
+							"appearAnimation" : "C17SPE0",
+							"appearSound" : "QUIKSAND",
+							"offsetY" : -42
+						},
+						"defender" :{
+							"animation" : "C17SPE1",
+							"appearAnimation" : "C17SPE0",
+							"appearSound" : "QUIKSAND",
+							"offsetY" : -42
+						}
+					}
+				}
+			},
+			"expert":
+			{
+				"battleEffects" : {
+					"obstacle" : {
+						"type":"core:obstacle",
+						"hidden" : true,
+						"passable" : true,
+						"trap" : true,
+						"turnsRemaining" : 4,
+						"attacker" :{
+							"animation" : "C17SPE1",
+							"appearAnimation" : "C17SPE0",
+							"appearSound" : "QUIKSAND",
+							"offsetY" : -42
+						},
+						"defender" :{
+							"animation" : "C17SPE1",
+							"appearAnimation" : "C17SPE0",
+							"appearSound" : "QUIKSAND",
+							"offsetY" : -42
+						}
+					}
+				}
+			}
+		}
+	}
+}

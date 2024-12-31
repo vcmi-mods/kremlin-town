@@ -1,0 +1,97 @@
+{
+	"rusBogatyrBank" : 
+	{
+		"name" : "Bogatyr Cache",
+    		"handler" : "configurable", 
+		"types" : 
+		{
+			"rusBogatyrBank" : 
+			{
+				"templates" :
+				{
+					"normal" :
+					{
+						"animation" : "kremlin/map/dwellings/bogatyrbank.def",
+						"visitableFrom" : [ "---", "+++", "+++" ], 
+						"mask" : ["VVV", "VVV", "VBA"]
+					},
+				},
+				"onGuardedMessage" : 119,
+				"onVisitedMessage" : 33,
+				"sounds": {
+					"ambient": ["LOOPSWOR.wav"]
+				},
+				"visitMode" : "once",
+				"selectMode": "selectFirst",
+				"guardsLayout" : "creatureBankWide",
+				"rmg" : {
+					"value"		: 10500,
+					"rarity"	: 40
+				},
+				"rewards":
+				[
+					{
+						"appearChance": { "min": 0, "max": 30 },
+						"guards": [
+							{ "amount": 1, "type" : "rusBogatyr" },
+							{ "amount": 1, "type" : "rusBogatyr" },
+							{ "amount": 1, "type" : "rusBogatyr", "upgradeChance": 25 },
+							{ "amount": 1, "type" : "rusBogatyr" },
+							{ "amount": 1, "type" : "rusBogatyr" }
+						],
+						"message" : 34,
+						"resources" : {
+							"gold": 7500
+						},
+						"creatures": [ { "amount": 1, "type": "rusVolot" } ]
+					},
+					{
+						"appearChance": { "min": 31, "max": 60 },
+						"guards": [
+							{ "amount": 2, "type" : "rusBogatyr" },
+							{ "amount": 2, "type" : "rusBogatyr" },
+							{ "amount": 1, "type" : "tumBogatyr" },
+							{ "amount": 2, "type" : "rusBogatyr" },
+							{ "amount": 2, "type" : "rusBogatyr" }
+						],
+						"message" : 34,
+						"resources" : {
+							"gold": 7500
+						},
+						"creatures": [ { "amount": 2, "type": "rusVolot" } ]
+					},
+					{
+						"appearChance": { "min": 61, "max": 90 },
+						"guards": [
+							{ "amount": 15, "type" : "rusDruginnik" },
+							{ "amount": 15, "type" : "rusDruginnik" },
+							{ "amount": 15, "type" : "rusDruginnik" },
+							{ "amount": 15, "type" : "rusDruginnik" },
+							{ "amount": 15, "type" : "rusDruginnik" }
+						],
+						"message" : 34,
+						"resources" : {
+							"gold": 5000
+						},
+						"creatures": [ { "amount": 1, "type": "rusBogatyr" } ]
+					},
+					{
+						"appearChance": { "min": 91, "max": 100 },
+						"guards": [
+							{ "amount": 20, "type" : "rusDruginnik" },
+							{ "amount": 20, "type" : "rusDruginnik" },
+							{ "amount": 5, "type" : "tumBogatyr" },
+							{ "amount": 20, "type" : "rusDruginnik" },
+							{ "amount": 20, "type" : "rusDruginnik" }
+						],
+						"message" : 34,
+						"resources" : {
+							"gold": 10000
+						},
+						"creatures": [ { "amount": 4, "type": "rusVolot" } ]
+					}
+				]
+			}
+		}
+	}
+}

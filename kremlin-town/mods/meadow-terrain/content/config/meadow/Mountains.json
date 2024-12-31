@@ -1,0 +1,66 @@
+{
+	"core:mountain" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"lgmn01" : { "animation" : "objects/lgmn01", 
+						"mask" : [ "VVVVVV","VBBBBV","VBBBBB","VVVBBB" ], 		
+						"allowedTerrains": ["meadow" ]
+					},											
+					"lgmn00" : { "animation" : "objects/lgmn00", 
+						"mask" : [ "VVVVVV","VVBBBB","VBBBBB","VBBBVV" ], 
+						"allowedTerrains": ["meadow" ]
+					},					
+					"lgmn03" : { "animation" : "objects/lgmn03", 
+						"mask" : [ "VVVV","VBBB","VVBB" ], 
+						"allowedTerrains": ["meadow" ]
+					},				
+					"lgmn02" : { "animation" : "objects/lgmn02", 
+						"mask" : [ "VVVV", "VBBB","VBBV" ], 
+						"allowedTerrains": ["meadow" ]
+					},				
+					"lgmn05" : { "animation" : "objects/lgmn05", 
+						"mask" : [ "VVVV", "VBBV","VVBB" ], 
+						"allowedTerrains": ["meadow" ]
+					},			
+					"lgmn04" : { "animation" : "objects/lgmn04", 
+						"mask" : [ "VVVV", "VVBB","VBBV" ], 
+						"allowedTerrains": ["meadow" ]
+					},				
+					"lgmn06" : { "animation" : "objects/lgmn06", 
+						"mask" : [ "VVVVVV","VVVBBB" , "VBBBVV" ], 
+						"allowedTerrains": ["meadow" ]
+					},			
+					"lgmn07" : { "animation" : "objects/lgmn07", 
+						"mask" : [ "VVVVVV", "VBBBVV","VVVBBB"  ], 
+						"allowedTerrains": ["meadow" ]
+					},
+					"zmnt01" : { "animation" : "objects/zmnt01", 
+						"mask" : [ "VVVVVV","VBBBBV","VBBBBB","VVVBBB" ], 		
+						"allowedTerrains": ["meadow" ]
+					},											
+					"zmnt00" : { "animation" : "objects/zmnt00", 
+						"mask" : [ "VVVVVV","VVBBBB","VBBBBB","VBBBVV" ], 
+						"allowedTerrains": ["meadow" ]
+					},					
+					"zmnt03" : { "animation" : "objects/zmnt03", 
+						"mask" : [ "VVVV","VBBB","VVBB" ], 
+						"allowedTerrains": ["meadow" ]
+					},				
+					"zmnt02" : { "animation" : "objects/zmnt02", 
+						"mask" : [ "VVVV", "VBBB","VBBV" ], 
+						"allowedTerrains": ["meadow" ]
+					},				
+					"zmnt05" : { "animation" : "objects/zmnt05", 
+						"mask" : [ "VVVVV", "VBBVV","VVBBV" ], 
+						"allowedTerrains": ["meadow" ]
+					},				
+					"zmnt04" : { "animation" : "objects/zmnt04", 
+						"mask" : [ "VVVVV", "VVBBV","VBBVV" ], 
+						"allowedTerrains": ["meadow" ]
+					}				
+				}
+			}
+		}	
+	}	
+}

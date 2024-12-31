@@ -1,0 +1,85 @@
+{
+	"rusForestProtector":
+	{
+		"name" :
+		{
+			"plural" : "Forest Protectors",
+			"singular" : "Forest Protector"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 8
+		},
+		"faction" : "kremlin",
+		"aiValue" : 845,
+		"attack" : 12,
+		"cost" :
+		{
+			"gold" : 575
+		},
+		"damage" :
+		{
+			"max" : 16,
+			"min" : 10
+		},
+		"defense" : 12,
+		"fightValue" : 850,
+		"graphics" :
+		{
+			"animation" : "kremlin/battle/creatures/drzewiec.def",
+			"map" : "kremlin/map/creatures/drzewiecm.def",
+			"iconSmall" : "kremlin/iconsSmall/creatures/drzs.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/drz.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 3,
+		"hitPoints" : 65,
+		"level" : 5,
+
+		"sound" :
+		{
+			"attack": "OGREATTK.wav",
+			"defend": "TREEDFND.wav",
+			"killed": "OGREKILL.wav",
+			"move": "CYCLMOVE.wav",
+			"wince": "kremlin/DRZWWNCE.wav"
+ 		},
+		"speed" : 6,
+		"abilities":
+		{
+			"spawns" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.bind",
+				"addInfo" : 20,
+				"val" : 0
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 2
+			},
+			"casts" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.summonObstacle",
+				"addInfo" : 25,
+				"val" : 0
+			},
+			"sands" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.summonSand",
+				"addInfo" : 55,
+				"val" : 0
+			}
+		}
+	}
+}

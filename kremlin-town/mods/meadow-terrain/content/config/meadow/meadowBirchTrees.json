@@ -1,0 +1,70 @@
+{
+	"core:trees" :{
+		"types" : {		
+			"birchTrees" : {
+				"templates" : {	
+					"mbirch00" : { "animation" : "objects/birch00", 
+						"mask" : [ "VV", "VB" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mbirch01" : { "animation" : "objects/birch01", 
+						"mask" : [ "VV", "VB" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mbirch02" : { "animation" : "objects/birch02", 
+						"mask" : [ "VV", "VB" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mbirch03" : { "animation" : "objects/birch03", 
+						"mask" : [ "VV", "VB" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mbirch04" : { "animation" : "objects/birch04", 
+						"mask" : [ "VVVV", "VVBB", "VBBB", "VBBV" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mbirch05" : { "animation" : "objects/birch05", 
+						"mask" : [ "VVVV", "VBBV", "VBBB", "VVBB" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mbirch06" : { "animation" : "objects/birch06", 
+						"mask" : [ "VVVV", "VVBB", "VBBV" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mbirch07" : { "animation" : "objects/birch07", 
+						"mask" : [ "VVVV", "VVBB", "VBBV" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mbirch08" : { "animation" : "objects/birch08", 
+						"mask" : [ "VVVV", "VBBV", "VVBB" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mbirch09" : { "animation" : "objects/birch09", 
+						"mask" : [ "VVVV", "VBBV", "VVBB" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+///					"mbirch10" : { "animation" : "objects/birch10", 
+///						"mask" : [ "VV", "VB" ], 
+///						"allowedTerrains": [ "meadow" ]
+///					},
+					"mbirch11" : { "animation" : "objects/birch11", 
+						"mask" : [ "VV", "VB" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mbirch12" : { "animation" : "objects/birch12", 
+						"mask" : [ "VV", "VB" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mbirch13" : { "animation" : "objects/birch13", 
+						"mask" : [ "VVV", "VBV", "VBV" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mbirch14" : { "animation" : "objects/birch14", 
+						"mask" : [ "VVV", "VBV", "VBV" ], 
+						"allowedTerrains": [ "meadow" ]
+					}			
+				}
+			}			
+		}	
+	}
+}

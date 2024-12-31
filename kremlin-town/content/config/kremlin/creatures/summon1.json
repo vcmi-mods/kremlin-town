@@ -1,0 +1,56 @@
+{
+	"rusMeadowGuard":
+	{
+		"name" :
+		{
+			"plural" : "Meadow Guards",
+			"singular" : "Meadow Guard"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 8
+		},
+		"faction" : "kremlin",
+		"aiValue" : 545,
+		"attack" : 10,
+		"cost" :
+		{
+			"gold" : 475
+		},
+		"damage" :
+		{
+			"max" : 16,
+			"min" : 10
+		},
+		"defense" : 10,
+		"fightValue" : 550,
+		"graphics" :
+		{
+			"animation" : "kremlin/battle/creatures/drzewiecdown.def",
+			"map" : "kremlin/map/creatures/drzewiecdownm.def",
+			"iconSmall" : "kremlin/iconsSmall/creatures/drzds.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/drzd.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 3,
+		"hitPoints" : 55,
+		"level" : 5,
+		"upgrades": [ "rusForestProtector" ],
+		"sound" :
+		{
+			"attack": "OGREATTK.wav",
+			"defend": "TREEDFND.wav",
+			"killed": "OGREKILL.wav",
+			"move": "CYCLMOVE.wav",
+			"wince": "kremlin/DRZWWNCE.wav"
+ 		},
+		"speed" : 6
+	}
+}

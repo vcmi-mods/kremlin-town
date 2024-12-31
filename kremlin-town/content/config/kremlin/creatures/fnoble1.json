@@ -29,8 +29,8 @@
 		"fightValue" : 340,
 		"graphics" :
 		{
-			"animation" : "kremlin/battle/creatures/CBEAR.def",
-			"map" : "kremlin/map/creatures/bear_map.def",
+			"animation" : "kremlin/battle/creatures/bear.def",
+			"map" : "kremlin/map/creatures/bears.def",
 			"mapMask" : [ "VVV", "VAV"],
 			"iconSmall" : "kremlin/iconsSmall/creatures/bears.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/bear.bmp",

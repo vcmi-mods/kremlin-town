@@ -1,0 +1,16 @@
+{	
+	"core:obelisk" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"AvXOblOr" : {
+						"animation" : "objects/obelisk",
+						"visitableFrom" : [ "---", "+-+", "+++" ],
+						"mask" : [ "VV", "VA" ],
+						"allowedTerrains": [ "meadow" ]
+					}
+				}
+			}
+		}
+	}
+}

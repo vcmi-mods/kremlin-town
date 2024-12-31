@@ -4,9 +4,9 @@
 		"boat" : "boatConflux",
 		"creatureBackground" : { "120px" : "kremlin/crbg120.bmp", "130px" : "kremlin/crbg130.bmp" },
 		"name" : "Kremlin",
-		"nativeTerrain" : "highlands", //need to link with HotA mod
+		"nativeTerrain" : "highlands",
 		"puzzleMap" : {
-			"prefix" : "kremlin/puzzle-map/PUZ",
+			"prefix" : "kremlin/puzzle-map/",
 			"pieces" :
 			[
 { "index" : 48, "x" : 6,  "y" : 7 },
@@ -159,6 +159,17 @@
 						"ore" : 20,
 						"gold" : 5000
 					},
+
+                    			"bonuses": [ 
+                    			{ 
+                    			    "type": "SPELL_LIKE_ATTACK",
+                    			    "subtype": "spell.woodSpikes",
+                    			    "val": 1,
+                    			    "limiters": [ {
+                    			            "type":"CREATURE_TYPE_LIMITER",
+                    			            "parameters": [ "arrowTower", true ]
+                    			    } ],
+                    			} ],
 					"id" : 7
 				},
 				"citadel" :
@@ -256,6 +267,7 @@
 				{
 					"description" : "The Blacksmith provides your armies with First Aid Tents.",
 					"name" : "Blacksmith",
+					"warMachine" : "firstAidTent",
 					"cost" :
 					{
 						"wood" : 5,
@@ -296,23 +308,52 @@
 				},
 				"special1" :
 				{
-					"description" : "The Well increases the Power skill of any visiting hero by +1.",
+					"description" : "The Well increases the Spell Power skill of any visiting hero by +1.",
 					"name" : "Well",
 					"cost" : {
 						"gold" : 500
 					},
-					"type" : "spellPowerVisitingBonus",
 					"requires" : [ "allOf", ["blacksmith"],["fort"] ],
-					"id" : 17
+					"id" : 17,
+					"bonuses": [
+						{
+							"type": "PRIMARY_SKILL",
+							"subtype": "primarySkill.spellpower",
+							"val": 1
+						}
+					],
 				},
 				"special2" :
 				{
-					"description" : "The Banya increases the Attack skill of any visiting hero by +1.",
+					"description" : "The Banya increases the Attack skill of your Ratniks/Druginniks and Bogatyrs/Epic Bogatyrs by +2.",
 					"name" : "Banya",
 					"cost" : {
-						"gold" : 500
+						"gold" : 750
 					},
-					"type" : "attackVisitingBonus",
+					"bonuses": [
+						{
+							"type": "PRIMARY_SKILL",
+							"subtype": "primarySkill.attack",
+							"val": 2,
+							"limiters" : [
+								{
+									"parameters" : [ "rusRatnik", true ],
+									"type" : "CREATURE_TYPE_LIMITER"
+								}
+							]
+						},
+						{
+							"type": "PRIMARY_SKILL",
+							"subtype": "primarySkill.attack",
+							"val": 2,
+							"limiters" : [
+								{
+									"parameters" : [ "rusBogatyr", true ],
+									"type" : "CREATURE_TYPE_LIMITER"
+								}
+							]
+						}
+					],
 					"requires" : [ "allOf", ["blacksmith"],["fort"] ],
 					"id" : 21
 				},
@@ -535,7 +576,7 @@
 						"gems" : 5
 					},
 					"id" : 55,
-					"requires" : [ "allOf", ["mageGuild2"], ["dwellingUpLvl2"] ],
+					"requires" : [ "allOf", ["mageGuild2"], ["dwellingUpLvl2"]],
 					"upgrades" : "dwellingLvl5B"
 				},
 				"dwellingUpLvl6" :
@@ -565,7 +606,7 @@
 						"ore"  : 20
 					},
 					"id" : 43,
-					"requires" : [ "allOf", ["dwellingUpLvl4"], ["special2"] ],
+					"requires" : [ "allOf",["dwellingUpLvl4"], ["special2"]],
 					"upgrades" : "dwellingLvl7"
 				}				
 			},
@@ -674,9 +715,9 @@
 					"village" : { "animation" : "kremlin/map/krhall.def" }
 				}
 			},
-			"mageGuild" : 3,
+			"mageGuild" : 4,
 			
-			"musicTheme" : "music/factions/PaleRider.mp3",
+			"musicTheme" : ["music/factions/PaleRider.mp3"],
 			"names" : [
 				"Moscow",
 				"Novgorod",
@@ -1108,7 +1149,6 @@
 			},
 		"tavernVideo" : "TAVERN.BIK",
 		"townBackground" : "kremlin/town-screen/back.bmp",
-		"warMachine" : "firstAidTent",
 		"hallSlots" : [
 				[
 					[ "villageHall", "townHall", "cityHall", "capitol" ],

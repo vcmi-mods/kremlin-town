@@ -1,0 +1,15 @@
+{
+	"core:hillFort" : {
+		"types" : {
+			"hillFort" : {
+				"templates" : {	
+					"fortMeadow" : { "animation" : "objects/hillfort", 
+						"mask" : [ "VVV", "VVV", "VBA" ],
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains": [ "meadow" ]
+					}
+				}
+			}
+		}
+	}
+}

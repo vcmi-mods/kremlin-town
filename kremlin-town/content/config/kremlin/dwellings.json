@@ -14,19 +14,19 @@
 					}
 				}
 			},
-			"ahutonchickenlegs" : { 
-				"name" : "Hut on Chicken Legs",
+			"volottower" : {
+				"name" : "Ancient Outpost",
+				"creatures" : [[ "rusVolot" ]],
 				"guards" : true,
+				"sounds": {
+					"ambient": ["LOOPSWOR"]
+				},
 				"templates" : {
 					"default" : {
-						"animation" : "kremlin/Dwells/CRDW17.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"animation" : "kremlin/map/dwellings/ancientzastava.def",
+						"mask" : [ "VVVV","VVBV", "VBAB" ]
 					}
-				},		
-				"creatures" : [[ "tumyaga" ]],
-				"sounds": {
-					"ambient" : ["LOOPHYDR"]
-				}				
+				}
 			},
 			"cattree" : {
 				"name" : "Cat Tree",
@@ -50,11 +50,11 @@
 				"templates" : {
 					"default" : {	
 						"animation" : "kremlin/map/dwellings/bearden.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [ "VVV", "VVV", "BAB" ]
 					}
 				}
 			},
-			"quarters" : {
+			"ratQuart" : {
 				"name" : "Ratniks' Quarters",
 				"creatures" : [[ "rusRatnik" ]],
 				"sounds": {
@@ -62,8 +62,8 @@
 				},
 				"templates" : {
 					"default" : {
-						"animation" : "kremlin/map/dwellings/ratquart.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"animation" : "kremlin/map/dwellings/storogka.def",
+						"mask" : [ "VVV", "VVV", "BAB" ]
 					}
 				}
 			},
@@ -76,8 +76,8 @@
 				},
 				"templates" : {
 					"default" : {
-						"animation" : "kremlin/map/dwellings/dwelling-7.def",
-						"mask" : [ "VVV", "VBV", "VAB" ]
+						"animation" : "kremlin/map/dwellings/iriy.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
 					}
 				}
 			},
@@ -86,10 +86,10 @@
 				"guards" : true,
 				"templates" : {
 					"default" : {
-						"animation" : "kremlin/Dwells/bogat.def",
+						"animation" : "kremlin/map/dwellings/khoromy.def",
 						"mask" : [ "VVV", "VVV", "VBA" ]
 					}
-				},		
+				},
 				"creatures" : [[ "rusBogatyr" ]],
 				"sounds": {
 					"ambient" : ["LOOPHORS"]
@@ -100,8 +100,8 @@
 				"guards" : true,
 				"templates" : {
 					"default" : {
-						"animation" : "kremlin/Dwells/zobj022.def",
-						"mask" : [ "VVV", "VBB", "VAB" ]
+						"animation" : "kremlin/map/dwellings/les.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
 					}
 				},		
 				"creatures" : [[ "tumborovik" ]],

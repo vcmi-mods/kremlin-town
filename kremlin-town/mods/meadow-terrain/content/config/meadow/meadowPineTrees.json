@@ -1,0 +1,74 @@
+{
+	"core:trees" :{
+		"types" : {		
+			"pineTrees" : {
+				"templates" : {	
+					"mpin01" : { "animation" : "objects/pin01", 
+						"mask" : [ "VVV", "VBV" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mpin02" : { "animation" : "objects/pin02", 
+						"mask" : [ "VVV", "VBV" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mpin03" : { "animation" : "objects/pin03", 
+						"mask" : [ "VVV", "VBV" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mpin04" : { "animation" : "objects/pin04", 
+						"mask" : [ "VV", "VB" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mpin05" : { "animation" : "objects/pin05", 
+						"mask" : [ "VV", "VB" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mpin06" : { "animation" : "objects/pin06", 
+						"mask" : [ "VV", "VB" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mpin07" : { "animation" : "objects/pin07", 
+						"mask" : [ "VV", "VB" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mpin08" : { "animation" : "objects/pin08", 
+						"mask" : [ "VV", "VB" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mpin09" : { "animation" : "objects/pin09", 
+						"mask" : [ "VVVV", "VVBB", "VBBV" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mpin10" : { "animation" : "objects/pin10", 
+						"mask" : [ "VVVV", "VVBB", "VBBV" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mpin11" : { "animation" : "objects/pin11", 
+						"mask" : [ "VVVV", "VBBV", "VVBB" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mpin12" : { "animation" : "objects/pin12", 
+						"mask" : [ "VVVV", "VBBV", "VVBB" ], 
+						"allowedTerrains": [ "meadow" ]
+					},	
+					"mpin13" : { "animation" : "objects/pin13", 
+						"mask" : [ "VVVV", "VBBV", "VBBB", "VVBB" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mpin14" : { "animation" : "objects/pin14", 
+						"mask" : [ "VVVV", "VVBB", "VBBB", "VBBV" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mpin15" : { "animation" : "objects/pin15", 
+						"mask" : [ "VVV", "VVV", "VBV"], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"mpin16" : { "animation" : "objects/pin16", 
+						"mask" : [ "VVV", "VVV", "VBV"], 
+						"allowedTerrains": [ "meadow" ]
+					}
+				}
+			}			
+		}	
+	}
+}

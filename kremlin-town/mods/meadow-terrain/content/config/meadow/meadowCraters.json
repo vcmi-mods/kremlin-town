@@ -1,0 +1,22 @@
+{
+	"core:crater" :{
+		"types" : {		
+			"cratersMeadow" : {
+				"templates" : {	
+					"crater00" : { "animation" : "objects/crater00", 
+						"mask" : [ "VVVV", "BBBB", "VVBB" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"crater01" : { "animation" : "objects/crater01", 
+						"mask" : [ "VVVV", "VBVV", "VBBB", "VBVV" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"crater02" : { "animation" : "objects/crater02", 
+						"mask" : [ "VB", "BB" ], 
+						"allowedTerrains": [ "meadow" ]
+					}	
+				}
+			}			
+		}	
+	}
+}

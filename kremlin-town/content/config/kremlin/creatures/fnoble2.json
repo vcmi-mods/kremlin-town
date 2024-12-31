@@ -29,11 +29,11 @@
 		"fightValue" : 400,
 		"graphics" :
 		{
-			"animation" : "kremlin/battle/creatures/CBERU.def",
-			"map" : "kremlin/map/creatures/bear_upg_map.def",
+			"animation" : "kremlin/battle/creatures/czarbear.def",
+			"map" : "kremlin/map/creatures/czarbears.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"iconSmall" : "kremlin/iconsSmall/creatures/bearupgs.bmp",
-			"iconLarge" : "kremlin/iconsBig/creatures/bearupg.bmp",
+			"iconSmall" : "kremlin/iconsSmall/creatures/cbears.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/cbear.bmp",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{

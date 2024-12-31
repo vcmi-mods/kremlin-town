@@ -32,7 +32,6 @@
 		{
 			"animation" : "kremlin/battle/creatures/bogatyr.def",
 			"map" : "kremlin/map/creatures/bogatyr_map.def",
-			"mapMask" : [ "VVV", "VAV"],
 			"iconSmall" : "kremlin/iconsSmall/creatures/bogatyrnews.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/bogatyrnew.bmp",
 			"timeBetweenFidgets" : 1,

@@ -5,6 +5,33 @@
 		"graphics" :
 		{
 			"iconLarge" : "kremlin/iconsBig/creatures/leshiy.png"
+		},
+		"abilities#override" :
+		{
+   	            "shots":
+			{	
+				"type" : "SHOOTER"
+	 		},
+                      "spells" :
+	 		{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.woodSpikes",
+				"val" : 1
+			},	
+			"noMelee" :
+			{
+				"type":"NO_MELEE_PENALTY"
+			},
+			"supply" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.summonSupply",
+				"val" : 0,
+				"limiters": [ {
+					"type":"CREATURE_TYPE_LIMITER",
+					"parameters": [ "tumleshiy", true ]
+				} ],
+			}
 		}
 	}
 }

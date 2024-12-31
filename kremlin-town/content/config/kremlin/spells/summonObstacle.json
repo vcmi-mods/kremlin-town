@@ -1,0 +1,125 @@
+{
+	"summonObstacle":
+	{
+		"type": "combat", 
+		"targetType" : "LOCATION",
+		"name": "Summon Obstacle",
+		"school":
+		{
+			"air": false,
+			"earth": true,
+			"fire": false,
+			"water": false
+		},
+		"level": 5,
+		"power": 20,
+		"defaultGainChance": 0,
+		"flags" : 
+		{
+			"indifferent": true,
+			"special": true
+        	}, 
+        
+		"graphics":
+		{
+			"iconBook": "spells/spellBookKr",
+			"iconScroll": "spells/spellScrollKr",
+			"iconScenarioBonus": "spells/bonusSpellKr"
+		},
+		"sounds":
+		{
+			"cast": "TREEATTK"
+		},
+		"targetType" : "LOCATION",
+		"levels":
+		{
+			"base":{
+				"cost": 22,
+				"power": 2,
+				"range" : "0",
+				"aiValue": 100,
+				"targetModifier":{
+					"clearAffected": true
+				},
+				"battleEffects":{
+					"obstacle":{
+						"type":"core:obstacle",
+						"hidden" : false,
+						"passable" : false,
+						"trap" : false,
+						"turnsRemaining" : 2,
+						"attacker" :{
+							"range" : [[""]],
+							"shape" : [[""]],
+							"appearAnimation" : "kremlin/obstst",
+							"animation" : "kremlin/obstmid"
+						},
+						"defender" :{
+							"range" : [[""]],
+							"shape" : [[""]],
+							"appearAnimation" : "kremlin/obstst",
+							"animation" : "kremlin/obstmid"
+						}
+					}
+				}
+			},
+			"none":
+			{
+			},
+			"basic":
+			{
+				"cost": 20,
+				"power": 2
+
+			},
+			"advanced":
+			{
+				"battleEffects":{
+					"obstacle":{
+						"type":"core:obstacle",
+						"hidden" : false,
+						"passable" : false,
+						"trap" : false,
+						"turnsRemaining" : 3,
+						"attacker" :{
+							"range" : [[""]],
+							"shape" : [[""]],
+							"appearAnimation" : "kremlin/obstmid",
+							"animation" : "kremlin/obstmid"
+						},
+						"defender" :{
+							"range" : [[""]],
+							"shape" : [[""]],
+							"appearAnimation" : "kremlin/obstst",
+							"animation" : "kremlin/obstmid"
+						}
+					}
+				}
+			},
+			"expert":
+			{
+				"battleEffects":{
+					"obstacle":{
+						"type":"core:obstacle",
+						"hidden" : false,
+						"passable" : false,
+						"trap" : false,
+						"turnsRemaining" : 4,
+						"attacker" :{
+							"range" : [[""]],
+							"shape" : [[""]],
+							"appearAnimation" : "kremlin/obstst",
+							"animation" : "kremlin/obstmid"
+						},
+						"defender" :{
+							"range" : [[""]],
+							"shape" : [[""]],
+							"appearAnimation" : "kremlin/obstst",
+							"animation" : "kremlin/obstmid"
+						}
+					}
+				}
+			}
+		}
+	}
+}
