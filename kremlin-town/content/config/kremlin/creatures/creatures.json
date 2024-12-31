@@ -125,14 +125,24 @@
                       "spells" :
 	 		{
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.lightningBolt",
+				"subtype" : "spell.woodSpikes",
 				"val" : 1
 			},	
 			"noMelee" :
 			{
 				"type":"NO_MELEE_PENALTY"
+			},
+			"supply" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.summonSupply",
+				"val" : 0,
+				"limiters": [ {
+					"type":"CREATURE_TYPE_LIMITER",
+					"parameters": [ "tumleshiy", true ]
+				} ],
 			}
-		}	
+		}
 	},
 	"tumyaga":
 	{
@@ -224,7 +234,7 @@
 			 "min" : 3
 		},
 		"faction" : "kremlin",
-		"aiValue" : 7230,
+		"aiValue" : 8330,
 		"doubleWide" : true,
 		"attack" : 20,
 		"hasDoubleWeek" : false,
@@ -240,7 +250,7 @@
 			 "min" : 30
 		},
 		"defense" : 25,
-		"fightValue" : 7761,
+		"fightValue" : 8061,
 		"graphics" :
 		{
 			"animation" : "kremlin/rusichi/bogatyr.def",
@@ -249,19 +259,36 @@
 			"iconSmall" : "kremlin/rusichi/bogatyrs.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/bogatyr.png",
 			"timeBetweenFidgets" : 1
+			"missile" :
+			{
+				"projectile": "kremlin/centshot.def",
+				"attackClimaxFrame" : 5,
+				"offset" :
+				{
+					"upperX" : 50,
+					"upperY" : -100,
+					"middleX" : 60,
+					"middleY" : -70,
+					"lowerX" : 100,
+					"lowerY" : -30
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
 			
 			
 		},
 		"growth" : 1,
 		"hitPoints" : 200,
 		"level" : 7,
+		"shots" : 1,
 		"sound" :
 		{
 			"attack" : "CAVAATTK.wav",
 			"defend" : "BLRDDFND.wav",
 			"killed" : "CHMPKILL.wav",
 			"move"   : "BLRDMOVE.wav",
-			"wince"  : "CAVAWNCE.wav"            
+			"wince"  : "CAVAWNCE.wav",
+			"wince"  : "CNTRSHOT.wav"
 		},
 		"speed" : 11,
 		"abilities" :
@@ -289,7 +316,15 @@
 			"bratzabrata" :
                         {
 				"type" : "REVENGE"
-			}
+			},
+			"shots" :
+                        {
+				"type" : "SHOOTER"
+			},
+			"melee" :
+                        {
+				"type" : "NO_MELEE_PENALTY"
+			},
 ///			"hateGory" :
 ///			{
 ///				"type" : "RECEPTIVE"

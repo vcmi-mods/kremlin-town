@@ -1,0 +1,20 @@
+{
+	"core:hole" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"hole1" : {
+						"animation" : "objects/hole1",
+						"mask" : [ "V" ],
+						"allowedTerrains": [ "meadow" ]
+					},
+					"hole2" : {
+						"animation" : "objects/hole2",
+						"mask" : [ "V" ],
+						"allowedTerrains": [ "meadow" ]
+					}
+				}
+			}
+		}
+	}
+}

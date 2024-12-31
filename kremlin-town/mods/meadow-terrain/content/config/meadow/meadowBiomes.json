@@ -1,0 +1,88 @@
+{
+	"meadowCrater": {
+		"biome": {
+			"terrain": ["meadow"],
+			"objectType": "crater"
+		},
+		"templates": ["zcrtr00"]
+	},
+	"meadowSunflowers": {
+		"biome": {
+			"terrain": ["meadow"],
+			"objectType": "plant"
+		},
+		"templates": ["mWFsunf0", "mWFsunf1"]
+	},
+	"meadowCraterSet2": {
+		"biome": {
+			"terrain": ["meadow"],
+			"objectType": "crater"
+		},
+		"templates": ["crater00", "crater01", "crater02"]
+	},
+
+	"meadowBirchTrees": {
+		"biome": {
+			"terrain": "meadow",
+			"objectType": "tree"
+		},
+		"templates": ["mbirch00", "mbirch01", "mbirch02", "mbirch03", "mbirch04", "mbirch05", "mbirch06", "mbirch07", "mbirch08", "mbirch09", "mbirch11", "mbirch12", "mbirch13", "mbirch14"]
+	},
+	"meadowPineTrees": {
+		"biome": {
+			"terrain": "meadow",
+			"objectType": "tree"
+		},
+		"templates": ["mpin01", "mpin02", "mpin03", "mpin04", "mpin05", "mpin06", "mpin07", "mpin08", "mpin09", "mpin10", "mpin11", "mpin12", "mpin13", "mpin14", "mpin15", "mpin16"]
+	},
+	"meadowMountainSet1": {
+		"biome": {
+			"terrain": ["meadow"],
+			"objectType": "mountain"
+		},
+		"templates": ["lgmn00", "lgmn01", "lgmn02", "lgmn03", "lgmn04", "lgmn05", "lgmn06", "lgmn07"] 
+	},
+	"meadowMountainSet2": {
+		"biome": {
+			"terrain": ["meadow"],
+			"objectType": "mountain"
+		},
+		"templates": ["zmnt00", "zmnt01", "zmnt02", "zmnt03", "zmnt04", "zmnt05"] 
+	},
+
+	"meadowLake": {
+		"biome": {
+			"terrain": ["meadow"],
+			"objectType": "lake"
+		},
+		"templates": ["zlake01", "zlake02", "zlake03", "zlake04", "zlake05", "zlake06"]
+	},
+	"birchLog": {
+		"biome": {
+			"terrain": ["meadow"],
+			"objectType": "other"
+		},
+		"templates": ["birchlog00", "birchlog01"]
+	},
+	"meadowCrops": {
+		"biome": {
+			"terrain": ["meadow"],
+			"objectType": "rock"
+		},
+		"templates": ["cropp01", "cropp02"]
+	},
+	"meadowHills": {
+		"biome": {
+			"terrain": ["meadow"],
+			"objectType": "other"
+		},
+		"templates": ["zhill00", "zhill01", "zhill02"]
+	},
+	"meadowFlowers": {
+		"biome": {
+			"terrain": ["meadow"],
+			"objectType": "plant"
+		},
+		"templates": ["flou1", "flou2", "zfl01", "zfl02", "zfl03", "zfl04", "zfl05", "zfl06", "zfl07", "zfl08", "zfl09", "zfl10", "zfl11", "mwfflw00", "mwfflw01", "mwfflw02", "mwfflw03", "mwfflw04", "mwfflw05", "mwfflw06", "mwfflw07"]
+	},
+}

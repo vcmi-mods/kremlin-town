@@ -1,0 +1,18 @@
+{
+	"core:log" :{
+		"types" : {		
+			"logsMeadow" : {
+				"templates" : {	
+					"birchlog00" : { "animation" : "objects/birchlog", 
+						"mask" : [ "B" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"birchlog01" : { "animation" : "objects/birchlog01", 
+						"mask" : [ "B" ], 
+						"allowedTerrains": [ "meadow" ]
+					}		
+				}
+			}			
+		}	
+	}
+}

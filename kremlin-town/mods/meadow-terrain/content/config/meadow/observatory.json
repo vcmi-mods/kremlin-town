@@ -1,0 +1,12 @@
+{
+	"core:redwoodObservatory"	: {
+		"types" : {
+			"redwoodObservatory" : {
+					"templates" : {
+						"meadow" : { "animation" : "avxredw.def", "visitableFrom" : [ "---", "+++", "+++" ], "mask" : [ "VV", "VV", "VA"], "allowedTerrains":["meadow"] },
+					}
+				}
+			}
+		}
+	}		
+}

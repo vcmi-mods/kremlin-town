@@ -1,0 +1,22 @@
+{
+	"core:sign" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"meadowSign" : {
+						"animation" : "objects/sign",
+						"allowedTerrains": [ "meadow" ],
+						"mask" : [ "A" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					},
+					"meadowSignStone" : {
+						"animation" : "objects/Pstone",
+						"allowedTerrains": [ "meadow" ],
+						"mask" : [ "VVV", "VAV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			}
+		}
+	}
+}

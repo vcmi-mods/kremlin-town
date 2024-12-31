@@ -1,0 +1,41 @@
+{
+	"core:lake" : {
+		"types" : {
+			"meadowLakes" : {
+				"name" : "Lake",
+				"templates" : {
+					"zlake01" : {
+						"animation" : "objects/zlake01",
+						"mask" : [ "VVVV", "BBBB","BBBB" ],
+						"allowedTerrains": [ "meadow" ]
+					},
+					"zlake02" : {
+						"animation" : "objects/zlake02",
+						"mask" : [ "VVVV", "BBBB","BBBB" ],
+						"allowedTerrains": [ "meadow" ]
+					},
+					"zlake03" : {
+						"animation" : "objects/zlake03",
+						"mask" : [ "VVVVVV", "BBBBBB","BBBBBB","BBBBBB" ],
+						"allowedTerrains": [ "meadow" ]
+					},
+					"zlake04" : {
+						"animation" : "objects/zlake04",
+						"mask" : [ "VVVVV", "BBBBB","BBBBB" ],
+						"allowedTerrains": [ "meadow" ]
+					},
+					"zlake05" : {
+						"animation" : "objects/zlake05",
+						"mask" : [ "VVVVV", "VBBBV","VVVVV" ],
+						"allowedTerrains": [ "meadow" ]
+					},
+					"zlake06" : {
+						"animation" : "objects/zlake06",
+						"mask" : [ "VVVVV", "VBBBV","VVVVV" ],
+						"allowedTerrains": [ "meadow" ]
+					},
+				}
+			}
+		}
+	}
+}

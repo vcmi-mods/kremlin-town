@@ -1,0 +1,18 @@
+{
+	"core:outcropping" :{
+		"types" : {		
+			"outcroppingMeadow" : {
+				"templates" : {	
+					"cropp01" : { "animation" : "objects/cropp01", 
+						"mask" : [ "BBB" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"cropp02" : { "animation" : "objects/cropp02", 
+						"mask" : [ "BBB" ], 
+						"allowedTerrains": [ "meadow" ]
+					}	
+				}
+			}			
+		}	
+	}
+}

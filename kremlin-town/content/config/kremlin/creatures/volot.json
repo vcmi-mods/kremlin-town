@@ -1,0 +1,81 @@
+{
+	"rusVolot":
+	{
+		"name" :
+		{
+			"plural" : "Volots",
+			"singular" : "Volot"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 4,
+			 "min" : 1
+		},
+		"faction" : "kremlin",
+		"aiValue" : 20240,
+		"doubleWide" : true,
+		"attack" : 32,
+		"hasDoubleWeek" : false,
+                "cost" :
+		{
+			"gold" : 9000,
+			"gems" : 3
+		},
+		"damage" :
+		{
+			 "min" : 60,
+			 "max" : 75
+		},
+		"defense" : 40,
+		"fightValue" : 20240,
+		"graphics" :
+		{
+			"animation" : "kremlin/battle/creatures/volot.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "kremlin/map/creatures/volot_map.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"iconSmall" : "kremlin/iconsSmall/creatures/volot.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/volot.bmp",
+			"timeBetweenFidgets" : 1,
+		},
+		"growth" : 1,
+		"hitPoints" : 540,
+		"level" : 8,
+		"sound" :
+		{
+			"attack" : "AAGLATTK.wav",
+			"defend" : "CRUSDFND.wav",
+			"killed" : "AAGLKILL.wav",
+			"move"   : "BMTHMOVE.wav",
+			"wince"  : "AAGLWNCE.wav"            
+		},
+		"speed" : 10,
+		"abilities" :
+		{
+   	            "palach":
+			{	
+				"type" : "ENCHANTED",
+				"subtype" : "spell.slayer",
+				"val" : 3
+	 		},
+			"retaliateAlways" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			}
+                      "noCavalry" :
+	 		{
+				"type" : "CHARGE_IMMUNITY"
+			},
+			"deathStrike" :
+			{
+				"type" : "DOUBLE_DAMAGE_CHANCE",
+				"val" : 25
+			},
+			"bratzabrata" :
+                        {
+				"type" : "REVENGE"
+			}	
+
+		}	
+	}
+}

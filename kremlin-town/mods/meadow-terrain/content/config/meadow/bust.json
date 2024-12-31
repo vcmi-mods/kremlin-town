@@ -1,0 +1,74 @@
+{
+	"bust" : {
+		"name" : "Bust"
+		"handler": "configurable",
+		"base" : {
+			"sounds" : {
+				"visit" : ["GAZEBO"]
+			}
+		},
+		"types" : {
+			"bust" : {
+				"aiValue" : 2500,
+				"rmg" : {
+					"mapLimit"	: 100,
+					"value"		: 2500,
+					"rarity"	: 50
+				},
+				"compatibilityIdentifiers" : [ "object" ],
+
+				"onEmpty" : [
+					{
+						"message" : "{Bust}\r\n\r\nYou see a bunch of rocks resembling bogatyr's head. You hear a sound coming from the there: \"I see a hero in you, a great hero. I would like to teach you anything that I know. But I need two thousands of gold to let my spirit leave these stones after I will teach you. Return next time with money, please.\"",
+						"appearChance" : { "min" : 34, "max" : 67 }
+					},
+					{
+						"message" : "{Bust}\r\n\r\nYou see a bunch of rocks resembling bogatyr's head. You hear a sound coming from the there: \"I see a hero in you, a great hero. I would like to teach you anything that I know. But I need ten gems to let my spirit leave these stones after I will teach you. Return next time with gems, please.\"",
+						"appearChance" : { "min" : 67 }
+					}
+				],
+				"onVisitedMessage" : "{Bust}\r\n\r\nYou see a bunch of rocks resembling bogatyr's head. After you've admired the bust, you walk away from this beautiful place.",
+				"description" : "@core.xtrainfo.18",
+				"visitMode" : "hero",
+				"selectMode" : "selectFirst",
+				"canRefuse" : true,
+				"showScoutedPreview" : true,
+
+				"rewards" : [
+					{
+						"description" : "@core.arraytxt.202",
+						"message" : "{Bust}\r\n\r\nYou see a bunch of rocks resembling bogatyr's head. You hear a sound coming from the there: \"I see a hero in you, a great hero. I would like to teach you anything that I know. Then my spirit will leave that place.\"",
+						"appearChance" : { "max" : 34 },
+						"heroLevel" : 1
+					},
+					{
+						"description" : "@core.arraytxt.203",
+						"message" : "{Bust}\r\n\r\nYou see a bunch of rocks resembling bogatyr's head. You hear a sound coming from the there: \"I see a hero in you, a great hero. I would like to teach you anything that I know. But I need two thousands of gold to let my spirit leave these stones after I will teach you.\"",
+						"appearChance" : { "min" : 34, "max" : 67 },
+						"limiter" : { "resources" : { "gold" : 2000 } },
+						"resources" : { "gold" : -2000 },
+						"heroLevel" : 1
+					},
+					{
+						"description" : "@core.arraytxt.204",
+						"message" : "{Bust}\r\n\r\nYou see a bunch of rocks resembling bogatyr's head. You hear a sound coming from the there: \"I see a hero in you, a great hero. I would like to teach you anything that I know. But I need ten gems to let my spirit leave these stones after I will teach you.\"",
+						"appearChance" : { "min" : 67 },
+						"limiter" : { "resources" : { "gems" : 10 } },
+						"resources" : { "gems" : -10 },
+						"heroLevel" : 1
+					},
+				],
+				"templates" :
+				{
+					"avxbustmeadow" :
+					{
+						"animation" : "objects/head.def",
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"mask" : ["VVV", "VVV", "VBA"], 
+						"allowedTerrains": ["meadow"]
+					}
+				}	
+			}
+		}
+	}
+}

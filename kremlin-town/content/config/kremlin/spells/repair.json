@@ -24,13 +24,13 @@
 
  
 		"animation":{
-			"affect":["kremlin/spells/CSPhea03.def"]
+			"affect":["spells/CSPhea03.def"]
 		},
  
 		"flags" : {	"positive": true, "rising" : true},
 "targetCondition" : {
 			"noneOf" : { "bonus.UNDEAD" : "absolute" },
-			"anyOf" : {	"bonus.NON_LIVING" : "absolute", "bonus.GARGOYLE" : "absolute" },
+			"anyOf" : {	"bonus.NON_LIVING" : "absolute", "bonus.GARGOYLE" : "absolute", "bonus.SIEGE_WEAPON" : "absolute" },
 		},
  
 		"graphics":
@@ -39,7 +39,7 @@
 		},
 
 		"sounds": {
-			"cast": "MECHSHOT.wav"
+			"cast": "kremlin/MECHSHOT.wav"
 ///			"cast": "repair.wav"
 		},
  

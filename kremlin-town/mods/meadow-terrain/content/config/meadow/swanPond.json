@@ -1,0 +1,15 @@
+{
+	"core:swanPond" : {
+		"types" : {
+			"swanPond" : {
+				"templates" : {	
+					"pondMeadow" : { "animation" : "AVSclvg0", 
+						"mask" : [ "VAB" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "meadow" ]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"meadow" :
+	{
+		"text" : "Meadow",
+		"moveCost" : 100,
+		"minimapUnblocked" : [  96, 138, 30 ],
+		"minimapBlocked"   : [ 51, 116, 30 ],
+		"music" : "MEADOW.mp3",
+		"tiles" : "terrain/tiles_meadow",
+		"river" : "waterRiver",
+		"rockTerrain":"rock",
+		"shortIdentifier" : "kr",
+		"type" : ["SURFACE"],
+		"battleFields" : ["meadowBattlefield_01", "meadowBattlefield_02"]
+		"horseSound" : "horse30",
+		"horseSoundPenalty" : "horse20",
+	}
+}
