@@ -3,9 +3,10 @@
 	"description" : "New town originally made by CoreWoG team, now redone by our small team",
 	"author" : "Olegmods.INC, Vovan1698. Forest Protector by Nephretes and Mitlandy. Meadow terrain beta by Grossmaster. Original town idea - Kremlin town team.",
 	"contact" : "https://vk.com/olegkomarant",
-	"version" : "2.0",
+	"version" : "2.1",
 	"changelog" :
 	{
+		"2.1"   : [ "Meadow fixes." ],
 		"2.0"   : [ "Major re-release with bug fixes, graphical updates and much more." ],
 		"1.5"   : [ "Minor fixes" ],
 		"1.4"   : [ "Chinese translation by Demon King" ],
