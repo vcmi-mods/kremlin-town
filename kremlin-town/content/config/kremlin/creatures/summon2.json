@@ -54,13 +54,6 @@
 		"speed" : 6,
 		"abilities":
 		{
-			"spawns" :
-			{
-				"type" : "SPELLCASTER",
-				"subtype" : "spell.bind",
-				"addInfo" : 20,
-				"val" : 0
-			},
 			"castsAmount" :
 			{
 				"type" : "CASTS",
