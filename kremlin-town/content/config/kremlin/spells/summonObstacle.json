@@ -14,6 +14,9 @@
 		"level": 5,
 		"power": 20,
 		"defaultGainChance": 0,
+		"gainChance":
+		{
+		},
 		"flags" : 
 		{
 			"indifferent": true,
@@ -30,10 +33,10 @@
 		{
 			"cast": "TREEATTK"
 		},
-		"targetType" : "LOCATION",
 		"levels":
 		{
 			"base":{
+				"description" : "",
 				"cost": 22,
 				"power": 2,
 				"range" : "0",

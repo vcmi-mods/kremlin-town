@@ -39,6 +39,7 @@
 		{
 			"base":
 			{
+				"description" : "",
 				"cost": 0,
 				"range": "0",
 				"power": 10,
