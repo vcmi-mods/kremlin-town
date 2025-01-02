@@ -59,6 +59,12 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.summonObstacle",
 				"val" : 3
+			},
+		    "spells" :
+	 		{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.lightningBolt",
+				"val" : 1
 			}
 		},
 		"graphics" :
@@ -98,14 +104,5 @@
 			"shoot": "LICHSHOT.wav",
 			"wince": "GNOLWNCE.wav"
 		},
-		"abilities" :
-		{
-                      "spells" :
-	 		{
-				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.lightningBolt",
-				"val" : 1
-			}
-		}	
 	}
 }
