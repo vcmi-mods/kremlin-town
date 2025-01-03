@@ -3,7 +3,7 @@
 		"types" : {
 			"object" : {
 				"templates" : {
-					"AvXOblOr" : {
+					"AvXOblOrMead" : {
 						"animation" : "objects/obelisk",
 						"visitableFrom" : [ "---", "+-+", "+++" ],
 						"mask" : [ "VV", "VA" ],

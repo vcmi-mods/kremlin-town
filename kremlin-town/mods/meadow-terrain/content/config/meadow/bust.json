@@ -1,6 +1,6 @@
 {
 	"bust" : {
-		"name" : "Bust"
+		"name" : "Bust",
 		"handler": "configurable",
 		"base" : {
 			"sounds" : {

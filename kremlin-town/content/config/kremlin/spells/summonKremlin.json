@@ -65,7 +65,7 @@
 			"advanced":
 			{
 				"cost": 26,
-				"power": 2
+				"power": 2,
 				"battleEffects":{
 					"summon":{
 						"exclusive":false, //so it means that other creature can be summoned?

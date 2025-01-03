@@ -260,6 +260,7 @@
 						"ore" : 5,
 						"gold" : 5000
 					},
+					"produce": { "gems": 1 },
 					"requires" : [ "marketplace" ],
 					"id" : 15
 				},
