@@ -12,11 +12,11 @@
 			"min" : 16
 		},
 		"faction" : "kremlin",
-		"aiValue" : 315,
+		"aiValue" : 345,
 		"attack" : 10,
 		"cost" :
 		{
-			"gold" : 170
+			"gold" : 190
 		},
 		"damage" :
 		{
@@ -26,7 +26,7 @@
 		"defense" : 5,
 		"hasDoubleWeek": true,
 		"doubleWide" : true,
-		"fightValue" : 280,
+		"fightValue" : 300,
 		"graphics" :
 		{
 			"animation" : "kremlin/battle/creatures/cot_bayun.def",
@@ -64,6 +64,12 @@
 			"nocounter" :
 			{
 				"type" : "BLOCKS_RETALIATION"
+			},
+			"summonGuardians" :
+			{
+				"type" : "SUMMON_GUARDIANS",
+				"subtype" : "creature.rusCotGuard",
+				"val" : 100
 			}
 		}
 	}
