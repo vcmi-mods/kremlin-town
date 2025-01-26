@@ -29,6 +29,7 @@
 		{
 			"animation" : "kremlin/battle/creatures/drzewiecdown.def",
 			"map" : "kremlin/map/creatures/drzewiecdownm.def",
+			"mapMask" : [ "VVV", "VAV"],
 			"iconSmall" : "kremlin/iconsSmall/creatures/drzds.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/drzd.png",
 			"timeBetweenFidgets" : 1,

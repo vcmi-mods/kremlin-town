@@ -3,7 +3,7 @@
 		"types": {
 			"mine": {
 				"templates": {
-					"LgMab0" : {
+					"LgMab0mead" : {
 						"animation" : "objects/LgMab0",
 						"mask" : ["VVVV","VVVV","VBAB"],
 						"visitableFrom" : [ "---", "-+-", "+++" ],

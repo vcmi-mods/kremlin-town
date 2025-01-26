@@ -61,7 +61,7 @@
 			"retaliateAlways" :
 			{
 				"type" : "UNLIMITED_RETALIATIONS"
-			}
+			},
                       "noCavalry" :
 	 		{
 				"type" : "CHARGE_IMMUNITY"

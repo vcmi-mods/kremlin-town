@@ -12,7 +12,7 @@
 			"min" : 16
 		},
 		"faction" : "kremlin",
-		"aiValue" : 195,
+		"aiValue" : 145,
 		"attack" : 8,
 		"cost" :
 		{
@@ -20,7 +20,7 @@
 		},
 		"damage" :
 		{
-			"max" : 5,
+			"max" : 4,
 			"min" : 2
 		},
 		"defense" : 5,
@@ -49,18 +49,22 @@
 		"sound" :
 		{
 			"attack": "FMLRATTK.wav",
-			"defend": "kremlin/sekhDef.wav",
-			"killed": "kremlin/sekhDie.wav",
-			"move": "kremlin/sekhWalk.wav",
-			"wince": "kremlin/sekhHit.wav"
+			"defend": "kremlin/catDef.wav",
+			"killed": "kremlin/catDie.wav",
+			"move": "kremlin/catWalk.wav",
+			"wince": "kremlin/catHit.wav"
  		},
-		"speed" : 8,
+		"speed" : 5,
 		"abilities" :
 		{
 			"manaChannel" :
 			{
 				"type" : "MANA_CHANNELING",
 				"val" : 20
+			},
+			"nocounter" :
+			{
+				"type" : "BLOCKS_RETALIATION"
 			}
 		}
 	}

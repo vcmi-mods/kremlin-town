@@ -1,0 +1,28 @@
+{
+	"kasheysneedles":
+	{
+		"type": ["HERO"],
+		"class": "MINOR",
+		"slot":	"MISC",
+		"value": 2000,	
+		"text":
+		{
+			"name": "Koschei's Needle",
+			"description": "{Koschei's Needle}\r\n\r\nCasts expert Destroy Undead at the beginning of battle.",
+			"event": "Suddenly, you stumble on an old oak tree with a case in its branches. You climb the tree and break the case, then a hare comes from it. After you kill the hare, a duck comes out. When you shot the duck, you finally gain the egg, which hides the needle - the Koshey's death."
+		},
+		"graphics":
+		{
+			"image": "kremlin/artifact/needIc.bmp",
+			"map": "kremlin/artifact/needle.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "OPENING_BATTLE_SPELL",
+				"subtype": "spell.destroyUndead",
+				"propagator": "HERO"
+			}
+		]
+	}
+}

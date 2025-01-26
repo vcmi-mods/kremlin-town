@@ -260,6 +260,7 @@
 						"ore" : 5,
 						"gold" : 5000
 					},
+					"produce": { "gems": 1 },
 					"requires" : [ "marketplace" ],
 					"id" : 15
 				},
@@ -325,15 +326,16 @@
 				},
 				"special2" :
 				{
-					"description" : "The Banya increases the Attack skill of your Ratniks/Druginniks and Bogatyrs/Epic Bogatyrs by +2.",
+					"description" : "The Banya increases the Attack skill of your Ratniks/Druginniks, Sotniks/Tisyachniks, Volots and Bogatyrs/Epic Bogatyrs by 2.",
 					"name" : "Banya",
 					"cost" : {
-						"gold" : 750
+						"gold" : 1000
 					},
 					"bonuses": [
 						{
 							"type": "PRIMARY_SKILL",
 							"subtype": "primarySkill.attack",
+							"propagator": "PLAYER_PROPAGATOR",
 							"val": 2,
 							"limiters" : [
 								{
@@ -345,6 +347,31 @@
 						{
 							"type": "PRIMARY_SKILL",
 							"subtype": "primarySkill.attack",
+							"propagator": "PLAYER_PROPAGATOR",
+							"val": 2,
+							"limiters" : [
+								{
+									"parameters" : [ "rusRatoborets", true ],
+									"type" : "CREATURE_TYPE_LIMITER"
+								}
+							]
+						},
+						{
+							"type": "PRIMARY_SKILL",
+							"subtype": "primarySkill.attack",
+							"propagator": "PLAYER_PROPAGATOR",
+							"val": 2,
+							"limiters" : [
+								{
+									"parameters" : [ "rusVolot", true ],
+									"type" : "CREATURE_TYPE_LIMITER"
+								}
+							]
+						},
+						{
+							"type": "PRIMARY_SKILL",
+							"subtype": "primarySkill.attack",
+							"propagator": "PLAYER_PROPAGATOR",
 							"val": 2,
 							"limiters" : [
 								{
@@ -387,6 +414,7 @@
 					"description" : "The Alatyr Stone increases weekly creature generation by 50 percent, adds 5000 gold per day and increases defending hero's Power by 8 during siege.",
 					"name" : "Alatyr Stone",
 					"id" : 26,
+					"produce": { "gold": 5000 },
 					"mode" : "grail",
 					"bonuses": [ 
 					{ "type": "PRIMARY_SKILL", "subtype": "primarySkill.spellpower", "val": 8 }
@@ -516,9 +544,10 @@
 					"name" : "Upg. Cat Tree",
 					"cost" : 
 					{
-						"gold" : 1000,
+						"gold" : 1250,
 						"wood" : 5,
-						"ore" : 5
+						"ore" : 5,
+						"gems" : 2
 					},
 					"id" : 38,
 					"upgrades" : "dwellingLvl2"
@@ -601,8 +630,8 @@
 					"cost" : 
 					{
 						"wood" : 20,
-						"gold" : 20000,
-						"gems" : 15,
+						"gold" : 10000,
+						"gems" : 10,
 						"ore"  : 20
 					},
 					"id" : 43,
@@ -717,7 +746,7 @@
 			},
 			"mageGuild" : 4,
 			
-			"musicTheme" : ["music/factions/PaleRider.mp3"],
+			"musicTheme" : ["music/factions/Echoes_of_the_Past.ogg"],
 			"names" : [
 				"Moscow",
 				"Novgorod",

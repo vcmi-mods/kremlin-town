@@ -29,6 +29,7 @@
 		{
 			"animation" : "kremlin/battle/creatures/drzewiec.def",
 			"map" : "kremlin/map/creatures/drzewiecm.def",
+			"mapMask" : [ "VVV", "VAV"],
 			"iconSmall" : "kremlin/iconsSmall/creatures/drzs.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/drz.png",
 			"timeBetweenFidgets" : 1,
@@ -54,13 +55,6 @@
 		"speed" : 6,
 		"abilities":
 		{
-			"spawns" :
-			{
-				"type" : "SPELLCASTER",
-				"subtype" : "spell.bind",
-				"addInfo" : 20,
-				"val" : 0
-			},
 			"castsAmount" :
 			{
 				"type" : "CASTS",

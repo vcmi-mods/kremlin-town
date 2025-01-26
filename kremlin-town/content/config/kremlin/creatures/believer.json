@@ -1,0 +1,101 @@
+{
+	"rusVolkhv":
+	{
+		"name" :
+		{
+			"plural" : "Believers",
+			"singular" : "Believer"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 4
+		},
+		"faction" : "kremlin",
+		"aiValue" : 1374,
+		"attack" : 13,
+		"cost" :
+		{
+			"gold" : 850
+		},
+		"damage" :
+		{
+			"max" : 18,
+			"min" : 16
+		},
+		"defense" : 15,
+		"shots" : 12,
+		"fightValue" : 1174,
+		"graphics" :
+		{
+			"animation" : "kremlin/battle/creatures/believer.def",
+			"map" : "kremlin/map/creatures/believer_map.def",
+			"iconSmall" : "kremlin/iconsSmall/creatures/believers.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/believer.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile" : "kremlin/battle/creatures/projectile/ravenVolkhv.DEF",
+				"attackClimaxFrame" : 12,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"growth" : 2,
+		"hitPoints" : 60,
+		"level" : 6,
+		"upgrades": [ "rusPriestOfPerun" ],
+		"sound" :
+		{
+			"attack": "kremlin/BELIATTK.wav",
+			"defend": "TREEDFND.wav",
+			"killed": "CNTRKILL.wav",
+			"move": "AMAGMOVE.wav",
+			"shoot": "kremlin/BELISHOT.wav",
+			"wince": "AMAGWNCE.wav"
+ 		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"shooter" :
+			{
+				"type": "SHOOTER"
+			},
+			"throwingGrenade" :
+			{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.ravenExplosion"
+			},
+			"AirImmunity": 
+			{
+				"type": "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "earth"
+			},
+			"castsMage" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.lightningBolt",
+				"val" : 1
+			},
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 2
+			}
+		}
+	}
+}

@@ -43,6 +43,7 @@
 	"config/meadow/signs",
 	"config/meadow/swanPond",
 	"config/meadow/waterwheel",
+	"config/meadow/greatKapishe.json"
     ],
 	"biomes" :
 	[
@@ -50,7 +51,7 @@
 	],
 	"factions" :
 	[
-///		"config/meadow/kremlinTerrain"
+		"config/meadow/kremlinTerrain"
 	],
 	"battlefields" :
 	[

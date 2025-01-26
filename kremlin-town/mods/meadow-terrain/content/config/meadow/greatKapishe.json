@@ -1,0 +1,107 @@
+{
+	"rusGreatCapishe" : 
+	{
+		"name" : "Great Kapishe",
+    		"handler" : "configurable", 
+		"types" : 
+		{
+			"rusGreatCapishe" : 
+			{
+				"templates" :
+				{
+					"normal" :
+					{
+						"animation" : "kremlin/map/dwellings/greatkapishe.def",
+						"visitableFrom" : [ "---", "+++", "+++" ], 
+						"allowedTerrains" : [ "meadow" ], 
+						"mask" : ["VVVV", "VVVV", "VVVV", "VBAB"]
+					},
+				},
+				"onGuardedMessage" : 119,
+				"onVisitedMessage" : 33,
+				"sounds": {
+					"ambient": ["LOOPMAGI.wav"]
+				},
+				"visitMode" : "once",
+				"selectMode": "selectFirst",
+				"guardsLayout" : "creatureBankWide",
+				"rmg" : {
+					"value"		: 8000,
+					"rarity"	: 30,
+					"zoneLimit" : 1
+				}
+				"rewards":
+				[
+					{
+						"appearChance": { "min": 0, "max": 25 },
+						"guards": [
+							{ "amount": 10, "type" : "dendroidGuard" },
+							{ "amount": 10, "type" : "dendroidGuard" },
+							{ "amount": 5, "type" : "rusVolkhv" },
+							{ "amount": 5, "type" : "rusVolkhv" },
+							{ "amount": 5, "type" : "rusMeadowGuard" },
+							{ "amount": 5, "type" : "rusMeadowGuard" }
+						],
+						"message" : 34,
+						"creatures": [ { "amount": 10, "type": "rusVolkhv" }  ],
+						"resources": 
+						{
+							"wood" : 5		
+						}
+					},
+					{
+						"appearChance": { "min": 26, "max": 50 },
+						"guards": [
+							{ "amount": 15, "type" : "dendroidGuard" },
+							{ "amount": 15, "type" : "dendroidGuard" },
+							{ "amount": 10, "type" : "rusVolkhv", "upgradeChance": 25 },
+							{ "amount": 10, "type" : "rusVolkhv", "upgradeChance": 25 },
+							{ "amount": 10, "type" : "rusMeadowGuard" },
+							{ "amount": 10, "type" : "rusMeadowGuard" }
+						],
+						"message" : 34,
+						"creatures": [ { "amount": 15, "type": "rusVolkhv" }  ],
+						"resources": 
+						{
+							"wood" : 10		
+						}
+					},
+					{
+						"appearChance": { "min": 51, "max": 75 },
+						"guards": [
+							{ "amount": 20, "type" : "dendroidGuard" },
+							{ "amount": 20, "type" : "dendroidGuard" },
+							{ "amount": 10, "type" : "rusVolkhv", "upgradeChance": 25 },
+							{ "amount": 10, "type" : "rusVolkhv", "upgradeChance": 25 },
+							{ "amount": 10, "type" : "rusMeadowGuard", "upgradeChance": 25 },
+							{ "amount": 10, "type" : "rusMeadowGuard", "upgradeChance": 25 }
+						],
+						"message" : 34,
+						"creatures": [ { "amount": 20, "type": "rusVolkhv" }  ],
+						"resources": 
+						{
+							"wood" : 10		
+						}
+					},
+					{
+						"appearChance": { "min": 76, "max": 100 },
+						"guards": [
+							{ "amount": 30, "type" : "dendroidGuard", "upgradeChance": 25 },
+							{ "amount": 30, "type" : "dendroidGuard", "upgradeChance": 25 },
+							{ "amount": 20, "type" : "rusVolkhv", "upgradeChance": 25 },
+							{ "amount": 20, "type" : "rusVolkhv", "upgradeChance": 25 },
+							{ "amount": 15, "type" : "rusMeadowGuard", "upgradeChance": 25 },
+							{ "amount": 15, "type" : "rusMeadowGuard", "upgradeChance": 25 }
+						],
+						"message" : 34,
+						"creatures": [ { "amount": 25, "type": "rusVolkhv" }  ],
+						"resources": 
+						{
+							"wood" : 15		
+						}
+					}
+				]
+			}
+		}
+	}
+}

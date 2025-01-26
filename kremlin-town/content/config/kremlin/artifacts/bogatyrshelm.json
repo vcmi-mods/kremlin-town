@@ -1,0 +1,78 @@
+{
+	"bogatyrshelm":
+	{
+		"type": ["HERO"],
+		"class": "MINOR",
+		"slot":	"HEAD",
+		"value": 3000,	
+		"text":
+		{
+			"name": "Bogatyr Helm",
+			"description": "{Bogatyr Helm}\r\n\r\nIncreases hero Attack skill by 2 and increases the Attack skill of your Ratniks/Druginniks, Sotniks/Tisyachniks, Volots and Bogatyrs/Epic Bogatyrs in the hero's army by 1.",
+			"event": "Once you found yourself in the middle of the battle between the few Bogatyrs and the huge army of skeletons. Bogatyrs were winning, but suddenly a bone dragon emerged and killed almost everyone. The last Bogatyr, almost dying, asked you to help. After you deal with the dragon, he gives you his helm and passes away."
+		},
+		"graphics":
+		{
+			"image": "kremlin/artifact/bogatHI.bmp",
+			"map": "kremlin/artifact/bogatH.def"
+		},
+		"bonuses":
+		[
+
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "attack",
+				"val" : 2
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"propagator": "HERO",
+				"val": 1,
+				"limiters" : [
+				{
+					"parameters" : [ "rusRatnik", true ],
+					"type" : "CREATURE_TYPE_LIMITER"
+				}
+				]
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"propagator": "HERO",
+				"val": 1,
+				"limiters" : [
+				{
+					"parameters" : [ "rusRatoborets", true ],
+					"type" : "CREATURE_TYPE_LIMITER"
+				}
+				]
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"propagator": "HERO",
+				"val": 1,
+				"limiters" : [
+				{
+					"parameters" : [ "rusVolot", true ],
+					"type" : "CREATURE_TYPE_LIMITER"
+				}
+				]
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"propagator": "HERO",
+				"val": 1,
+				"limiters" : [
+				{
+					"parameters" : [ "rusBogatyr", true ],
+					"type" : "CREATURE_TYPE_LIMITER"
+				}
+				]
+			}
+
+		]
+	}
+}

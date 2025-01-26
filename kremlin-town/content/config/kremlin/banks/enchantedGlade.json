@@ -1,0 +1,92 @@
+{
+	"rusLeshyGrade" : 
+	{
+		"name" : "Enchanted Glade",
+    		"handler" : "configurable", 
+		"types" : 
+		{
+			"rusLeshyGrade" : 
+			{
+				"templates" :
+				{
+					"normal" :
+					{
+						"animation" : "kremlin/map/dwellings/leshyGlade.def",
+						"
+						"visitableFrom" : [ "---", "+++", "+++" ], 
+						"allowedTerrains" : [ "dirt", "grass", "rough" ], 
+						"mask" : ["VVVV", "VVVV", "VVBB", "VBAB"]
+					},
+				},
+				"onGuardedMessage" : 119,
+				"onVisitedMessage" : 33,
+				"sounds": {
+					"ambient": ["LOOPMAGI.wav"]
+				},
+				"visitMode" : "once",
+				"selectMode": "selectFirst",
+				"guardsLayout" : "creatureBankWide",
+				"rmg" : {
+					"value"		: 6000,
+					"rarity"	: 20,
+					"zoneLimit" : 1
+				}
+				"rewards":
+				[
+					{
+						"appearChance": { "min": 0, "max": 25 },
+						"guards": [
+							{ "amount": 20, "type" : "rusMohovik" },
+							{ "amount": 20, "type" : "rusMohovik" },
+							{ "amount": 5, "type" : "tumborovik" },
+							{ "amount": 5, "type" : "tumborovik" },
+							{ "amount": 5, "type" : "rusMeadowGuard" },
+							{ "amount": 5, "type" : "rusMeadowGuard" }
+						],
+						"message" : 34,
+						"creatures": [ { "amount": 5, "type": "rusMeadowGuard" }, { "amount": 10, "type": "rusMohovik" }  ]
+					},
+					{
+						"appearChance": { "min": 26, "max": 50 },
+						"guards": [
+							{ "amount": 40, "type" : "rusMohovik" },
+							{ "amount": 40, "type" : "rusMohovik" },
+							{ "amount": 10, "type" : "tumborovik" },
+							{ "amount": 10, "type" : "tumborovik" },
+							{ "amount": 10, "type" : "rusMeadowGuard" },
+							{ "amount": 10, "type" : "rusMeadowGuard" }
+						],
+						"message" : 34,
+						"creatures": [ { "amount": 10, "type": "rusMeadowGuard" }, { "amount": 20, "type": "rusMohovik" } }  ]
+					},
+					{
+						"appearChance": { "min": 51, "max": 75 },
+						"guards": [
+							{ "amount": 60, "type" : "rusMohovik" },
+							{ "amount": 60, "type" : "rusMohovik" },
+							{ "amount": 15, "type" : "tumborovik" },
+							{ "amount": 15, "type" : "tumborovik" },
+							{ "amount": 15, "type" : "rusMeadowGuard", "upgradeChance": 25 },
+							{ "amount": 15, "type" : "rusMeadowGuard", "upgradeChance": 25 }
+						],
+						"message" : 34,
+						"creatures": [ { "amount": 15, "type": "rusMeadowGuard" }, { "amount": 30, "type": "rusMohovik" }  ]
+					},
+					{
+						"appearChance": { "min": 76, "max": 100 },
+						"guards": [
+							{ "amount": 80, "type" : "rusMohovik" },
+							{ "amount": 80, "type" : "rusMohovik" },
+							{ "amount": 20, "type" : "tumborovik", "upgradeChance": 25 },
+							{ "amount": 20, "type" : "tumborovik", "upgradeChance": 25 },
+							{ "amount": 20, "type" : "rusMeadowGuard", "upgradeChance": 25 },
+							{ "amount": 20, "type" : "rusMeadowGuard", "upgradeChance": 25 }
+						],
+						"message" : 34,
+						"creatures": [ { "amount": 20, "type": "rusMeadowGuard" }, { "amount": 40, "type": "rusMohovik" }  ]
+					}
+				]
+			}
+		}
+	}
+}

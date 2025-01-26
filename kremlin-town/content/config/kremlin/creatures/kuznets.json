@@ -4,7 +4,7 @@
 		"name" :
 		{
 			"singular" : "Blacksmith",
-			"plural" : "Blacksmith"
+			"plural" : "Blacksmiths"
 		},
 		"special" : true,
 		"faction": "kremlin",
@@ -75,7 +75,7 @@
 			},
 			"missile" :
 			{
-				"projectile": "PORCHX.def",
+				"projectile": "kremlin/battle/creatures/projectile/blacksmpr.def",
 				"attackClimaxFrame" : 7,
 				"offset" :
 				{
