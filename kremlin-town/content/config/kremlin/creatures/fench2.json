@@ -12,7 +12,7 @@
 			"min" : 16
 		},
 		"faction" : "kremlin",
-		"aiValue" : 345,
+		"aiValue" : 205,
 		"attack" : 10,
 		"cost" :
 		{
@@ -20,13 +20,13 @@
 		},
 		"damage" :
 		{
-			"max" : 5,
-			"min" : 3
+			"max" : 4,
+			"min" : 2
 		},
 		"defense" : 5,
 		"hasDoubleWeek": true,
 		"doubleWide" : true,
-		"fightValue" : 300,
+		"fightValue" : 240,
 		"graphics" :
 		{
 			"animation" : "kremlin/battle/creatures/cot_bayun.def",
@@ -48,12 +48,12 @@
 		"sound" :
 		{
 			"attack": "FMLRATTK.wav",
-			"defend": "kremlin/sekhDef.wav",
-			"killed": "kremlin/sekhDie.wav",
-			"move": "kremlin/sekhWalk.wav",
-			"wince": "kremlin/sekhHit.wav"
+			"defend": "kremlin/catDef.wav",
+			"killed": "kremlin/catDie.wav",
+			"move": "kremlin/catWalk.wav",
+			"wince": "kremlin/catHit.wav"
  		},
-		"speed" : 10,
+		"speed" : 7,
 		"abilities" :
 		{
 			"manaChannel" :
@@ -69,7 +69,7 @@
 			{
 				"type" : "SUMMON_GUARDIANS",
 				"subtype" : "creature.rusCotGuard",
-				"val" : 100
+				"val" : 20
 			}
 		}
 	}

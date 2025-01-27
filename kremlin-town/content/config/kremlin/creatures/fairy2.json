@@ -29,7 +29,6 @@
 		{
 			"animation" : "kremlin/battle/creatures/t1u.def",
 			"map" : "kremlin/map/creatures/house_map.def",
-			"mapMask" : [ "VVV", "VAV"],
 			"iconSmall" : "kremlin/iconsSmall/creatures/housekeepers.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/housekeeper.bmp",
 			"timeBetweenFidgets" : 1,
@@ -41,7 +40,7 @@
 			},
 			"missile" :
 			{
-				"projectile" : "CPRGOGX.DEF",
+				"projectile" : "kremlin/battle/creatures/projectile/housproj.DEF",
 				"attackClimaxFrame" : 7,
 				"offset" :
 				{
@@ -55,7 +54,7 @@
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
 			}
 		},
-		"growth" : 20,
+		"growth" : 16,
 		"hitPoints" : 4,
 		"shots" :8,
 		"horde" : 8,
@@ -65,21 +64,23 @@
                         {
 				"type" : "SHOOTER"
 			},
-			"flying" :
+			 "canfly" :
 			{
 				"type" : "FLYING",
-				"subtype" : "movementFlying"
-			}
+				"subtype" : "movementTeleporting"
+			},
 		},
         "level" : 1,
 		"sound" :
 		{
 			"attack": "MAGEATTK.wav",
 			"shoot": "MAGESHOT.wav",
-			"defend": "ENCHDFND.wav",
-			"killed": "MAGEKILL.wav",
-			"move": "CALFMOVE.wav",
-			"wince": "MAGEWNCE.wav"
+			"defend": "kremlin/HOUSDFND.wav",
+			"killed": "kremlin/HOUSKILL.wav",
+			"move": "MONKMOVE.wav",
+///			"wince": "MAGEWNCE.wav",
+			"startMoving": "kremlin/HOUSEXT1.wav",
+			"endMoving": "kremlin/HOUSEXT1.wav",
         	},
 		"speed" : 5			
 	}

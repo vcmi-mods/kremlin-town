@@ -37,7 +37,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "kremlin/map/dwellings/cattree.def",
-						"mask" : [ "VVV", "VVV", "VAV" ]
+						"mask" : [ "VVV", "VVV", "VAB" ]
 					}
 				}
 			},
@@ -72,7 +72,7 @@
 				"creatures" : [[ "rusSirin" ]],
 				"guards" : true,
 				"sounds": {
-					"ambient": ["kremlin/dwellings/faidwl6.wav"]
+					"ambient": ["LOOPFAER"]
 				},
 				"templates" : {
 					"default" : {
@@ -108,6 +108,48 @@
 				"sounds": {
 					"ambient" : ["LOOPMAGI"]
 				}				
+			},
+			"hutonChickenLegs" : { 
+				"name" : "Hut on Chicken Legs",
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "kremlin/dwells/yagadw.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				},		
+				"creatures" : [[ "tumyaga" ]],
+				"sounds": {
+					"ambient" : ["kremlin/LOOPWITH"]
+				}				
+			},
+			"zastava" : {
+				"name" : "Border Outpost",
+				"creatures" : [[ "rusRatoborets" ]],
+				"guards" : true,
+				"sounds": {
+					"ambient": ["LOOPSWOR"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "kremlin/map/dwellings/zastava.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"totem" : {
+				"name" : "Kapishe",
+				"creatures" : [[ "rusVolkhv" ]],
+				"guards" : true,
+				"sounds": {
+					"ambient": ["LOOPMAGI"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "kremlin/map/dwellings/totem.def",
+						"mask" : [ "VVV", "VVV", "VVA" ]
+					}
+				}
 			}
 		}		
 	}

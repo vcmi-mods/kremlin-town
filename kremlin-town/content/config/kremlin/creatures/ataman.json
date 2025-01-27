@@ -1,0 +1,55 @@
+{
+	"rusAtaman":
+	{
+		"name" :
+		{
+			"plural" : "Tisyachniks",
+			"singular" : "Tisyachniks"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 4
+		},
+		"faction" : "kremlin",
+		"aiValue" : 3000,
+		"attack" : 20,
+		"cost" :
+		{
+			"gold" : 1500
+		},
+		"damage" :
+		{
+			"max" : 30,
+			"min" : 15
+		},
+		"defense" : 20,
+		"fightValue" : 3100,
+		"graphics" :
+		{
+			"animation" : "kremlin/battle/creatures/ataman.def",
+			"map" : "kremlin/map/creatures/ataman_map.def",
+			"iconSmall" : "kremlin/iconsSmall/creatures/atamans.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/ataman.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+	        },
+		"growth" : 2,
+		"hitPoints" : 130,
+		"level" : 6,
+		"sound" :
+		{
+			"attack": "kremlin/VITYATTK.wav",
+			"defend": "kremlin/VITYFND.wav",
+			"killed": "kremlin/VITYKILL.wav",
+			"move": "kremlin/VITYMOVE.wav",
+			"wince": "kremlin/VITYWNCE.wav"
+		},
+		"speed" : 7
+	}
+}

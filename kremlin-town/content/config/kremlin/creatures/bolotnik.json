@@ -1,0 +1,69 @@
+{
+	"rusBolotnik":
+	{
+		"name" :
+		{
+			"plural" : "Bolotniks",
+			"singular" : "Bolotniks"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 3
+		},
+		"faction" : "fortress",
+		"aiValue" : 3130,
+		"doubleWide" : true,
+		"attack" : 22,
+		"hasDoubleWeek" : false,
+                "cost" :
+		{
+			"gold" : 3000,
+			"sulfur" : 1
+		},
+		"damage" :
+		{
+			 "max" : 50,
+			 "min" : 30
+		},
+		"defense" : 22,
+		"fightValue" : 3061,
+		"graphics" :
+		{
+			"animation" : "kremlin/battle/creatures/bolotnik.def",
+			"map" : "kremlin/map/creatures/bolotnik_map.def",
+			"iconSmall" : "kremlin/iconsSmall/creatures/bolotniks.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/bolotnik.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+			
+		},
+		"growth" : 1,
+		"hitPoints" : 200,
+		"level" : 7,
+		"sound" :
+		{
+			"attack" : "TREEATTK.wav",
+			"defend" : "TREEDFND.wav",
+			"killed" : "EFRTKILL.wav",
+			"move"   : "TREEMOVE.wav",
+			"wince"  : "TREEWNCE.wav"            
+		},
+		"upgrades": [ "tumBogatyr" ],
+		"speed" : 7,
+		"abilities" :
+		{
+			"bindOnAttack" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.bind",
+				"val" : 100
+			}
+		}
+	}
+}

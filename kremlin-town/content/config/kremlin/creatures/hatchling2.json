@@ -8,11 +8,11 @@
 		},
 		"advMapAmount" :
 		{
-			"max" : 12,
-			"min" : 8
+			"max" : 10,
+			"min" : 4
 		},
 		"faction" : "kremlin",
-		"aiValue" : 5900,
+		"aiValue" : 2900,
 		"attack" : 16,
 		"cost" :
 		{
@@ -24,12 +24,11 @@
 			"min" : 18
 		},
 		"defense" : 12,
-		"fightValue" : 5890,
+		"fightValue" : 2890,
 		"graphics" :
 		{
 			"animation" : "kremlin/battle/creatures/alconost.def",
 			"map" : "kremlin/map/creatures/alconost_map.def",
-			"mapMask" : [ "VVV", "VAV"],
 			"iconSmall" : "kremlin/iconsSmall/creatures/alconostis.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/alconosti.bmp",
 			"timeBetweenFidgets" : 1,
@@ -45,9 +44,9 @@
 		"level" : 6,
 		"sound" :
 		{
-			"attack": "SPRTATTK.wav",
-			"defend": "SPRTDFND.wav",
-			"killed": "kremlin/sirKILL.wav",
+			"attack": "kremlin/SIRATTK.wav",
+			"defend": "kremlin/SIRDFND.wav",
+			"killed": "kremlin/SIRKILL.wav",
 			"move": "ANGLMOVE.wav",
 			"wince": "kremlin/sirWNCE.wav"
 		},

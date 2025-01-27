@@ -31,6 +31,7 @@
 		{
 			"animation" : "kremlin/rusichi/borocik.def",
 			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"mapMask" : [ "VVV", "VAV"],
 			"map" : "kremlin/rusichi/borociks.def",
 			"iconSmall" : "kremlin/rusichi/boroviks.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/lesovik.png",
@@ -82,6 +83,7 @@
 			"animation" : "kremlin/rusichi/leshiy.def",
 			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "kremlin/rusichi/leshiys.def",
+			"mapMask" : [ "VVV", "VAV"],
 			"iconSmall" : "kremlin/rusichi/leshiys.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/leshiy.png",
 			"timeBetweenFidgets" : 1,
@@ -159,21 +161,21 @@
 			 "min" : 8
 		},
 		"faction" : "kremlin",
-		"aiValue" : 624,
-		"doubleWide" : true,
-		"attack" : 15,
+		"aiValue" : 620,
+		"doubleWide" : false,
+		"attack" : 12,
 		"hasDoubleWeek" : false,
                 "cost" :
 		{
-			"gold" : 450
+			"gold" : 500
 		},
 		"damage" :
 		{
 			 "max" : 14,
-			 "min" : 10
+			 "min" : 9
 		},
 		"defense" : 7,
-		"fightValue" : 607,
+		"fightValue" : 584,
 		"graphics" :
 		{
 			"animation" : "kremlin/rusichi/yaga.def",
@@ -184,7 +186,7 @@
 			"timeBetweenFidgets" : 1,
 			"missile" :
 			{
-				"projectile": "kremlin/rusichi/tw_shot.DEF",
+				"projectile": "kremlin/battle/creatures/projectile/yaga_shot.DEF",
 				"attackClimaxFrame" : 7,
 				"offset" :
 				{
@@ -200,24 +202,28 @@
 			
 		},
 		"growth" : 3,
-		"hitPoints" : 27,
+		"hitPoints" : 25,
 		"level" : 5,
 		"shots" : 12,
 		"sound" :
 		{
-			"attack" : "kremlin/WTCHSHOT.wav",
-			"defend" : "kremlin/WTCHDFND.wav",
-			"killed" : "kremlin/WTCHKILL.wav",
-			"move"   : "kremlin/WTCHMOVE.wav",
-			"shoot"  : "kremlin/WTCHSHOT.wav",
-			"wince"  : "HHAGWNCE.wav"            
+			"attack" : "kremlin/WITHSHOT.wav",
+			"defend" : "kremlin/WITHDFND.wav",
+			"killed" : "kremlin/WITHKILL.wav",
+			"move"   : "kremlin/WITHMOVE.wav",
+			"shoot"  : "kremlin/WITHSHOT.wav",
+			"wince"  : "kremlin/WTTHSHOT.wav"            
 		},
-		"speed" : 7,
+		"speed" : 9,
 		"abilities" :
 		{
    	            "shots":
 			{	
 				"type" : "SHOOTER"
+	 		},
+   	            "flies":
+			{	
+				"type" : "FLYING"
 	 		}
 		}	
 	},
@@ -225,8 +231,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Bogatyrs",
-			"singular" : "Bogatyr"
+			"plural" : "Epic Bogatyrs",
+			"singular" : "Epic Bogatyr"
 		},
 		"advMapAmount" :
 		{
@@ -241,7 +247,7 @@
 		"extraNames": [ "rusEpicBogatyr" ],
                 "cost" :
 		{
-			"gold" : 5000,
+			"gold" : 4250,
 			"gems" : 2
 		},
 		"damage" :

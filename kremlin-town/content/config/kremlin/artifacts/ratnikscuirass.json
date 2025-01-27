@@ -1,0 +1,78 @@
+{
+	"ratnikscuirass":
+	{
+		"type": ["HERO"],
+		"class": "MAJOR",
+		"slot":	"TORSO",
+		"value": 5000,	
+		"text":
+		{
+			"name": "Ratnik's Chaimail",
+			"description": "{Ratnik's Chaimail}\r\n\r\nIncreases hero Defence skill by 3 and increases the Defence skill of your Ratniks/Druginniks, Sotniks/Tisyachniks, Volots and Bogatyrs/Epic Bogatyrs in the hero's army by 2.",
+			"event": "An elderly prince told you that his old chaimail was buried by him somewhere. Seemingly, it's your lucky day, since from the third hole you get the Ratnik's Chaimail."
+		},
+		"graphics":
+		{
+			"image": "kremlin/artifact/ratcI.bmp",
+			"map": "kremlin/artifact/ratc.def"
+		},
+		"bonuses":
+		[
+
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "defence",
+				"val" : 3
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"propagator": "HERO",
+				"val": 2,
+				"limiters" : [
+				{
+					"parameters" : [ "rusRatnik", true ],
+					"type" : "CREATURE_TYPE_LIMITER"
+				}
+				]
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"propagator": "HERO",
+				"val": 2,
+				"limiters" : [
+				{
+					"parameters" : [ "rusRatoborets", true ],
+					"type" : "CREATURE_TYPE_LIMITER"
+				}
+				]
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"propagator": "HERO",
+				"val": 2,
+				"limiters" : [
+				{
+					"parameters" : [ "rusVolot", true ],
+					"type" : "CREATURE_TYPE_LIMITER"
+				}
+				]
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"propagator": "HERO",
+				"val": 2,
+				"limiters" : [
+				{
+					"parameters" : [ "rusBogatyr", true ],
+					"type" : "CREATURE_TYPE_LIMITER"
+				}
+				]
+			}
+
+		]
+	}
+}

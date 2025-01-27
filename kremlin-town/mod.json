@@ -1,11 +1,12 @@
 {
 	"name" : "Kremlin town",
 	"description" : "New town originally made by CoreWoG team, now redone by our small team",
-	"author" : "Olegmods.INC, Vovan1698. Forest Protector by Nephretes and Mitlandy. Meadow terrain beta by Grossmaster. Music - Fabrice-Tiercelin and AI Udio, Forest Witch by Axolotl. Original town idea - Kremlin town team.",
+	"author" : "Olegmods.INC, Vovan1698. Forest Protector by Nephretes and Mitlandy. Meadow terrain alpha by Grossmaster. Music - Fabrice-Tiercelin and AI Udio. Original town idea - Kremlin town team, Bolotnik originally made by Axolotl.",
 	"contact" : "https://vk.com/olegkomarant",
-	"version" : "2.3.6",
+	"version" : "3.0.0",
 	"changelog" :
 	{
+                "3.0.0"   : [ "Major update" ],
                 "2.3.6"   : [ "New music theme by Fabrice-Tiercelin and AI Udio" ],
                 "2.3.5"   : [ "Volot fix" ],
                 "2.3.4"   : [ "Cat Bayuns now spawn Cats" ],
@@ -73,7 +74,13 @@
 		"config/kremlin/creatures/summon2.json",
 		"config/kremlin/creatures/volot.json",
 		"config/kremlin/creatures/rosomaha.json",	
-		"config/kremlin/creatures/cat.json"			
+		"config/kremlin/creatures/cat.json",
+		"config/kremlin/creatures/mohovik.json",
+		"config/kremlin/creatures/ratoborets.json",
+		"config/kremlin/creatures/ataman.json",	
+		"config/kremlin/creatures/believer.json",
+		"config/kremlin/creatures/devotee.json",	
+		"config/kremlin/creatures/bolotnik.json"			
 	],
 	"heroClasses" : [ 
 		"config/kremlin/classes/vityaz", 
@@ -101,14 +108,27 @@
 	[
 		"config/kremlin/spells/repair.json",
 		"config/kremlin/spells/summonKremlin.json",
+		"config/kremlin/spells/summonFirebird.json",
 		"config/kremlin/spells/summonSupply.json",
 		"config/kremlin/spells/summonObstacle.json",
 		"config/kremlin/spells/summonSand.json",
 		"config/kremlin/spells/woodSpikes.json",
+		"config/kremlin/spells/raven1.json",
+		"config/kremlin/spells/raven2.json"
+	],
+	"artifacts" :
+	[
+		"config/kremlin/artifacts/bogatyrshelm.json",
+		"config/kremlin/artifacts/firebirdsegg.json",
+		"config/kremlin/artifacts/kasheysneedle.json",
+		"config/kremlin/artifacts/ratnikscuirass.json"
 	],
 	"objects" :
     [ 
 		"config/kremlin/dwellings.json",
-		"config/kremlin/banks/bogatyrCache.json"
+		"config/kremlin/banks/bogatyrCache.json",
+		"config/kremlin/banks/covenHill.json",
+		"config/kremlin/banks/enchantedGlade.json",
+
     ]
 }

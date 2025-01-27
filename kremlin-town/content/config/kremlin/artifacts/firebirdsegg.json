@@ -1,0 +1,28 @@
+{
+	"firebirdsegg":
+	{
+		"type": ["HERO"],
+		"class": "MAJOR",
+		"slot":	"MISC",
+		"value": 5500,	
+		"text":
+		{
+			"name": "Firebird Egg",
+			"description": "{Firebird Egg}\r\n\r\nSummons a stack of Firebirds in the beginning of the battle.",
+			"event": "During your adventures, you find yourself in the territory of the wealthy prince. You see a guarded golden cage with a firebird in it. After you distract the guards, you open the cage. When the bird escaped, you see a fiery egg in the cage. You've decided to make that prince lose their morning omelette and ran away."
+		},
+		"graphics":
+		{
+			"image": "kremlin/artifact/egg.bmp",
+			"map": "kremlin/artifact/eggm.def"
+		},
+		"bonuses":
+		[
+			{
+				"subtype" : "spell.summonFirebird",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 1
+			}	
+		]
+	}
+}

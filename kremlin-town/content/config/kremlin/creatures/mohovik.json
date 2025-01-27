@@ -1,0 +1,65 @@
+{
+	"rusMohovik":
+	{
+		"name" :
+		{
+			"plural" : "Mohoviks",
+			"singular" : "Mohovik"
+		},
+		"advMapAmount" :
+		{
+			"max" : 50,
+			"min" : 20
+		},
+		"faction" : "kremlin",
+		"aiValue" : 100,
+		"hasDoubleWeek" : false,
+		"attack" : 3,
+		"cost" :
+		{
+			"gold" : 50
+		},
+		"damage" :
+		{
+			"max" : 2,
+			"min" : 1
+		},
+		"defense" : 3,
+		"fightValue" : 95,
+		"graphics" :
+		{
+			"animation" : "kremlin/battle/creatures/mohovik.def",
+			"map" : "kremlin/map/creatures/mohovik_map.def",
+			"iconSmall" : "kremlin/iconsSmall/creatures/mohoviks.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/mohovik.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 15,
+		"hitPoints" : 5,
+        "level" : 1,
+		"sound" :
+		{
+			"attack": "TROGATTK.wav",
+			"defend": "TRLLDFND.wav",
+			"killed": "AELMKILL.wav",
+			"move": "kremlin/MOHOMOVE.wav",
+			"wince": "TREEWNCE.wav"
+        	},
+		"speed" : 4,
+		"abilities":
+		{
+			"binds" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.bind",
+				"val" : 100
+			}
+		}			
+	}
+}

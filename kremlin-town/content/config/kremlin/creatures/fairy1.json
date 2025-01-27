@@ -28,7 +28,6 @@
 		"graphics" :
 		{
 			"animation" : "kremlin/battle/creatures/t1.def",
-			"mapMask" : [ "VVV", "VAV"],
 			"map" : "kremlin/map/creatures/hearth_map.def",
 			"iconSmall" : "kremlin/iconsSmall/creatures/hearthkeepers.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/hearthkeeper.bmp",
@@ -51,10 +50,12 @@
 		"sound" :
 		{
 			"attack": "MAGEATTK.wav",
-			"defend": "ENCHDFND.wav",
-			"killed": "MAGEKILL.wav",
+			"defend": "kremlin/HOUSDFND.wav",
+			"killed": "kremlin/HOUSKILL.wav",
 			"move": "MONKMOVE.wav",
-			"wince": "MAGEWNCE.wav"
+			"wince": "MAGEWNCE.wav",
+			"startMoving": "kremlin/HOUSEXT1.wav",
+			"endMoving": "kremlin/HOUSEXT1.wav",
         	},
 		"speed" : 5			
 	}

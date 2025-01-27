@@ -43,6 +43,11 @@
 			}
 		],
 
+		"spellbook" :
+		[
+			"haste"
+		],
+
 		"skills" :
 		[
 			{

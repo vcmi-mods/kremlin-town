@@ -12,8 +12,8 @@
 			"min" : 12
 		},
 		"faction" : "kremlin",
-		"aiValue" : 360,
-		"attack" : 8,
+		"aiValue" : 260,
+		"attack" : 9,
 		"cost" :
 		{
 			"gold" : 200
@@ -23,10 +23,10 @@
 			"max" : 5,
 			"min" : 3
 		},
-		"defense" : 9,
+		"defense" : 10,
 		"hasDoubleWeek": true,
 		"doubleWide" : true,
-		"fightValue" : 340,
+		"fightValue" : 240,
 		"graphics" :
 		{
 			"animation" : "kremlin/battle/creatures/bear.def",

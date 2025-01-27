@@ -44,6 +44,11 @@
 				"min" : 4
 			}
 		],
+    		"spellbook" :
+    		[
+    		    "stoneSkin"
+    		],
+		
 
 		"skills" :
 		[
