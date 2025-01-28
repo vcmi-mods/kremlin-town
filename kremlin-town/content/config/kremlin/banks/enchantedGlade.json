@@ -12,7 +12,6 @@
 					"normal" :
 					{
 						"animation" : "kremlin/map/dwellings/leshyGlade.def",
-						"
 						"visitableFrom" : [ "---", "+++", "+++" ], 
 						"allowedTerrains" : [ "dirt", "grass", "rough" ], 
 						"mask" : ["VVVV", "VVVV", "VVBB", "VBAB"]
