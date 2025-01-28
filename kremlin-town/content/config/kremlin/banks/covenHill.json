@@ -25,7 +25,7 @@
 				"visitMode" : "once",
 				"selectMode": "selectFirst",
 				"guardsLayout" : "creatureBankWide",
-				"battleground": "swamp_trees"
+				"battleground": "swamp_trees",
 				"rmg" : {
 					"value"		: 8000,
 					"rarity"	: 20,
