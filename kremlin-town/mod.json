@@ -18,12 +18,12 @@
 		"min" : "1.3.0"
 	},	
 	"depends" :
-    [
-        "hota.mapdecorations",
+    	[
+        	"hota.mapdecorations",
 		"hota.highlandsterrain"
-    ],
+    	],
 	"modType" : "Town",	
-    "factions" : [ "config/kremlin/town" ],
+    	"factions" : [ "config/kremlin/town" ],
 	"chinese": {
 		"name" : "克里姆林",
 		"description" : "New Towns团队制作的新城镇，从未发布过。Olegmods.INC在Anton Sergeew的帮助下重置。",
@@ -37,17 +37,17 @@
 		"config/kremlin/creatures/fairy2.json",
 		"config/kremlin/creatures/fench1.json",
 		"config/kremlin/creatures/fench2.json",
-        "config/kremlin/creatures/fnoble1.json",
+		"config/kremlin/creatures/fnoble1.json",
 		"config/kremlin/creatures/fnoble2.json",
-        "config/kremlin/creatures/wisp1.json",
+		"config/kremlin/creatures/wisp1.json",
 		"config/kremlin/creatures/wisp2.json",
 		"config/kremlin/creatures/hatchling1.json",
 		"config/kremlin/creatures/hatchling2.json",
-///		"config/kremlin/creatures/fwyvern1.json",
-///		"config/kremlin/creatures/fwyvern2.json",
+//		"config/kremlin/creatures/fwyvern1.json",
+//		"config/kremlin/creatures/fwyvern2.json",
 		"config/kremlin/creatures/fdrag1.json",
-///		"config/kremlin/creatures/fdrag2.json",
-///		"config/kremlin/creatures/forestwitch.json",
+//		"config/kremlin/creatures/fdrag2.json",
+//		"config/kremlin/creatures/forestwitch.json",
 		"config/kremlin/creatures/yaga.json",	
 		"config/kremlin/creatures/kuznets.json",	
 		"config/kremlin/creatures/creatures.json",			
@@ -79,7 +79,7 @@
 		"config/kremlin/spells/repair.json",
 	],
 	"objects" :
-    [ 
+    	[ 
 		"config/kremlin/dwellings.json"
-    ]
+    	]
 }
