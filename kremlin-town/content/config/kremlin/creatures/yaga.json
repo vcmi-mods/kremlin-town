@@ -85,15 +85,19 @@
 			{
 				"type" : "OPENING_BATTLE_SPELL",
 				"subtype" : "spell.misfortune",
-				"val" : 2,
+				"val" : 1,
 				"propagator" : "HERO"
 			},
-///			"spellcaster":
-///			{
-///				"type" : "SPELLCASTER",
-///				"subtype" : "spell.curse",
-///				"val" : 1
-///			}
+			"spellcaster":
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.curse",
+				"val" : 1
+			},
+			"noCastByDefault" :
+			{
+				"type" : "NO_SPELLCAST_BY_DEFAULT"
+			}
 		}	
 	}
 }
