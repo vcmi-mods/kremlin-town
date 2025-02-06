@@ -123,6 +123,13 @@
 			{
 				"bonus" :
 				{
+					"type" : "RECEPTIVE"
+				},
+				"values" : [ false, false, true, true, true, true, true, true, true, true ]	
+			}
+			{
+				"bonus" :
+				{
 					"type" : "RETURN_AFTER_STRIKE",				
 				},
 				"values" : [ false, false, false, false, false, true, true, true, true, true ]
