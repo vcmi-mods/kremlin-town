@@ -99,7 +99,7 @@
 			{
 				"bonus" :
 				{
-					"type" : "BLOCK_RETALIATION"
+					"type" : "BLOCKS_RETALIATION"
 
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]
