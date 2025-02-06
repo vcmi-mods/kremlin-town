@@ -57,6 +57,74 @@
 			"startMoving": "kremlin/HOUSEXT1.wav",
 			"endMoving": "kremlin/HOUSEXT1.wav",
         	},
-		"speed" : 5			
+		"speed" : 5,
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+
+				},
+				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.imp"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
+			},
+			{	
+				"bonus" :
+				{
+					"type" : "BLOCKS_RETALIATION"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			}
+		]
 	}
 }
