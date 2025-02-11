@@ -3,9 +3,10 @@
 	"description" : "New town originally made by CoreWoG team, now redone by our small team",
 	"author" : "Olegmods.INC, Vovan1698. Forest Protector by Nephretes and Mitlandy. Meadow terrain alpha by Grossmaster. Music - Fabrice-Tiercelin and AI Udio. Original town idea - Kremlin town team, Bolotnik originally made by Axolotl.",
 	"contact" : "https://vk.com/olegkomarant",
-	"version" : "3.0.4",
+	"version" : "3.0.5",
 	"changelog" :
 	{
+		"3.0.5"   : [ "Bug fixes." ],
 		"3.0.4"   : [ "Stack experience update." ],
 		"3.0.3"   : [ "Bug fixes." ],
                 "3.0.2"   : [ "Stack experience added." ],
