@@ -39,7 +39,7 @@
 				"idle" : 10
 			}
 		},
-		"growth" : 20,
+		"growth" : 16,
 		"hitPoints" : 4,
 		"horde" : 8,
         "level" : 1,
