@@ -128,7 +128,7 @@
 					"type" : "LIMITED_SHOOTING_RANGE",
 					"addInfo" : 0
 				},
-				"values" : [ 0, 0, 0, 0, 99, 99, 99, 99, 99, 99 ]
+				"values" : [ 0, 0, 0, 99, 99, 99, 99, 99, 99, 99 ]
 			},
 			{
 				"bonus" :
