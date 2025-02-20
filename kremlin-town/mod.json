@@ -56,6 +56,13 @@
 			"translation/kremlin/polish.json"
 		]
 	},
+	"russian": {
+		"name" : "Кремль",
+		"description" : "Новый город, оригинально создававшийся командой CoreWoG, теперь воссозданный.",
+		"translations" : [
+			"translation/kremlin/russian.json"
+		]
+	},
 	"creatures" :
 	[
 		"config/kremlin/creatures/fairy1.json",
