@@ -42,7 +42,7 @@
 			"missile" :
 			{
 				"projectile" : "kremlin/battle/creatures/projectile/ravenVolkhv.DEF",
-				"attackClimaxFrame" : 12,
+				"attackClimaxFrame" : 4,
 				"offset" :
 				{
 					"upperX" : 38,
