@@ -3,9 +3,10 @@
 	"description" : "The Meadow terrain for Kremlin town. Music from Nox. It's still in alpha version",
 	"author" : "Grossmaster, mod by Olegmods.INC",
 	"contact" : "https://vk.com/olegkomarant",
-	"version" : "1.0.0",
+	"version" : "1.0.1",
 	"changelog" :
 	{
+		"1.0.1"   : [ "Battlefield change by Grossmaster" ],
 		"1.0.0"   : [ "Initial release" ]
 	},
 	"compatibility" :
