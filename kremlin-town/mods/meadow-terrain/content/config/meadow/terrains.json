@@ -11,7 +11,7 @@
 		"rockTerrain":"rock",
 		"shortIdentifier" : "kr",
 		"type" : ["SURFACE"],
-		"battleFields" : ["meadowBattlefield_01", "meadowBattlefield_02"],
+		"battleFields" : ["meadowBattlefield_02"],
 		"horseSound" : "horse30",
 		"horseSoundPenalty" : "horse20",
 	}
