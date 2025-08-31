@@ -24,13 +24,13 @@
 
  
 		"animation":{
-			"affect":["kremlin/spells/CSPhea03.def"]
+			"affect":["spells/CSPhea03.def"]
 		},
  
 		"flags" : {	"positive": true, "rising" : true},
 "targetCondition" : {
 			"noneOf" : { "bonus.UNDEAD" : "absolute" },
-			"anyOf" : {	"bonus.NON_LIVING" : "absolute", "bonus.GARGOYLE" : "absolute" },
+			"anyOf" : {	"bonus.NON_LIVING" : "absolute", "bonus.GARGOYLE" : "absolute", "bonus.SIEGE_WEAPON" : "absolute", "bonus.MECHANICAL" : "absolute" },
 		},
  
 		"graphics":
@@ -39,7 +39,7 @@
 		},
 
 		"sounds": {
-			"cast": "MECHSHOT.wav"
+			"cast": "kremlin/MECHSHOT.wav"
 ///			"cast": "repair.wav"
 		},
  
@@ -49,14 +49,13 @@
 				"cost": 12,
 				"range": "0",
 				"power": 30,
-				"aiValue": 70,
+				//			"aiValue": 70,
 				"battleEffects":{
 					"heal":{
 						"type":"core:heal",
 						"healLevel":"resurrect",
 						"healPower":"oneBattle",
-						"minFullUnits" : 1,
-						"val" : 30,
+						"minFullUnits" : 0
 					},
 					"cure":{
 						"type":"core:dispel",
@@ -79,8 +78,7 @@
 				"power": 30,
 				"battleEffects":{
 					"heal":{
-						"healPower":"permanent",
-						"val" : 30,
+						"healPower":"permanent"
 					}
 				}
 			},
@@ -89,8 +87,7 @@
 				"power": 50,
 				"battleEffects":{
 					"heal":{
-						"healPower":"permanent",
-						"val" : 50,
+						"healPower":"permanent"
 					}
 				}
 			},
@@ -99,8 +96,7 @@
 				"power": 70,
 				"battleEffects":{
 					"heal":{
-						"healPower":"permanent",
-						"val" : 70,
+						"healPower":"permanent"
 					}
 				}
 			}

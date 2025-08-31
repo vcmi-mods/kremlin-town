@@ -1,0 +1,123 @@
+{
+	"rusAtaman":
+	{
+		"name" :
+		{
+			"plural" : "Tisyachniks",
+			"singular" : "Tisyachnik"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 4
+		},
+		"faction" : "kremlin",
+		"aiValue" : 3000,
+		"attack" : 20,
+		"cost" :
+		{
+			"gold" : 1500
+		},
+		"damage" :
+		{
+			"max" : 30,
+			"min" : 15
+		},
+		"defense" : 20,
+		"fightValue" : 3100,
+		"graphics" :
+		{
+			"animation" : "kremlin/battle/creatures/ataman.def",
+			"map" : "kremlin/map/creatures/ataman_map.def",
+			"iconSmall" : "kremlin/iconsSmall/creatures/atamans.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/ataman.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+	        },
+		"growth" : 2,
+		"hitPoints" : 130,
+		"level" : 6,
+		"sound" :
+		{
+			"attack": "kremlin/VITYATTK.wav",
+			"defend": "kremlin/VITYDFND.wav",
+			"killed": "kremlin/VITYKILL.wav",
+			"move": "kremlin/VITYMOVE.wav",
+			"wince": "kremlin/VITYWNCE.wav"
+		},
+		"speed" : 7,
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : "bless"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 3, 3, 3 ]	
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARFUL",
+					"valueType" : "INDEPENDENT_MIN",
+					"description" : "PLACEHOLDER",
+					"val" : 0
+				},
+				"values" : [ false, false, false, true, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			}
+		]
+	}
+}

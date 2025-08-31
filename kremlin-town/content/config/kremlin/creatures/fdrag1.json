@@ -32,7 +32,6 @@
 		{
 			"animation" : "kremlin/battle/creatures/bogatyr.def",
 			"map" : "kremlin/map/creatures/bogatyr_map.def",
-			"mapMask" : [ "VVV", "VAV"],
 			"iconSmall" : "kremlin/iconsSmall/creatures/bogatyrnews.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/bogatyrnew.bmp",
 			"timeBetweenFidgets" : 1,
@@ -71,7 +70,7 @@
 			"enchanted" :
 			{
 				"type":"ENCHANTED",
-				"subtype" : "spell.slayer",
+				"subtype" : "slayer",
 				"val" : 2
 			},
 			"deathStrike" :
@@ -79,6 +78,74 @@
 				"type" : "DOUBLE_DAMAGE_CHANCE",
 				"val" : 10
 			}
-		}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARFUL",
+					"valueType" : "INDEPENDENT_MIN",
+					"description" : "PLACEHOLDER",
+					"val" : 0
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type":"ENCHANTED",
+					"subtype" : "stoneSkin",
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 1, 1, 1 ]
+			}
+		]
 	}
 }

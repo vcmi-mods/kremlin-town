@@ -1,0 +1,160 @@
+{
+	"rusBolotnik":
+	{
+		"name" :
+		{
+			"plural" : "Bolotniks",
+			"singular" : "Bolotniks"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 3
+		},
+		"faction" : "fortress",
+		"aiValue" : 3130,
+		"doubleWide" : true,
+		"attack" : 22,
+		"hasDoubleWeek" : false,
+                "cost" :
+		{
+			"gold" : 3000,
+			"sulfur" : 1
+		},
+		"damage" :
+		{
+			 "max" : 50,
+			 "min" : 30
+		},
+		"defense" : 22,
+		"fightValue" : 3061,
+		"graphics" :
+		{
+			"animation" : "kremlin/battle/creatures/bolotnik.def",
+			"map" : "kremlin/map/creatures/bolotnik_map.def",
+			"iconSmall" : "kremlin/iconsSmall/creatures/bolotniks.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/bolotnik.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+			
+		},
+		"growth" : 1,
+		"hitPoints" : 200,
+		"level" : 7,
+		"sound" :
+		{
+			"attack" : "TREEATTK.wav",
+			"defend" : "TREEDFND.wav",
+			"killed" : "EFRTKILL.wav",
+			"move"   : "TREEMOVE.wav",
+			"wince"  : "TREEWNCE.wav"            
+		},
+		"upgrades": [ "tumBogatyr" ],
+		"speed" : 7,
+		"abilities" :
+		{
+			"bindOnAttack" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "bind",
+				"val" : 100
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "attack",
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "defence",
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "DEFENSIVE_STANCE"
+				},
+				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ADDITIONAL_RETALIATION"
+				},
+				"values" : [ 0, 0, 0, 0, 1, 1, 2, 2, 3, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "LEVEL_SPELL_IMMUNITY",
+					"val" : 5
+				},
+				"values" : [ 0, 0, 1, 1, 1, 1, 1, 1, 1, 1 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_IMMUNITY",
+					"subtype" : "blind"
+				},
+				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_IMMUNITY",
+					"subtype" : "bind"
+				},
+				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+			}
+		]
+	}
+}

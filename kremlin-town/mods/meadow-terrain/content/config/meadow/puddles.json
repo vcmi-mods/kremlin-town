@@ -1,0 +1,27 @@
+{
+	"puddlesMeadow" : {
+		"handler" : "static",
+		"name" : "Puddles",
+		"types" : {
+			"puddles" : {
+				"templates" : {
+					"puddle00" : {
+						"animation" : "objects/puddle00",
+						"mask" : [ "V" ],
+						"allowedTerrains": [ "meadow" ]
+					},
+					"puddle01" : {
+						"animation" : "objects/puddle01",
+						"mask" : [ "V" ],
+						"allowedTerrains": [ "meadow" ]
+					},
+					"puddle02" : {
+						"animation" : "objects/puddle03",
+						"mask" : [ "V" ],
+						"allowedTerrains": [ "meadow" ]
+					}
+				}
+			}
+		}
+	}
+}

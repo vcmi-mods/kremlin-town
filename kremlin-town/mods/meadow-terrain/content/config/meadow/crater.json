@@ -1,0 +1,15 @@
+{
+	"core:crater" : {
+		"types" : {
+			"meadowCrater" : {
+				"templates" : {
+					"zcrtr00" : {
+						"animation" : "objects/zcrtr00",
+						"mask" : [ "BB" ],
+						"allowedTerrains": [ "meadow" ]
+					}
+				}
+			}
+		}
+	}
+}

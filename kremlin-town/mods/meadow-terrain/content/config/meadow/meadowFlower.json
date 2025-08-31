@@ -1,0 +1,22 @@
+{
+	"core:flowers" :{
+		"types" : {		
+			"flowersMeadow" : {
+				"templates" : {	
+					"flou0" : { "animation" : "objects/flou00", 
+						"mask" : [ "B" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"flou1" : { "animation" : "objects/flou01", 
+						"mask" : [ "B" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"flou2" : { "animation" : "objects/flou02", 
+						"mask" : [ "B" ], 
+						"allowedTerrains": [ "meadow" ]
+					}		
+				}
+			}			
+		}	
+	}
+}

@@ -12,7 +12,7 @@
 			"min" : 12
 		},
 		"faction" : "kremlin",
-		"aiValue" : 410,
+		"aiValue" : 360,
 		"attack" : 9,
 		"cost" :
 		{
@@ -23,17 +23,17 @@
 			"max" : 6,
 			"min" : 3
 		},
-		"defense" : 11,
+		"defense" : 12,
 		"hasDoubleWeek": true,
 		"doubleWide" : true,
-		"fightValue" : 400,
+		"fightValue" : 320,
 		"graphics" :
 		{
-			"animation" : "kremlin/battle/creatures/CBERU.def",
-			"map" : "kremlin/map/creatures/bear_upg_map.def",
+			"animation" : "kremlin/battle/creatures/czarbear.def",
+			"map" : "kremlin/map/creatures/czarbears.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"iconSmall" : "kremlin/iconsSmall/creatures/bearupgs.bmp",
-			"iconLarge" : "kremlin/iconsBig/creatures/bearupg.bmp",
+			"iconSmall" : "kremlin/iconsSmall/creatures/cbears.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/cbear.bmp",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{
@@ -53,7 +53,64 @@
 			"move": "CCYCMOVE.wav",
 			"wince": "CCYCWNCE.wav"
  		},
-		"speed" : 6
+		"speed" : 7,
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENEMY_DEFENCE_REDUCTION"
+				},
+				"values" : [ 0, 0, 5, 5, 5, 5, 10, 10, 15, 20 ]
+			}
+		]
 	}
 }
 

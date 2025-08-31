@@ -1,0 +1,98 @@
+{
+	"rusBogatyrBank" : 
+	{
+		"name" : "Bogatyr Cache",
+    		"handler" : "configurable", 
+		"types" : 
+		{
+			"rusBogatyrBank" : 
+			{
+				"templates" :
+				{
+					"normal" :
+					{
+						"animation" : "kremlin/map/dwellings/bogatyrbank.def",
+						"visitableFrom" : [ "---", "+++", "+++" ], 
+						"mask" : ["VVV", "VVV", "VBA"]
+					},
+				},
+				"onGuardedMessage" : 119,
+				"onVisitedMessage" : 33,
+				"sounds": {
+					"ambient": ["LOOPSWOR.wav"]
+				},
+				"visitMode" : "once",
+				"selectMode": "selectFirst",
+				"guardsLayout" : "creatureBankWide",
+				"rmg" : {
+					"value"		: 4000,
+					"rarity"	: 20,
+					"zoneLimit" : 2
+				},
+				"rewards":
+				[
+					{
+						"appearChance": { "min": 0, "max": 20 },
+						"guards": [
+							{ "amount": 7, "type" : "rusRatnik" },
+							{ "amount": 7, "type" : "rusRatnik" },
+							{ "amount": 7, "type" : "rusRatnik", "upgradeChance": 50 },
+							{ "amount": 7, "type" : "rusRatnik" },
+							{ "amount": 7, "type" : "rusRatnik" }
+						],
+						"message" : 34,
+						"creatures": [ { "amount": 1, "type": "rusBogatyr" } ]
+					},
+					{
+						"appearChance": { "min": 21, "max": 40 },
+						"guards": [
+							{ "amount": 14, "type" : "rusRatnik" },
+							{ "amount": 14, "type" : "rusRatnik" },
+							{ "amount": 14, "type" : "rusRatnik", "upgradeChance": 50 },
+							{ "amount": 14, "type" : "rusRatnik" },
+							{ "amount": 14, "type" : "rusRatnik" }
+						],
+						"message" : 34,
+						"creatures": [ { "amount": 2, "type": "rusBogatyr" } ]
+					},
+					{
+						"appearChance": { "min": 41, "max": 60 },
+						"guards": [
+							{ "amount": 21, "type" : "rusRatnik" },
+							{ "amount": 21, "type" : "rusRatnik" },
+							{ "amount": 21, "type" : "rusRatnik", "upgradeChance": 50 },
+							{ "amount": 21, "type" : "rusRatnik" },
+							{ "amount": 21, "type" : "rusRatnik" }
+						],
+						"message" : 34,
+						"creatures": [ { "amount": 3, "type": "rusBogatyr" } ]
+					},
+					{
+						"appearChance": { "min": 61, "max": 80 },
+						"guards": [
+							{ "amount": 28, "type" : "rusRatnik" },
+							{ "amount": 28, "type" : "rusRatnik" },
+							{ "amount": 28, "type" : "rusRatnik", "upgradeChance": 50 },
+							{ "amount": 28, "type" : "rusRatnik" },
+							{ "amount": 28, "type" : "rusRatnik" }
+						],
+						"message" : 34,
+						"creatures": [ { "amount": 4, "type": "rusBogatyr" } ]
+					},
+					{
+						"appearChance": { "min": 81, "max": 100 },
+						"guards": [
+							{ "amount": 10, "type" : "rusRatnik" },
+							{ "amount": 10, "type" : "rusRatnik" },
+							{ "amount": 10, "type" : "rusRatnik", "upgradeChance": 50 },
+							{ "amount": 10, "type" : "rusRatnik" },
+							{ "amount": 10, "type" : "rusRatnik" }
+						],
+						"message" : 34,
+						"creatures": [ { "amount": 2, "type": "rusRatoborets" } ]
+					}
+				]
+			}
+		}
+	}
+}

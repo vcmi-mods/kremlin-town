@@ -62,7 +62,7 @@
 			"bonuses" : {
 				"stoneSkin" : {
 					"addInfo" : 0,
-					"subtype" : "spell.stoneSkin",
+					"subtype" : "stoneSkin",
 					"type" : "SPECIAL_PECULIAR_ENCHANT"
 				}
 			}

@@ -23,6 +23,10 @@
 			"large" : "kremlin/heroes/shebali/hpl286.png",
 			"small" : "kremlin/heroes/shebali/hps286.png"
 		},
+    		"spellbook" :
+    		[
+    		    "disguise"
+    		],
 
 
 		"army" :

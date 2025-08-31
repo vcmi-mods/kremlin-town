@@ -1,0 +1,16 @@
+{
+	"core:abandonedMine": {
+		"types": {
+			"mine": {
+				"templates": {
+					"LgMab0mead" : {
+						"animation" : "objects/LgMab0",
+						"mask" : ["VVVV","VVVV","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["meadow"]
+					}
+				}
+			}
+		}
+	}
+}

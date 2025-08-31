@@ -1,0 +1,15 @@
+{
+	"core:waterWheel" : {
+		"types" : {
+			"waterWheel" : {
+				"templates" : {	
+					"watermillmead" : { "animation" : "AVMwwhl0", 
+						"mask" : [ "VVV", "BBB", "BBA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "meadow" ]
+					}
+				}
+			}
+		}
+	}
+}

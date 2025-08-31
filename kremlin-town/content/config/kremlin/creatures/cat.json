@@ -1,0 +1,108 @@
+{
+	"rusCotGuard":
+	{
+		"name" :
+		{
+			"plural" : "Cats",
+			"singular" : "Cat"
+		},
+		"advMapAmount" :
+		{
+			"max" : 50,
+			"min" : 20
+		},
+		"faction" : "kremlin",
+		"aiValue" : 60,
+		"attack" : 3,
+		"cost" :
+		{
+			"gold" : 50
+		},
+		"damage" :
+		{
+			"max" : 2,
+			"min" : 1
+		},
+		"defense" : 2,
+		"doubleWide" : true,
+		"fightValue" : 60,
+		"graphics" :
+		{
+			"animation" : "kremlin/battle/creatures/cat_guard.def",
+			"map" : "kremlin/map/creatures/cat_guard_map.def",
+			"iconSmall" : "kremlin/iconsSmall/creatures/catguards.bmp",
+			"iconLarge" : "kremlin/iconsBig/creatures/catguard.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 15,
+		"hitPoints" : 5,
+		"level" : 1,
+		"sound" :
+		{
+			"attack": "FMLRATTK.wav",
+			"defend": "kremlin/catDef.wav",
+			"killed": "kremlin/catDie.wav",
+			"move": "kremlin/catWalk.wav",
+			"wince": "kremlin/catHit.wav"
+ 		},
+		"speed" : 5,
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "attack",
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "defence",
+					"type" : "PRIMARY_SKILL"
+
+				},
+				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{	
+				"bonus" :
+				{
+					"type" : "BLOCKS_RETALIATION"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			}
+		]
+	}
+}

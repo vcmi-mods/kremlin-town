@@ -42,6 +42,10 @@
 				"min" : 4
 			}
 		],
+    		"spellbook" :
+    		[
+    		    "bless"
+    		],
 
 		"skills" :
 		[

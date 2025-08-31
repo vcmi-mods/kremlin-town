@@ -12,8 +12,8 @@
 			"min" : 12
 		},
 		"faction" : "kremlin",
-		"aiValue" : 360,
-		"attack" : 8,
+		"aiValue" : 260,
+		"attack" : 9,
 		"cost" :
 		{
 			"gold" : 200
@@ -23,14 +23,14 @@
 			"max" : 5,
 			"min" : 3
 		},
-		"defense" : 9,
+		"defense" : 10,
 		"hasDoubleWeek": true,
 		"doubleWide" : true,
-		"fightValue" : 340,
+		"fightValue" : 240,
 		"graphics" :
 		{
-			"animation" : "kremlin/battle/creatures/CBEAR.def",
-			"map" : "kremlin/map/creatures/bear_map.def",
+			"animation" : "kremlin/battle/creatures/bear.def",
+			"map" : "kremlin/map/creatures/bears.def",
 			"mapMask" : [ "VVV", "VAV"],
 			"iconSmall" : "kremlin/iconsSmall/creatures/bears.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/bear.bmp",
@@ -54,6 +54,63 @@
 			"move": "CCYCMOVE.wav",
 			"wince": "CCYCWNCE.wav"
  		},
-		"speed" : 5
+		"speed" : 5,
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENEMY_DEFENCE_REDUCTION"
+				},
+				"values" : [ 0, 0, 5, 5, 5, 5, 10, 10, 15, 20 ]
+			}
+		]
 	}
 }

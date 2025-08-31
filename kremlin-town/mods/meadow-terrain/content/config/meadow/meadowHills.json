@@ -1,0 +1,24 @@
+{
+	"meadowHills" : {
+		"name" : "Hills",
+		"handler": "static",
+		"types" : {
+			"object" : {
+				"templates" : {
+					"zhill00" : { "animation" : "objects/zhill00", 
+						"mask" : [ "VVV", "VBB" ], 		
+						"allowedTerrains": ["meadow" ]
+					},
+					"zhill01" : { "animation" : "objects/zhill01", 
+						"mask" : [ "VV", "BB" ], 		
+						"allowedTerrains": ["meadow" ]
+					},
+					"zhill02" : { "animation" : "objects/zhill02", 
+						"mask" : [ "VV", "BB" ], 	
+						"allowedTerrains": ["meadow" ]
+					}
+				}
+			}
+		}	
+	}	
+}
