@@ -1,10 +1,10 @@
 {
 	"kremlin" : {
 		"alignment" : "neutral",
-		"boat" : "boatConflux",
+		"boat" : "boatCastle",
 		"creatureBackground" : { "120px" : "kremlin/crbg120.bmp", "130px" : "kremlin/crbg130.bmp" },
 		"name" : "Kremlin",
-		"nativeTerrain" : "highlands",
+		"nativeTerrain" : "grass",
 		"puzzleMap" : {
 			"prefix" : "kremlin/puzzle-map/",
 			"pieces" :
