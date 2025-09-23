@@ -39,11 +39,6 @@
 	{
 		"min" : "1.7.0"
 	},	
-	"depends" :
-    	[
-        	"hota.mapdecorations",
-		"hota.highlandsterrain"
-    	],
 	"modType" : "Town",	
     	"factions" : [ "config/kremlin/town" ],
 	
