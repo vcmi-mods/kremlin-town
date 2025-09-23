@@ -14,9 +14,11 @@
 	},
 	"modType" : "Compatibility",	
 	"depends" :
-	[
-		"kremlin-town"
-	],
+    	[
+        	"hota.mapdecorations",
+		"hota.highlandsterrain",
+			"kremlin-town"
+    	],
 	"factions" :
 	[
 		"config/hota/kremlinTerrain"
