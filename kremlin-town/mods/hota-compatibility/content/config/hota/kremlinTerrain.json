@@ -1,0 +1,7 @@
+{
+	"kremlin-town:kremlin" :
+	{
+    "boat" : "boatConflux",
+		"nativeTerrain": "highlands"
+	}
+}
