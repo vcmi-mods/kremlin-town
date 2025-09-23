@@ -20,6 +20,10 @@
 		"kremlin-town"
 	],
 		
+	"softDepends" :
+	[
+		"kremlin-town.hota-compatibility"
+	],
     "objects" :
     [ 
 	"config/meadow/abandonedMine",
