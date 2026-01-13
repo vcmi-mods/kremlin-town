@@ -5,16 +5,16 @@
 		"types" : {
 			"object" : {
 				"templates" : {
-					"zhill00" : { "animation" : "objects/zhill00", 
+					"zhill00" : { "animation" : "objects/lghil0", 
 						"mask" : [ "VVV", "VBB" ], 		
 						"allowedTerrains": ["meadow" ]
 					},
-					"zhill01" : { "animation" : "objects/zhill01", 
-						"mask" : [ "VV", "BB" ], 		
+					"zhill01" : { "animation" : "objects/lghil1", 
+						"mask" : [ "VVV", "VBB" ], 		
 						"allowedTerrains": ["meadow" ]
 					},
-					"zhill02" : { "animation" : "objects/zhill02", 
-						"mask" : [ "VV", "BB" ], 	
+					"zhill02" : { "animation" : "objects/lghil2", 
+						"mask" : [ "VVV", "VBB" ], 	
 						"allowedTerrains": ["meadow" ]
 					}
 				}

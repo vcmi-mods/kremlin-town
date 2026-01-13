@@ -62,7 +62,7 @@
 				{
 					"avxbustmeadow" :
 					{
-						"animation" : "objects/head.def",
+						"animation" : "objects/wgwhead.def",
 						"visitableFrom" : [ "---", "-++", "+++" ],
 						"mask" : ["VVV", "VVV", "VBA"], 
 						"allowedTerrains": ["meadow"]
@@ -71,4 +71,3 @@
 			}
 		}
 	}
-}

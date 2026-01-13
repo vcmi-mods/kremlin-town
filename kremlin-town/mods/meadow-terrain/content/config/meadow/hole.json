@@ -4,12 +4,7 @@
 			"object" : {
 				"templates" : {
 					"hole1" : {
-						"animation" : "objects/hole1",
-						"mask" : [ "V" ],
-						"allowedTerrains": [ "meadow" ]
-					},
-					"hole2" : {
-						"animation" : "objects/hole2",
+						"animation" : "objects/AVLholgz",
 						"mask" : [ "V" ],
 						"allowedTerrains": [ "meadow" ]
 					}

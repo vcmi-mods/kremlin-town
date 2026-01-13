@@ -6,12 +6,26 @@
 		},
 		"templates": ["zcrtr00"]
 	},
+	"rocksMeadow": {
+		"biome": {
+			"terrain": ["meadow"],
+			"objectType": "rock"
+		},
+		"templates": ["rock00", "rock01", "rock02", "rock03", "rock04", "rock05", "rock06", "rock07"]
+	},
 	"meadowSunflowers": {
 		"biome": {
 			"terrain": ["meadow"],
 			"objectType": "plant"
 		},
 		"templates": ["mWFsunf0", "mWFsunf1"]
+	},
+	"shrubsMeadow": {
+		"biome": {
+			"terrain": ["meadow"],
+			"objectType": "plant"
+		},
+		"templates": ["lgshr00", "lgshr01", "lgshr02"]
 	},
 	"meadowCraterSet2": {
 		"biome": {

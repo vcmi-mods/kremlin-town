@@ -4,7 +4,7 @@
 			"object" : {
 				"templates" : {
 					"meadowSign" : {
-						"animation" : "objects/sign",
+						"animation" : "objects/signm",
 						"allowedTerrains": [ "meadow" ],
 						"mask" : [ "A" ],
 						"visitableFrom" : [ "---", "+++", "+++" ]

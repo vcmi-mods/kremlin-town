@@ -1,0 +1,25 @@
+{
+	"core:shrub" : {
+		"types" : {
+			"shrubsMeadow" : {
+				"templates" : {
+					"lgshr00" : {
+						"animation" : "objects/lgshr00",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains": [ "meadow" ]
+					},
+					"lgshr01" : {
+						"animation" : "objects/lgshr01",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains": [ "meadow" ]
+					},
+					"lgshr02" : {
+						"animation" : "objects/lgshr02",
+						"mask" : [ "VVVV", "VBBB" ],
+						"allowedTerrains": [ "meadow" ]
+					}
+				}
+			}
+		}
+	}
+}

@@ -3,12 +3,16 @@
 		"types" : {		
 			"outcroppingMeadow" : {
 				"templates" : {	
-					"cropp01" : { "animation" : "objects/cropp01", 
-						"mask" : [ "BBB" ], 
+					"cropp01" : { "animation" : "objects/LGoc00.def", 
+						"mask" : [ "BB" ], 
 						"allowedTerrains": [ "meadow" ]
 					},
-					"cropp02" : { "animation" : "objects/cropp02", 
-						"mask" : [ "BBB" ], 
+					"cropp02" : { "animation" : "objects/LGoc01.def", 
+						"mask" : [ "BB" ], 
+						"allowedTerrains": [ "meadow" ]
+					},
+					"cropp03" : { "animation" : "objects/LGoc02.def", 
+						"mask" : [ "BB" ], 
 						"allowedTerrains": [ "meadow" ]
 					}	
 				}
