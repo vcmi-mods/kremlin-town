@@ -1,6 +1,6 @@
 {
 	"name" : "Kremlin Expansion",
-	"description" : "New town originally made by CoreWoG team, now redone by Olegmods.INC with the help from the community.",
+	"description" : "New town originally made by CoreWoG team, now redone by Olegmods.INC with the help from the community. Also includes Meadow (is native to Kremlin if enabled) terrain alpha by Grossmaster.",
 	"author" : "Olegmods.INC (coordinator, mod), Vovan1698. Forest Protector by Nephretes and Mitlandy. Meadow terrain alpha by Grossmaster. Music - Fabrice-Tiercelin and AI Udio. Original town idea - Kremlin town team, Bolotnik originally made by Axolotl.",
 	"contact" : "https://vk.com/olegkomarant",
 	"version" : "3.1.2",
@@ -40,11 +40,11 @@
 	{
 		"min" : "1.7.0"
 	},	
-	"modType" : "Town",	
+	"modType" : "Expansion",	
     	"factions" : [ "config/kremlin/town" ],
 	
 	"chinese": {
-		"name" : "克里姆林",
+		"name" : "克里姆林 (the translation is outdated)",
 		"description" : "New Towns团队制作的新城镇，从未发布过。Olegmods.INC在Anton Sergeew的帮助下重置。",
 		"translations" : [
 			"translation/kremlin/chinese.json"
@@ -59,7 +59,7 @@
 	},
 	"russian": {
 		"name" : "Кремль",
-		"description" : "Новый город, оригинально создававшийся командой CoreWoG, теперь воссозданный.",
+		"description" : "Новый город, оригинально создававшийся командой CoreWoG, теперь воссозданный Olegmods.INC с неоценимой помощью сообщества. Также включает почву Луг (в альфа-версии), созданную Grossmaster, которая является родной почвой Кремля, если она включена.",
 		"translations" : [
 			"translation/kremlin/russian.json"
 		]
@@ -76,11 +76,7 @@
 		"config/kremlin/creatures/wisp2.json",
 		"config/kremlin/creatures/hatchling1.json",
 		"config/kremlin/creatures/hatchling2.json",
-//		"config/kremlin/creatures/fwyvern1.json",
-//		"config/kremlin/creatures/fwyvern2.json",
 		"config/kremlin/creatures/fdrag1.json",
-//		"config/kremlin/creatures/fdrag2.json",
-//		"config/kremlin/creatures/forestwitch.json",
 		"config/kremlin/creatures/yaga.json",	
 		"config/kremlin/creatures/kuznets.json",	
 		"config/kremlin/creatures/volot.json",	
