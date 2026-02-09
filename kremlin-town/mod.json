@@ -3,9 +3,10 @@
 	"description" : "New town originally made by CoreWoG team, now redone by Olegmods.INC with the help from the community. Also includes Meadow (is native to Kremlin if enabled) terrain alpha by Grossmaster.",
 	"author" : "Olegmods.INC (coordinator, mod), Vovan1698. Forest Protector by Nephretes and Mitlandy. Meadow terrain alpha by Grossmaster. Music - Fabrice-Tiercelin and AI Udio. Original town idea - Kremlin town team, Bolotnik originally made by Axolotl.",
 	"contact" : "https://vk.com/olegkomarant",
-	"version" : "3.1.2",
+	"version" : "3.1.3",
 	"changelog" :
 	{
+		"3.1.3".  : [ "Multiple icon fixes" ],
 		"3.1.2"   : [ "Meadow update by Grossmaster, minor changes to the sprites of the Meadow Guard and Forest Protector, fixes the old Bear portrait showing up." ],
 		"3.1.1"   : [ "UnHotAifying the mod - HotA no longer required." ],
 		"3.1.0"   : [ "Update to vcmi-1.7 format." ],
