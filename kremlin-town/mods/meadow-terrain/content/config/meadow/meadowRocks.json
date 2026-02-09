@@ -5,43 +5,82 @@
 				"templates" : {
 					"rock00" : {
 						"animation" : "objects/zrock00",
-						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "meadow" ]
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
 					},
 					"rock01" : {
 						"animation" : "objects/zrock01",
-						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "meadow" ]
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
 					},
 					"rock02" : {
 						"animation" : "objects/zrock02",
-						"mask" : [ "B" ],
-						"allowedTerrains": [ "meadow" ]
+						"mask" : [
+							"B"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
 					},
 					"rock03" : {
 						"animation" : "objects/zrock03",
-						"mask" : [ "VVV", "VBV" ],
-						"allowedTerrains": [ "meadow" ]
+						"mask" : [
+							"VVV",
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
 					},
 					"rock04" : {
 						"animation" : "objects/zrock04",
-						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "meadow" ]
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
 					},
 					"rock05" : {
 						"animation" : "objects/zrock05",
-						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "meadow" ]
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
 					},
 					"rock06" : {
 						"animation" : "objects/zrock06",
-						"mask" : [ "VV", "BB" ],
-						"allowedTerrains": [ "meadow" ]
+						"mask" : [
+							"VV",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
 					},
 					"rock07" : {
 						"animation" : "objects/zrock07",
-						"mask" : [ "VV", "BB" ],
-						"allowedTerrains": [ "meadow" ]
+						"mask" : [
+							"VV",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
 					}
 				}
 			}

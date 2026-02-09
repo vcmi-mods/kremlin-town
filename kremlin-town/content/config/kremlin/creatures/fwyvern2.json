@@ -1,37 +1,32 @@
 {
-	"tumleshiy":
-	{
+	"tumleshiy" : {
 		"faction" : "kremlin",
-		"graphics" :
-		{
+		"graphics" : {
 			"iconLarge" : "kremlin/iconsBig/creatures/leshiy.png"
 		},
-		"abilities#override" :
-		{
-   	            "shots":
-			{	
+		"abilities#override" : {
+			"shots" : {
 				"type" : "SHOOTER"
-	 		},
-            "spells" :
-	 		{
+			},
+			"spells" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "woodSpikes",
 				"val" : 1
-			},	
-			"noMelee" :
-			{
-				"type":"NO_MELEE_PENALTY"
 			},
-			"supply" :
-			{
+			"noMelee" : {
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"supply" : {
 				"type" : "ENCHANTED",
 				"subtype" : "summonSupply",
 				"val" : 0,
-				"limiters": [ {
-					"type":"CREATURE_TYPE_LIMITER",
-					"creature":  "tumleshiy",
-					"includeUpgrades" :	true 
-				} ],
+				"limiters" : [
+					{
+						"type" : "CREATURE_TYPE_LIMITER",
+						"creature" : "tumleshiy",
+						"includeUpgrades" : true
+					}
+				]
 			}
 		}
 	}

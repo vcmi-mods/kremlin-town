@@ -1,30 +1,25 @@
 {
-	"rusKorshun" :
-	{
+	"rusKorshun" : {
 		"class" : "vityaz",
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Korshun",
 			"biography" : "Korshun used to be a bandit leader, but sensing the coming troubled times, the prince called him into service. Korshun has no equal in setting up ambushes and deploying troops. His duty became patrolling the state's borders and reconnoitering enemy camps.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "+350 Gold per day",
 				"tooltip" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
 				"name" : "+350 Gold"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "kremlin/heroes/malla/UN32Engi.png",
 			"specialtyLarge" : "kremlin/heroes/malla/UN44Engi.png",
 			"large" : "kremlin/heroes/malla/hpl289.png",
 			"small" : "kremlin/heroes/malla/hps289.png"
-		},	
+		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "rusHearthkeeper",
 				"max" : 30,
@@ -41,9 +36,8 @@
 				"min" : 4
 			}
 		],
-		
-		"skills" :
-		[
+
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "estates"
@@ -51,9 +45,9 @@
 			{
 				"level" : "basic",
 				"skill" : "offence"
-			}		
+			}
 		],
-			
+
 		"specialty" : {
 			"bonuses" : {
 				"gems" : {
@@ -65,5 +59,3 @@
 		}
 	}
 }
-
-

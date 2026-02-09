@@ -1,21 +1,18 @@
 {
-	"tumBogatyr":
-	{
-		"name" :
-		{
+	"tumBogatyr" : {
+		"name" : {
 			"plural" : "Epic Bogatyrs",
 			"singular" : "Epic Bogatyr"
 		},
-		"extraNames": [ "rusEpicBogatyr" ],
-		"graphics" :
-		{
+		"extraNames" : [
+			"rusEpicBogatyr"
+		],
+		"graphics" : {
 			"iconLarge" : "kremlin/iconsBig/creatures/bogatyr.png"
 		},
 		"faction" : "kremlin",
-		"abilities":
-		{
-			"bratzabrata" :
-                        {
+		"abilities" : {
+			"bratzabrata" : {
 				"type" : "REVENGE"
 			}
 		}

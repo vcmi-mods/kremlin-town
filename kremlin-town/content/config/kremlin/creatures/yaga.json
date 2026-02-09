@@ -1,46 +1,42 @@
 {
-	"rusYaga":
-	{
-		"name" :
-		{
+	"rusYaga" : {
+		"name" : {
 			"plural" : "Babas Yagas",
 			"singular" : "Baba Yaga"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 12,
-			 "min" : 8
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 8
 		},
 		"faction" : "kremlin",
 		"aiValue" : 900,
 		"doubleWide" : false,
 		"attack" : 14,
 		"hasDoubleWeek" : false,
-                "cost" :
-		{
+		"cost" : {
 			"gold" : 600
 		},
-		"damage" :
-		{
-			 "max" : 16,
-			 "min" : 9
+		"damage" : {
+			"max" : 16,
+			"min" : 9
 		},
 		"defense" : 7,
 		"fightValue" : 843,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "kremlin/battle/creatures/yaganew.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "kremlin/map/creatures/yagasnew.def",
 			"iconSmall" : "kremlin/iconsSmall/creatures/yagasnew.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/yaganew.bmp",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
-				"projectile": "kremlin/battle/creatures/projectile/yaga_shot.DEF",
+			"missile" : {
+				"projectile" : "kremlin/battle/creatures/projectile/yaga_shot.DEF",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -48,119 +44,202 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
-			
 		},
 		"growth" : 3,
 		"hitPoints" : 25,
 		"level" : 5,
 		"shots" : 12,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "kremlin/WITHSHOT.wav",
 			"defend" : "kremlin/WITHDFND.wav",
 			"killed" : "kremlin/WITHKILL.wav",
-			"move"   : "kremlin/WITHMOVE.wav",
-			"shoot"  : "kremlin/WITHSHOT.wav",
-			"wince"  : "kremlin/WITHWNCE.wav"            
+			"move" : "kremlin/WITHMOVE.wav",
+			"shoot" : "kremlin/WITHSHOT.wav",
+			"wince" : "kremlin/WITHWNCE.wav"
 		},
 		"speed" : 12,
-		"abilities" :
-		{
-   	            "shots":
-			{	
+		"abilities" : {
+			"shots" : {
 				"type" : "SHOOTER"
-	 		},
-   	            "flies":
-			{	
+			},
+			"flies" : {
 				"type" : "FLYING"
-	 		},
-			"spellPoints" : 
-			{
+			},
+			"spellPoints" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"castsMisfortune" :
-			{
+			"castsMisfortune" : {
 				"type" : "OPENING_BATTLE_SPELL",
 				"subtype" : "misfortune",
 				"val" : 1,
 				"propagator" : "HERO"
 			},
-			"spellcaster":
-			{
+			"spellcaster" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "curse",
 				"val" : 1
 			},
-			"noCastByDefault" :
-			{
+			"noCastByDefault" : {
 				"type" : "NO_SPELLCAST_BY_DEFAULT"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 0, 2, 2, 4, 4, 4, 6, 7, 9, 9 ]
-			},	
+				"values" : [
+					0,
+					2,
+					2,
+					4,
+					4,
+					4,
+					6,
+					7,
+					9,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 3, 3, 4, 4, 6, 8, 8, 9, 10, 10 ]
+				"values" : [
+					3,
+					3,
+					4,
+					4,
+					6,
+					8,
+					8,
+					9,
+					10,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 3, 3, 3, 3, 5, 6, 6, 8 ]
+				"values" : [
+					0,
+					1,
+					3,
+					3,
+					3,
+					3,
+					5,
+					6,
+					6,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 1, 3, 4, 4, 5, 6, 8 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					3,
+					4,
+					4,
+					5,
+					6,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 1, 2, 2, 3 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "NO_MELEE_PENALTY"
 				},
-				"values" : [ false, false, false, true, true, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CASTS"
 				},
-				"values" : [ 1, 1, 1, 2, 2, 2, 2, 3, 3, 3 ]
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			}
 		]
 	}

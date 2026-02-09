@@ -2,11 +2,22 @@
 	"core:hillFort" : {
 		"types" : {
 			"hillFort" : {
-				"templates" : {	
-					"fortMeadow" : { "animation" : "objects/AVXhilmd0", 
-						"mask" : [ "VVV", "VVV", "VBA" ],
-						"visitableFrom" : [ "---", "-++", "+++" ],
-						"allowedTerrains": [ "meadow" ]
+				"templates" : {
+					"fortMeadow" : {
+						"animation" : "objects/AVXhilmd0",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						],
+						"visitableFrom" : [
+							"---",
+							"-++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
 					}
 				}
 			}

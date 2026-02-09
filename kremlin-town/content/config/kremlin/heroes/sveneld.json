@@ -1,31 +1,25 @@
 {
-	"rusSveneld" :
-	{
+	"rusSveneld" : {
 		"class" : "vityaz",
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Sveneld",
 			"biography" : "Sveneld was a treasurer all his life. No one could bring order better than him, neither in the palace nor in the whole city. Many were surprised by his success, but few knew that Sveneld had made a contract with the housekeepers. They were not afraid of him and helped him do all his work.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of Hearthkeepers and Housekeepers or each level attained after 1st level.",
 				"tooltip" : "{Hearthkeepers}\r\n\r\nIncreases the Attack and Defense skills of Hearthkeepers and Housekeepers",
 				"name" : "Hearthkeepers"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "kremlin/heroes/velkyn/UN32Dark.png",
 			"specialtyLarge" : "kremlin/heroes/velkyn/UN44Dark.png",
 			"large" : "kremlin/heroes/velkyn/hpl296.png",
 			"small" : "kremlin/heroes/velkyn/hps296.png"
 		},
 
-		
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "rusHearthkeeper",
 				"max" : 30,
@@ -42,8 +36,7 @@
 				"min" : 4
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -53,12 +46,9 @@
 				"skill" : "luck"
 			}
 		],
-		
-		"specialty":
-			{
-				"creature" : "rusHearthkeeper"
-			} 
+
+		"specialty" : {
+			"creature" : "rusHearthkeeper"
+		}
 	}
 }
-
-

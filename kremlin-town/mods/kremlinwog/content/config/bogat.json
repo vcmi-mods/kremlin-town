@@ -1,14 +1,11 @@
 {
-	"kremlin-town:tumBogatyr":
-	{
-		"abilities" :
-		{
-			"hateGory" :
-			{
+	"kremlin-town:tumBogatyr" : {
+		"abilities" : {
+			"hateGory" : {
 				"type" : "HATE",
 				"subtype" : "wake-of-gods.creatures:gorynych",
 				"val" : 50
 			}
 		}
-	}		
+	}
 }

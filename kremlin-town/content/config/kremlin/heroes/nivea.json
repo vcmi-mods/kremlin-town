@@ -1,33 +1,26 @@
 {
-	"rus" :
-	{
+	"rus" : {
 		"class" : "volhv",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Nivea",
 			"biography" : "Nivea was the daughter of the long perished prince named Rurik. Because people believed that woman shouldn't rule the principalty, Oleg became the prince. But, despite being a threat to his rule, Oleg brought Nivea closer to the court. Being a member of aristocracy, Nivea somehow had the best jewelry in the principalty, rivaling the prince's ones.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases kingdom's income by 1 crystal per day",
 				"tooltip" : "{Crystal}\r\n\r\n+1 Crystal each day",
 				"name" : "+1 Crystal"
 			}
 		},
 
-		
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "kremlin/heroes/olath/un32crys.png",
 			"specialtyLarge" : "kremlin/heroes/olath/un44crys.png",
 			"large" : "kremlin/heroes/olath/hpl299.png",
 			"small" : "kremlin/heroes/olath/hps299.png"
 		},
 
-
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "rusHearthkeeper",
 				"max" : 30,
@@ -44,14 +37,11 @@
 				"min" : 4
 			}
 		],
-    		"spellbook" :
-    		[
-    		    "stoneSkin"
-    		],
-		
+		"spellbook" : [
+			"stoneSkin"
+		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -61,7 +51,7 @@
 				"skill" : "diplomacy"
 			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"gems" : {
