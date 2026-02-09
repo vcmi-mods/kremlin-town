@@ -2,11 +2,22 @@
 	"core:fountainOfYouth" : {
 		"types" : {
 			"fountainOfYouth" : {
-				"templates" : {	
-					"fountainMeadow" : { "animation" : "AVXfyth0", 
-						"mask" : [ "VVV", "VBB", "VBA" ],
-						"visitableFrom" : [ "---", "-++", "+++" ],
-						"allowedTerrains": [ "meadow" ]
+				"templates" : {
+					"fountainMeadow" : {
+						"animation" : "AVXfyth0",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						],
+						"visitableFrom" : [
+							"---",
+							"-++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
 					}
 				}
 			}

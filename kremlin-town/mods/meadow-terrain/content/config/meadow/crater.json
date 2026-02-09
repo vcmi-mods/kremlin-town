@@ -5,8 +5,12 @@
 				"templates" : {
 					"zcrtr00" : {
 						"animation" : "objects/zcrtr00",
-						"mask" : [ "BB" ],
-						"allowedTerrains": [ "meadow" ]
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
 					}
 				}
 			}

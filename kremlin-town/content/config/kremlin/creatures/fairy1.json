@@ -1,39 +1,32 @@
 {
-	"rusHearthkeeper":
-	{
-		"name" :
-		{
+	"rusHearthkeeper" : {
+		"name" : {
 			"plural" : "Hearthkeepers",
 			"singular" : "Hearthkeeper"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 50,
 			"min" : 20
 		},
 		"faction" : "kremlin",
 		"aiValue" : 90,
 		"attack" : 3,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 30
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 2,
 			"min" : 1
 		},
 		"defense" : 1,
 		"fightValue" : 50,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "kremlin/battle/creatures/t1.def",
 			"map" : "kremlin/map/creatures/hearth_map.def",
 			"iconSmall" : "kremlin/iconsSmall/creatures/hearthkeepers.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/hearthkeeper.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
@@ -42,88 +35,162 @@
 		"growth" : 16,
 		"hitPoints" : 4,
 		"horde" : 8,
-        "level" : 1,
-		"upgrades":
-		[
+		"level" : 1,
+		"upgrades" : [
 			"rusHousekeeper"
 		],
-		"sound" :
-		{
-			"attack": "MAGEATTK.wav",
-			"defend": "kremlin/HOUSDFND.wav",
-			"killed": "kremlin/HOUSKILL.wav",
-			"move": "MONKMOVE.wav",
-			"wince": "MAGEWNCE.wav",
-			"startMoving": "kremlin/HOUSEXT1.wav",
-			"endMoving": "kremlin/HOUSEXT1.wav",
-        	},
+		"sound" : {
+			"attack" : "MAGEATTK.wav",
+			"defend" : "kremlin/HOUSDFND.wav",
+			"killed" : "kremlin/HOUSKILL.wav",
+			"move" : "MONKMOVE.wav",
+			"wince" : "MAGEWNCE.wav",
+			"startMoving" : "kremlin/HOUSEXT1.wav",
+			"endMoving" : "kremlin/HOUSEXT1.wav"
+		},
 		"speed" : 5,
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
-
 				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
-			},	
-			{
-				"bonus" :
-				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
-
-				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
+					"subtype" : "defence",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
+			{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
-
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "HATE",
 					"subtype" : "imp"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					10,
+					20,
+					30,
+					40,
+					50
+				]
 			},
-			{	
-				"bonus" :
-				{
+			{
+				"bonus" : {
 					"type" : "BLOCKS_RETALIATION"
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			}
 		]
 	}

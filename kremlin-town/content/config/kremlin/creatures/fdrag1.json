@@ -1,150 +1,217 @@
 {
-	"rusBogatyr":
-	{
-		"name" :
-		{
+	"rusBogatyr" : {
+		"name" : {
 			"plural" : "Bogatyrs",
 			"singular" : "Bogatyr"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 8,
-			 "min" : 3
+		"advMapAmount" : {
+			"max" : 8,
+			"min" : 3
 		},
 		"faction" : "kremlin",
 		"aiValue" : 3230,
 		"doubleWide" : true,
 		"attack" : 20,
 		"hasDoubleWeek" : false,
-                "cost" :
-		{
+		"cost" : {
 			"gold" : 3000,
 			"gems" : 1
 		},
-		"damage" :
-		{
-			 "max" : 40,
-			 "min" : 30
+		"damage" : {
+			"max" : 40,
+			"min" : 30
 		},
 		"defense" : 25,
 		"fightValue" : 3061,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "kremlin/battle/creatures/bogatyr.def",
 			"map" : "kremlin/map/creatures/bogatyr_map.def",
 			"iconSmall" : "kremlin/iconsSmall/creatures/bogatyrnews.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/bogatyrnew.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			}
-			
 		},
 		"growth" : 1,
 		"hitPoints" : 150,
 		"level" : 7,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "CAVAATTK.wav",
 			"defend" : "BLRDDFND.wav",
 			"killed" : "CHMPKILL.wav",
-			"move"   : "BLRDMOVE.wav",
-			"wince"  : "CAVAWNCE.wav"            
+			"move" : "BLRDMOVE.wav",
+			"wince" : "CAVAWNCE.wav"
 		},
-		"upgrades": [ "tumBogatyr" ],
+		"upgrades" : [
+			"tumBogatyr"
+		],
 		"speed" : 9,
-		"abilities" :
-		{
-   	            "onhorse":
-			{	
+		"abilities" : {
+			"onhorse" : {
 				"type" : "JOUSTING",
 				"val" : 5
-	 		},
-                      "noCavalry" :
-	 		{
+			},
+			"noCavalry" : {
 				"type" : "CHARGE_IMMUNITY"
-			},	
-			"enchanted" :
-			{
-				"type":"ENCHANTED",
+			},
+			"enchanted" : {
+				"type" : "ENCHANTED",
 				"subtype" : "slayer",
 				"val" : 2
 			},
-			"deathStrike" :
-			{
+			"deathStrike" : {
 				"type" : "DOUBLE_DAMAGE_CHANCE",
 				"val" : 10
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "FEARFUL",
 					"valueType" : "INDEPENDENT_MIN",
 					"description" : "PLACEHOLDER",
 					"val" : 0
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
-					"type":"ENCHANTED",
-					"subtype" : "stoneSkin",
+				"bonus" : {
+					"type" : "ENCHANTED",
+					"subtype" : "stoneSkin"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1
+				]
 			}
 		]
 	}

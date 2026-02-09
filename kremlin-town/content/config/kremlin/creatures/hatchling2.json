@@ -1,154 +1,226 @@
 {
-	"rusAlconost":
-	{
-		"name" :
-		{
+	"rusAlconost" : {
+		"name" : {
 			"plural" : "Alconosts",
 			"singular" : "Alconost"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 10,
 			"min" : 4
 		},
 		"faction" : "kremlin",
 		"aiValue" : 2900,
 		"attack" : 16,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1400
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 24,
 			"min" : 18
 		},
 		"defense" : 12,
 		"fightValue" : 2890,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "kremlin/battle/creatures/alconost.def",
 			"map" : "kremlin/map/creatures/alconost_map.def",
 			"iconSmall" : "kremlin/iconsSmall/creatures/alconostis.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/alconosti.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.25,
 				"attack" : 1,
 				"idle" : 10
 			}
-	        },
+		},
 		"growth" : 2,
 		"hitPoints" : 80,
 		"level" : 6,
-		"sound" :
-		{
-			"attack": "kremlin/SIRATTK.wav",
-			"defend": "kremlin/SIRDFND.wav",
-			"killed": "kremlin/SIRKILL.wav",
-			"move": "ANGLMOVE.wav",
-			"wince": "kremlin/sirWNCE.wav"
+		"sound" : {
+			"attack" : "kremlin/SIRATTK.wav",
+			"defend" : "kremlin/SIRDFND.wav",
+			"killed" : "kremlin/SIRKILL.wav",
+			"move" : "ANGLMOVE.wav",
+			"wince" : "kremlin/sirWNCE.wav"
 		},
 		"speed" : 12,
-		"abilities":
-		{
-			 "canfly" :
-			{
+		"abilities" : {
+			"canfly" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			},
-			 "sppower" :
-			{
+			"sppower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 5
 			},
-			"counter" :
-			{
+			"counter" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"forget" :
-			{
+			"forget" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "forgetfulness",
 				"val" : 100,
-				"addInfo" : [2,0,1]
+				"addInfo" : [
+					2,
+					0,
+					1
+				]
 			},
-			"hypno" :
-			{
+			"hypno" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "hypnotize",
 				"val" : 100,
-				"addInfo" : [2,0,2]
+				"addInfo" : [
+					2,
+					0,
+					2
+				]
 			},
-			"immuneToMind" : 
-			{
+			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "LEVEL_SPELL_IMMUNITY",
 					"val" : 3
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "RECEPTIVE"
 				},
-				"values" : [ false, false, false, false, false, false, true, true, true, true ]	
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
-					"type" : "RETURN_AFTER_STRIKE",				
+				"bonus" : {
+					"type" : "RETURN_AFTER_STRIKE"
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			}
 		]
 	}

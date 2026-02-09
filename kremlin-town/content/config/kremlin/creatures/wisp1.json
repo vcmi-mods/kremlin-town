@@ -1,40 +1,36 @@
 {
-	"rusRatnik":
-	{
-		"name" :
-		{
+	"rusRatnik" : {
+		"name" : {
 			"plural" : "Ratniks",
 			"singular" : "Ratnik"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 16,
 			"min" : 10
 		},
 		"faction" : "kremlin",
 		"aiValue" : 445,
 		"attack" : 11,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 300
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 9,
 			"min" : 6
 		},
 		"defense" : 11,
 		"fightValue" : 430,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "kremlin/battle/creatures/ratnik.def",
 			"map" : "kremlin/map/creatures/ratnik_map.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"iconSmall" : "kremlin/iconsSmall/creatures/ratnikics.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/ratnikic.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
@@ -44,81 +40,161 @@
 		"horde" : 3,
 		"hitPoints" : 35,
 		"level" : 4,
-		"upgrades": [ "rusDruginnik" ],
-		"sound" :
-		{
-			"attack": "SWRDATTK.wav",
-			"defend": "SWRDDFND.wav",
-			"killed": "SWRDKILL.wav",
-			"move": "SWRDMOVE.wav",
-			"wince": "SWRDWNCE.wav"
- 		},
+		"upgrades" : [
+			"rusDruginnik"
+		],
+		"sound" : {
+			"attack" : "SWRDATTK.wav",
+			"defend" : "SWRDDFND.wav",
+			"killed" : "SWRDKILL.wav",
+			"move" : "SWRDMOVE.wav",
+			"wince" : "SWRDWNCE.wav"
+		},
 		"speed" : 5,
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "DOUBLE_DAMAGE_CHANCE"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "FEARFUL",
 					"valueType" : "INDEPENDENT_MIN",
 					"description" : "PLACEHOLDER",
 					"val" : 0
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			}
 		]
 	}

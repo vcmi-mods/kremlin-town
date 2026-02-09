@@ -1,16 +1,13 @@
 {
-	"rosomaha" :
-	{
-		"name" :
-		{
+	"rosomaha" : {
+		"name" : {
 			"singular" : "Wolverine",
 			"plural" : "Wolverines"
 		},
 		"special" : true,
-		"faction": "kremlin",
-		"level": 0,
-		"cost" :
-		{
+		"faction" : "kremlin",
+		"level" : 0,
+		"cost" : {
 			"gold" : 140
 		},
 		"speed" : 4,
@@ -18,73 +15,60 @@
 		"shots" : 24,
 		"attack" : 5,
 		"defense" : 5,
-		"damage" :
-		{
-			 "min" : 6,
-			 "max" : 12
+		"damage" : {
+			"min" : 6,
+			"max" : 12
 		},
 		"fightValue" : 130,
 		"aiValue" : 156,
-		"advMapAmount" :
-		{
-			 "min" : 16,
-			 "max" : 25
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 25
 		},
 		"growth" : 9,
-		"hasDoubleWeek": false,
-		"abilities":
-		{
-			"magicResistance" :
-			{
+		"hasDoubleWeek" : false,
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "MAGIC_RESISTANCE",
 				"val" : 5
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"canCast" :
-			{
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "summonObstacle",
 				"val" : 3
 			},
-		    "spells" :
-	 		{
+			"spells" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "lightningBolt",
 				"val" : 1
 			}
 		},
-		"graphics" :
-		{
-			"animation": "kremlin/battle/creatures/rosomaha.DEF",
+		"graphics" : {
+			"animation" : "kremlin/battle/creatures/rosomaha.DEF",
 			"iconSmall" : "kremlin/iconsSmall/creatures/rosomahas",
 			"iconLarge" : "kremlin/iconsBig/creatures/rosomaha",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.0,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
-				"projectile": "kremlin/rusichi/inv_shot.DEF",
+			"missile" : {
+				"projectile" : "kremlin/rusichi/inv_shot.DEF",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -92,17 +76,29 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-		"sound" :
-		{
-			"attack": "MUMYATTK.wav",
-			"defend": "AMAGDFND.wav",
-			"killed": "GNOLKILL.wav",
-			"move": "WELFMOVE.wav",
-			"shoot": "LICHSHOT.wav",
-			"wince": "GNOLWNCE.wav"
-		},
+		"sound" : {
+			"attack" : "MUMYATTK.wav",
+			"defend" : "AMAGDFND.wav",
+			"killed" : "GNOLKILL.wav",
+			"move" : "WELFMOVE.wav",
+			"shoot" : "LICHSHOT.wav",
+			"wince" : "GNOLWNCE.wav"
+		}
 	}
 }

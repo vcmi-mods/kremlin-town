@@ -1,42 +1,38 @@
 {
-	"rusBear":
-	{
-		"name" :
-		{
+	"rusBear" : {
+		"name" : {
 			"plural" : "Bears",
 			"singular" : "Bear"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 20,
 			"min" : 12
 		},
 		"faction" : "kremlin",
 		"aiValue" : 260,
 		"attack" : 9,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 200
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 5,
 			"min" : 3
 		},
 		"defense" : 10,
-		"hasDoubleWeek": true,
+		"hasDoubleWeek" : true,
 		"doubleWide" : true,
 		"fightValue" : 240,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "kremlin/battle/creatures/bear.def",
 			"map" : "kremlin/map/creatures/bears.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"iconSmall" : "kremlin/iconsSmall/creatures/bears.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/bear.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
@@ -45,71 +41,141 @@
 		"growth" : 7,
 		"hitPoints" : 25,
 		"level" : 3,
-		"upgrades": [ "rusCzarBear" ],
-		"sound" :
-		{
-			"attack": "BODRATTK.wav",
-			"defend": "HHNDDFND.wav",
-			"killed": "CGORKILL.wav",
-			"move": "CCYCMOVE.wav",
-			"wince": "CCYCWNCE.wav"
- 		},
+		"upgrades" : [
+			"rusCzarBear"
+		],
+		"sound" : {
+			"attack" : "BODRATTK.wav",
+			"defend" : "HHNDDFND.wav",
+			"killed" : "CGORKILL.wav",
+			"move" : "CCYCMOVE.wav",
+			"wince" : "CCYCWNCE.wav"
+		},
 		"speed" : 5,
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENEMY_DEFENCE_REDUCTION"
 				},
-				"values" : [ 0, 0, 5, 5, 5, 5, 10, 10, 15, 20 ]
+				"values" : [
+					0,
+					0,
+					5,
+					5,
+					5,
+					5,
+					10,
+					10,
+					15,
+					20
+				]
 			}
 		]
 	}

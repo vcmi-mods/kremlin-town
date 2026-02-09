@@ -1,63 +1,55 @@
 {
-	"summonSand":
-	{
-		"type": "combat", 
+	"summonSand" : {
+		"type" : "combat",
 		"targetType" : "LOCATION",
-		"name": "Summon Quicksand",
-		"school":
-		{
-			"air": false,
-			"earth": true,
-			"fire": false,
-			"water": false
+		"name" : "Summon Quicksand",
+		"school" : {
+			"air" : false,
+			"earth" : true,
+			"fire" : false,
+			"water" : false
 		},
-		"level": 5,
-		"power": 20,
-		"defaultGainChance": 0,
-		"gainChance":
-		{
+		"level" : 5,
+		"power" : 20,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"flags" : {
+			"indifferent" : true,
+			"special" : true
 		},
-		"flags" : 
-		{
-			"indifferent": true,
-			"special": true
-        	}, 
-        
-		"graphics":
-		{
-			"iconBook": "spells/spellBookKr",
-			"iconScroll": "spells/spellScrollKr",
-			"iconScenarioBonus": "spells/bonusSpellKr"
+
+		"graphics" : {
+			"iconBook" : "spells/spellBookKr",
+			"iconScroll" : "spells/spellScrollKr",
+			"iconScenarioBonus" : "spells/bonusSpellKr"
 		},
-		"sounds":
-		{
-			"cast": "TREEATTK"
+		"sounds" : {
+			"cast" : "TREEATTK"
 		},
-		"levels":
-		{
-			"base":{
+		"levels" : {
+			"base" : {
 				"description" : "",
-				"cost": 22,
-				"power": 2,
+				"cost" : 22,
+				"power" : 2,
 				//			"aiValue": 100,
 				"range" : "0",
-				"targetModifier":{
-					"clearAffected": true
+				"targetModifier" : {
+					"clearAffected" : true
 				},
 				"battleEffects" : {
 					"obstacle" : {
-						"type":"core:obstacle",
+						"type" : "core:obstacle",
 						"hidden" : true,
 						"passable" : true,
 						"trap" : true,
 						"turnsRemaining" : 2,
-						"attacker" :{
+						"attacker" : {
 							"animation" : "C17SPE1",
 							"appearAnimation" : "C17SPE0",
 							"appearSound" : "QUIKSAND",
 							"offsetY" : -42
 						},
-						"defender" :{
+						"defender" : {
 							"animation" : "C17SPE1",
 							"appearAnimation" : "C17SPE0",
 							"appearSound" : "QUIKSAND",
@@ -66,31 +58,26 @@
 					}
 				}
 			},
-			"none":
-			{
+			"none" : {},
+			"basic" : {
+				"cost" : 20,
+				"power" : 2
 			},
-			"basic":
-			{
-				"cost": 20,
-				"power": 2
-
-			},
-			"advanced":
-			{
+			"advanced" : {
 				"battleEffects" : {
 					"obstacle" : {
-						"type":"core:obstacle",
+						"type" : "core:obstacle",
 						"hidden" : true,
 						"passable" : true,
 						"trap" : true,
 						"turnsRemaining" : 3,
-						"attacker" :{
+						"attacker" : {
 							"animation" : "C17SPE1",
 							"appearAnimation" : "C17SPE0",
 							"appearSound" : "QUIKSAND",
 							"offsetY" : -42
 						},
-						"defender" :{
+						"defender" : {
 							"animation" : "C17SPE1",
 							"appearAnimation" : "C17SPE0",
 							"appearSound" : "QUIKSAND",
@@ -99,22 +86,21 @@
 					}
 				}
 			},
-			"expert":
-			{
+			"expert" : {
 				"battleEffects" : {
 					"obstacle" : {
-						"type":"core:obstacle",
+						"type" : "core:obstacle",
 						"hidden" : true,
 						"passable" : true,
 						"trap" : true,
 						"turnsRemaining" : 4,
-						"attacker" :{
+						"attacker" : {
 							"animation" : "C17SPE1",
 							"appearAnimation" : "C17SPE0",
 							"appearSound" : "QUIKSAND",
 							"offsetY" : -42
 						},
-						"defender" :{
+						"defender" : {
 							"animation" : "C17SPE1",
 							"appearAnimation" : "C17SPE0",
 							"appearSound" : "QUIKSAND",

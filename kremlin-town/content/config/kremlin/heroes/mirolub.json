@@ -1,31 +1,26 @@
 {
-	"rusMirolub" :
-	{
+	"rusMirolub" : {
 		"class" : "vityaz",
 		"female" : false,
-		
-		"texts" :
-		{
+
+		"texts" : {
 			"name" : "Mirolub",
 			"biography" : "Mirolub is known as a humble druid, who spends most of the time in the forest. But most people do not know that Mirolub was formerly known a brutal patron of most taverns of Erathia and was known as troublemaker there.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of Bears and Tzar Bears for each level attained after 3th level.",
 				"tooltip" : "{Bears}\r\n\r\nIncreases the Attack and Defense skills of Bears and Tzar Bears for each level attained after 3th level.",
 				"name" : "Bears"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "kremlin/heroes/kyorlin/un32drud.png",
 			"specialtyLarge" : "kremlin/heroes/kyorlin/un44drud.png",
 			"large" : "kremlin/heroes/kyorlin/hpl284.png",
 			"small" : "kremlin/heroes/kyorlin/hps284.png"
 		},
 
-		"army" :
-		[	
+		"army" : [
 			{
 				"creature" : "rusBear",
 				"max" : 6,
@@ -43,8 +38,7 @@
 			}
 		],
 
-		"skills" : 
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "eagleEye"
@@ -54,10 +48,9 @@
 				"skill" : "earthMagic"
 			}
 		],
-		
-		"specialty":
-			{
-				"creature" : "rusBear"
-			} 
+
+		"specialty" : {
+			"creature" : "rusBear"
+		}
 	}
 }
