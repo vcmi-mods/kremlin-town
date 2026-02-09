@@ -6,7 +6,7 @@
 	"version" : "3.1.3",
 	"changelog" :
 	{
-		"3.1.3".  : [ "Multiple icon fixes" ],
+		"3.1.3"   : [ "Multiple icon fixes" ],
 		"3.1.2"   : [ "Meadow update by Grossmaster, minor changes to the sprites of the Meadow Guard and Forest Protector, fixes the old Bear portrait showing up." ],
 		"3.1.1"   : [ "UnHotAifying the mod - HotA no longer required." ],
 		"3.1.0"   : [ "Update to vcmi-1.7 format." ],
