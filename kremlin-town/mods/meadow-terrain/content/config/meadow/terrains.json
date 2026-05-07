@@ -19,9 +19,8 @@
 		"river" : "waterRiver",
 		"rockTerrain" : "rock",
 		"shortIdentifier" : "kr",
-		"type" : [
-			"SURFACE"
-		],
+		"type" : [],
+		"allowedLayers": ["surface", "unknown"],
 		"battleFields" : [
 			"meadowBattlefield_02"
 		],

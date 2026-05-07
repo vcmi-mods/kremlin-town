@@ -42,7 +42,7 @@
 						"mask" : [
 							"VVVV",
 							"VVBV",
-							"VBAB"
+							"VVAB"
 						]
 					}
 				}
@@ -88,7 +88,7 @@
 						"mask" : [
 							"VVV",
 							"VVV",
-							"BAB"
+							"VAB"
 						]
 					}
 				}
@@ -111,7 +111,7 @@
 						"mask" : [
 							"VVV",
 							"VVV",
-							"BAB"
+							"VAB"
 						]
 					}
 				}
