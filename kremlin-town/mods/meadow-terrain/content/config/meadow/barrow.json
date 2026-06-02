@@ -25,12 +25,24 @@
 				"onVisited" : [
 					{
 						"message" : 120,
-						"bonuses" : [ { "type" : "MORALE", "val" : -1, "duration" : "ONE_BATTLE", "stacking" : "sepulcherVisited", "description" : 98 } ]
+						"bonuses" : [
+							{
+								"type" : "MORALE",
+								"val" : -1,
+								"duration" : "ONE_BATTLE",
+								"stacking" : "sepulcherVisited",
+								"description" : 98
+							}
+						]
 					}
 				],
 				"sounds" : {
-					"ambient" : ["LOOPDEAD"],
-					"visit" : ["GRAVEYARD"]
+					"ambient" : [
+						"LOOPDEAD"
+					],
+					"visit" : [
+						"GRAVEYARD"
+					]
 				},
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
@@ -53,7 +65,7 @@
 							{
 								"amount" : 10,
 								"type" : "gog",
-								"upgradeChance" : 25 
+								"upgradeChance" : 25
 							},
 							{
 								"amount" : 10,
@@ -62,12 +74,11 @@
 							{
 								"amount" : 10,
 								"type" : "stoneGargoyle",
-								"upgradeChance" : 25 
+								"upgradeChance" : 25
 							}
 						],
 						"message" : "Upon defeating the inhabitants of the barrow, you find something.",
-						"resources" :
-						{
+						"resources" : {
 							"gold" : 1250
 						}
 					},
@@ -84,7 +95,7 @@
 							{
 								"amount" : 20,
 								"type" : "gog",
-								"upgradeChance" : 25 
+								"upgradeChance" : 25
 							},
 							{
 								"amount" : 20,
@@ -93,15 +104,18 @@
 							{
 								"amount" : 20,
 								"type" : "stoneGargoyle",
-								"upgradeChance" : 25 
+								"upgradeChance" : 25
 							}
 						],
 						"message" : "Upon defeating the inhabitants of the barrow, you find something.",
-						"resources" :
-						{
+						"resources" : {
 							"gold" : 2000
 						},
-						"artifacts" : [ { "class" : "TREASURE" } ]
+						"artifacts" : [
+							{
+								"class" : "TREASURE"
+							}
+						]
 					},
 					{
 						"appearChance" : {
@@ -116,7 +130,7 @@
 							{
 								"amount" : 30,
 								"type" : "skeleton",
-								"upgradeChance" : 25 
+								"upgradeChance" : 25
 							},
 							{
 								"amount" : 5,
@@ -125,15 +139,18 @@
 							{
 								"amount" : 5,
 								"type" : "wight",
-								"upgradeChance" : 25 
+								"upgradeChance" : 25
 							}
 						],
 						"message" : "Upon defeating the inhabitants of the barrow, you find something.",
-						"resources" :
-						{
+						"resources" : {
 							"gold" : 3500
 						},
-						"artifacts" : [ { "class" : "TREASURE" } ]
+						"artifacts" : [
+							{
+								"class" : "TREASURE"
+							}
+						]
 					},
 					{
 						"appearChance" : {
@@ -148,7 +165,7 @@
 							{
 								"amount" : 40,
 								"type" : "skeleton",
-								"upgradeChance" : 25 
+								"upgradeChance" : 25
 							},
 							{
 								"amount" : 10,
@@ -157,15 +174,18 @@
 							{
 								"amount" : 10,
 								"type" : "wight",
-								"upgradeChance" : 25 
+								"upgradeChance" : 25
 							}
 						],
 						"message" : "Upon defeating the inhabitants of the barrow, you find something.",
-						"resources" :
-						{
+						"resources" : {
 							"gold" : 5000
 						},
-						"artifacts" : [ { "class" : "TREASURE" } ]
+						"artifacts" : [
+							{
+								"class" : "TREASURE"
+							}
+						]
 					}
 				]
 			}

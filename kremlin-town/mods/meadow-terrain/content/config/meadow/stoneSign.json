@@ -1,11 +1,15 @@
 {
-    "rusRasputye":{
+	"rusRasputye" : {
 		"name" : "Crossroads",
-		"handler": "configurable",
+		"handler" : "configurable",
 		"base" : {
 			"sounds" : {
-				"ambient" : ["LOOPLEAR"],
-				"visit" : ["ROGUE"]
+				"ambient" : [
+					"LOOPLEAR"
+				],
+				"visit" : [
+					"ROGUE"
+				]
 			}
 		},
 		"types" : {
@@ -26,33 +30,43 @@
 							"+++"
 						]
 					}
-                },
+				},
 				"aiValue" : 0,
-                "canRefuse": true,
+				"canRefuse" : true,
 				"rmg" : {
-					"value"		: 2500,
-					"rarity"	: 20
+					"value" : 2500,
+					"rarity" : 20
 				},
 				"visitMode" : "hero",
-                "selectMode" : "selectPlayer",
+				"selectMode" : "selectPlayer",
 				"onSelectMessage" : "Scouring the area, you stumble on a crossroad stone. It says, if you go left, you'll lose all your riches, if you go forward, you'll lose all of your building resources, if you go right, you'll lose your rare resources.\r\nDespite the sign warning you of the dangers, you feel that one of the directions might be an actually good one. Will you proceed somewhere?",
-                
+
 				"rewards" : [
 					{
-						"appearChance" : { "max" : 32 },
+						"appearChance" : {
+							"max" : 32
+						},
 						"mapDice" : 0,
-						"resources" : { "gold" : 4000, "gold" : -2000 },
-                        "limiter" : {
+						"resources" : {
+							"gold" : 4000,
+							"gold" : -2000
+						},
+						"limiter" : {
 							"resources" : {
 								"gold" : 2000
 							}
 						}
 					},
 					{
-						"appearChance" : { "max" : 32 },
+						"appearChance" : {
+							"max" : 32
+						},
 						"mapDice" : 0,
-						"resources" : { "wood" : -5, "ore" : -5 },
-                        "limiter" : {
+						"resources" : {
+							"wood" : -5,
+							"ore" : -5
+						},
+						"limiter" : {
 							"resources" : {
 								"wood" : 5,
 								"ore" : 5
@@ -60,34 +74,52 @@
 						}
 					},
 					{
-						"appearChance" : { "max" : 32 },
+						"appearChance" : {
+							"max" : 32
+						},
 						"mapDice" : 0,
-						"resources" : { "mercury" : -2, "gems" : -2, "crystal" : -2, "sulfur" : -2 },
-                        "limiter" : {
+						"resources" : {
+							"mercury" : -2,
+							"gems" : -2,
+							"crystal" : -2,
+							"sulfur" : -2
+						},
+						"limiter" : {
 							"resources" : {
 								"mercury" : 2,
 								"gems" : 2,
-                                "crystal" : 2,
-                                "sulfur" : 2
+								"crystal" : 2,
+								"sulfur" : 2
 							}
 						}
 					},
 					{
-						"appearChance" : { "min" : 32, "max" : 64 },
+						"appearChance" : {
+							"min" : 32,
+							"max" : 64
+						},
 						"mapDice" : 1,
-						"resources" : { "gold" : -2000 },
-                        "limiter" : {
+						"resources" : {
+							"gold" : -2000
+						},
+						"limiter" : {
 							"resources" : {
 								"gold" : 2000
 							}
 						}
 					},
 					{
-						"appearChance" : { "min" : 32, "max" : 64 },
+						"appearChance" : {
+							"min" : 32,
+							"max" : 64
+						},
 						"mapDice" : 1,
 						"heroExperience" : 2000,
-						"resources" : { "wood" : -5, "ore" : -5 },
-                        "limiter" : {
+						"resources" : {
+							"wood" : -5,
+							"ore" : -5
+						},
+						"limiter" : {
 							"resources" : {
 								"wood" : 5,
 								"ore" : 5
@@ -95,33 +127,52 @@
 						}
 					},
 					{
-						"appearChance" : { "min" : 32, "max" : 64 },
+						"appearChance" : {
+							"min" : 32,
+							"max" : 64
+						},
 						"mapDice" : 1,
-						"resources" : { "mercury" : -2, "gems" : -2, "crystal" : -2, "sulfur" : -2 },
-                        "limiter" : {
+						"resources" : {
+							"mercury" : -2,
+							"gems" : -2,
+							"crystal" : -2,
+							"sulfur" : -2
+						},
+						"limiter" : {
 							"resources" : {
 								"mercury" : 2,
 								"gems" : 2,
-                                "crystal" : 2,
-                                "sulfur" : 2
+								"crystal" : 2,
+								"sulfur" : 2
 							}
 						}
 					},
 					{
-						"appearChance" : { "min" : 64, "max" : 95 },
+						"appearChance" : {
+							"min" : 64,
+							"max" : 95
+						},
 						"mapDice" : 2,
-						"resources" : { "gold" : -2000 },
-                        "limiter" : {
+						"resources" : {
+							"gold" : -2000
+						},
+						"limiter" : {
 							"resources" : {
 								"gold" : 2000
 							}
 						}
 					},
 					{
-						"appearChance" : { "min" : 64, "max" : 95 },
+						"appearChance" : {
+							"min" : 64,
+							"max" : 95
+						},
 						"mapDice" : 2,
-						"resources" : { "wood" : -5, "ore" : -5 },
-                        "limiter" : {
+						"resources" : {
+							"wood" : -5,
+							"ore" : -5
+						},
+						"limiter" : {
 							"resources" : {
 								"wood" : 5,
 								"ore" : 5
@@ -129,40 +180,58 @@
 						}
 					},
 					{
-						"appearChance" : { "min" : 64, "max" : 95 },
+						"appearChance" : {
+							"min" : 64,
+							"max" : 95
+						},
 						"mapDice" : 2,
-						"resources" : { "mercury" : -2, "gems" : -2, "crystal" : -2, "sulfur" : -2 },
-                        "limiter" : {
+						"resources" : {
+							"mercury" : -2,
+							"gems" : -2,
+							"crystal" : -2,
+							"sulfur" : -2
+						},
+						"limiter" : {
 							"resources" : {
 								"mercury" : 2,
 								"gems" : 2,
-                                "crystal" : 2,
-                                "sulfur" : 2
+								"crystal" : 2,
+								"sulfur" : 2
 							}
 						},
-                        "creatures" : [
-                            {  
-                            "type" : "rusRatnik",
-                            "amount" : 15
-                            }
-                        ]
+						"creatures" : [
+							{
+								"type" : "rusRatnik",
+								"amount" : 15
+							}
+						]
 					},
 					{
-						"appearChance" : { "min" : 95 },
+						"appearChance" : {
+							"min" : 95
+						},
 						"mapDice" : 3,
-						"resources" : { "gold" : 4000, "gold" : -2000 },
-                        "limiter" : {
+						"resources" : {
+							"gold" : 4000,
+							"gold" : -2000
+						},
+						"limiter" : {
 							"resources" : {
 								"gold" : 2000
 							}
 						}
 					},
 					{
-						"appearChance" : { "min" : 95 },
+						"appearChance" : {
+							"min" : 95
+						},
 						"mapDice" : 3,
 						"heroExperience" : 2000,
-						"resources" : { "wood" : -5, "ore" : -5 },
-                        "limiter" : {
+						"resources" : {
+							"wood" : -5,
+							"ore" : -5
+						},
+						"limiter" : {
 							"resources" : {
 								"wood" : 5,
 								"ore" : 5
@@ -170,23 +239,30 @@
 						}
 					},
 					{
-						"appearChance" : { "min" : 95 },
+						"appearChance" : {
+							"min" : 95
+						},
 						"mapDice" : 3,
-						"resources" : { "mercury" : -2, "gems" : -2, "crystal" : -2, "sulfur" : -2 },
-                        "limiter" : {
+						"resources" : {
+							"mercury" : -2,
+							"gems" : -2,
+							"crystal" : -2,
+							"sulfur" : -2
+						},
+						"limiter" : {
 							"resources" : {
 								"mercury" : 2,
 								"gems" : 2,
-                                "crystal" : 2,
-                                "sulfur" : 2
+								"crystal" : 2,
+								"sulfur" : 2
 							}
 						},
-                        "creatures" : [
-                            {  
-                            "type" : "rusRatnik",
-                            "amount" : 15
-                            }
-                        ]
+						"creatures" : [
+							{
+								"type" : "rusRatnik",
+								"amount" : 15
+							}
+						]
 					}
 				]
 			}
