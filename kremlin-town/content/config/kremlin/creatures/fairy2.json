@@ -1,49 +1,40 @@
 {
-	"rusHousekeeper":
-	{
-		"name" :
-		{
+	"rusHousekeeper" : {
+		"name" : {
 			"plural" : "Housekeepers",
 			"singular" : "Housekeeper"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 50,
 			"min" : 20
 		},
 		"faction" : "kremlin",
 		"aiValue" : 90,
 		"attack" : 3,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 50
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 2,
 			"min" : 1
 		},
 		"defense" : 1,
 		"fightValue" : 115,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "kremlin/battle/creatures/t1u.def",
 			"map" : "kremlin/map/creatures/house_map.def",
 			"iconSmall" : "kremlin/iconsSmall/creatures/housekeepers.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/housekeeper.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "kremlin/battle/creatures/projectile/housproj.DEF",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 30,
 					"upperY" : -80,
 					"middleX" : 30,
@@ -51,112 +42,207 @@
 					"lowerX" : 30,
 					"lowerY" : -80
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"growth" : 16,
 		"hitPoints" : 4,
-		"shots" :8,
+		"shots" : 8,
 		"horde" : 8,
-		"abilities":
-		{
-			"shoots" :
-                        {
+		"abilities" : {
+			"shoots" : {
 				"type" : "SHOOTER"
 			},
-			 "canfly" :
-			{
+			"canfly" : {
 				"type" : "FLYING",
 				"subtype" : "movementTeleporting"
-			},
+			}
 		},
-        "level" : 1,
-		"sound" :
-		{
-			"attack": "MAGEATTK.wav",
-			"shoot": "MAGESHOT.wav",
-			"defend": "kremlin/HOUSDFND.wav",
-			"killed": "kremlin/HOUSKILL.wav",
-			"move": "MONKMOVE.wav",
-			"wince": "MAGEWNCE.wav",
-			"startMoving": "kremlin/HOUSEXT1.wav",
-			"endMoving": "kremlin/HOUSEXT1.wav",
-        	},
+		"level" : 1,
+		"sound" : {
+			"attack" : "MAGEATTK.wav",
+			"shoot" : "MAGESHOT.wav",
+			"defend" : "kremlin/HOUSDFND.wav",
+			"killed" : "kremlin/HOUSKILL.wav",
+			"move" : "MONKMOVE.wav",
+			"wince" : "MAGEWNCE.wav",
+			"startMoving" : "kremlin/HOUSEXT1.wav",
+			"endMoving" : "kremlin/HOUSEXT1.wav"
+		},
 		"speed" : 5,
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
-
 				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
-			},	
-			{
-				"bonus" :
-				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
-
-				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
+					"subtype" : "defence",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
+			{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
-
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "HATE",
 					"subtype" : "imp"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					10,
+					20,
+					30,
+					40,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "HATE",
 					"subtype" : "familiar"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					10,
+					20,
+					30,
+					40,
+					50
+				]
 			},
-			{	
-				"bonus" :
-				{
+			{
+				"bonus" : {
 					"type" : "BLOCKS_RETALIATION"
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			}
 		]
 	}

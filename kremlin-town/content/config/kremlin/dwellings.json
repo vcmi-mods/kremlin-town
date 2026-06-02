@@ -3,154 +3,263 @@
 		"types" : {
 			"farmstead" : {
 				"name" : "Farmstead",
-				"creatures" : [[ "rusHearthkeeper" ]],
-				"sounds": {
-					"ambient": ["LOOPFAER"]
+				"creatures" : [
+					[
+						"rusHearthkeeper"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPFAER"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "kremlin/map/dwellings/greathouse.def",
-						"mask" : [ "VV", "AB" ]
+						"mask" : [
+							"VV",
+							"AB"
+						]
 					}
 				}
 			},
 			"volottower" : {
 				"name" : "Ancient Outpost",
-				"creatures" : [[ "rusVolot" ]],
+				"creatures" : [
+					[
+						"rusVolot"
+					]
+				],
 				"guards" : true,
-				"sounds": {
-					"ambient": ["LOOPSWOR"]
+				"sounds" : {
+					"ambient" : [
+						"LOOPSWOR"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "kremlin/map/dwellings/ancientzastava.def",
-						"mask" : [ "VVVV","VVBV", "VBAB" ]
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VVAB"
+						]
 					}
 				}
 			},
 			"cattree" : {
 				"name" : "Cat Tree",
-				"creatures" : [[ "rusCotUcheniy" ]],
-				"sounds": {
-					"ambient": ["LOOPMAGI"]
+				"creatures" : [
+					[
+						"rusCotUcheniy"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPMAGI"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "kremlin/map/dwellings/cattree.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"bearden" : {
 				"name" : "Bear Den",
-				"creatures" : [[ "rusBear" ]],
-				"sounds": {
-					"ambient": ["LOOPMONS"]
+				"creatures" : [
+					[
+						"rusBear"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPMONS"
+					]
 				},
 				"templates" : {
-					"default" : {	
+					"default" : {
 						"animation" : "kremlin/map/dwellings/bearden.def",
-						"mask" : [ "VVV", "VVV", "BAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"ratQuart" : {
 				"name" : "Ratniks' Quarters",
-				"creatures" : [[ "rusRatnik" ]],
-				"sounds": {
-					"ambient": ["LOOPSWOR"]
+				"creatures" : [
+					[
+						"rusRatnik"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPSWOR"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "kremlin/map/dwellings/storogka.def",
-						"mask" : [ "VVV", "VVV", "BAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"iriy" : {
 				"name" : "Iriy",
-				"creatures" : [[ "rusSirin" ]],
+				"creatures" : [
+					[
+						"rusSirin"
+					]
+				],
 				"guards" : true,
-				"sounds": {
-					"ambient": ["LOOPFAER"]
+				"sounds" : {
+					"ambient" : [
+						"LOOPFAER"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "kremlin/map/dwellings/iriy.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
-			"khoromis" : { 
+			"khoromis" : {
 				"name" : "Khoromy",
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "kremlin/map/dwellings/khoromy.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				},
-				"creatures" : [[ "rusBogatyr" ]],
-				"sounds": {
-					"ambient" : ["LOOPHORS"]
-				}				
+				"creatures" : [
+					[
+						"rusBogatyr"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPHORS"
+					]
+				}
 			},
-			"deepForestGlade" : { 
+			"deepForestGlade" : {
 				"name" : "Forest Glade",
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "kremlin/map/dwellings/les.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
-				},		
-				"creatures" : [[ "tumborovik" ]],
-				"sounds": {
-					"ambient" : ["LOOPMAGI"]
-				}				
+				},
+				"creatures" : [
+					[
+						"tumborovik"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPMAGI"
+					]
+				}
 			},
-			"hutonChickenLegs" : { 
+			"hutonChickenLegs" : {
 				"name" : "Hut on Chicken Legs",
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "kremlin/dwells/yagadw.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
-				},		
-				"creatures" : [[ "tumyaga" ]],
-				"sounds": {
-					"ambient" : ["kremlin/LOOPWITH"]
-				}				
+				},
+				"creatures" : [
+					[
+						"tumyaga"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"kremlin/LOOPWITH"
+					]
+				}
 			},
 			"zastava" : {
 				"name" : "Border Outpost",
-				"creatures" : [[ "rusRatoborets" ]],
+				"creatures" : [
+					[
+						"rusRatoborets"
+					]
+				],
 				"guards" : true,
-				"sounds": {
-					"ambient": ["LOOPSWOR"]
+				"sounds" : {
+					"ambient" : [
+						"LOOPSWOR"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "kremlin/map/dwellings/zastava.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			},
 			"totem" : {
 				"name" : "Kapishe",
-				"creatures" : [[ "rusVolkhv" ]],
+				"creatures" : [
+					[
+						"rusVolkhv"
+					]
+				],
 				"guards" : true,
-				"sounds": {
-					"ambient": ["LOOPMAGI"]
+				"sounds" : {
+					"ambient" : [
+						"LOOPMAGI"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "kremlin/map/dwellings/totem.def",
-						"mask" : [ "VVV", "VVV", "VVA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVA"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

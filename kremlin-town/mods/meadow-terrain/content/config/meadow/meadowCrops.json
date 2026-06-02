@@ -1,22 +1,37 @@
 {
-	"core:outcropping" :{
-		"types" : {		
+	"core:outcropping" : {
+		"types" : {
 			"outcroppingMeadow" : {
-				"templates" : {	
-					"cropp01" : { "animation" : "objects/LGoc00.def", 
-						"mask" : [ "BB" ], 
-						"allowedTerrains": [ "meadow" ]
+				"templates" : {
+					"cropp01" : {
+						"animation" : "objects/LGoc00.def",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
 					},
-					"cropp02" : { "animation" : "objects/LGoc01.def", 
-						"mask" : [ "BB" ], 
-						"allowedTerrains": [ "meadow" ]
+					"cropp02" : {
+						"animation" : "objects/LGoc01.def",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
 					},
-					"cropp03" : { "animation" : "objects/LGoc02.def", 
-						"mask" : [ "BB" ], 
-						"allowedTerrains": [ "meadow" ]
-					}	
+					"cropp03" : {
+						"animation" : "objects/LGoc02.def",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
+					}
 				}
-			}			
-		}	
+			}
+		}
 	}
 }

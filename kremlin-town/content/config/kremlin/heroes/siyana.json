@@ -1,36 +1,30 @@
 {
-	"rusSiyana" :
-	{
+	"rusSiyana" : {
 		"class" : "volhv",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Siyana",
 			"biography" : "In her youth, Siyana met river maidens who initiated her into the secret of the healing properties of water. The girl diligently studied the spells of the water maidens and decided to become a healer. In her hands, water acquired incredible power, it could heal any wound and cure even a terminally ill person. However, they say that Siyana has power not only over the good power of water, but also over the formidable power of the outraged elements, sweeping away everything in its path.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to First Aid skill.",
 				"tooltip" : "{First Aid}\r\n\r\nReceives a 5% per level bonus to First Aid skill.",
 				"name" : "First Aid"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "kremlin/heroes/vlos/un32firs.png",
 			"specialtyLarge" : "kremlin/heroes/vlos/un44firs.png",
 			"large" : "kremlin/heroes/vlos/hpl295.png",
 			"small" : "kremlin/heroes/vlos/hps295.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"cure"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "rusHearthkeeper",
 				"max" : 30,
@@ -48,8 +42,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -59,7 +52,7 @@
 				"skill" : "firstAid"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "firstAid"
 		}

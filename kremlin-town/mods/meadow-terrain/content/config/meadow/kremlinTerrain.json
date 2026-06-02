@@ -1,6 +1,5 @@
 {
-	"kremlin-town:kremlin" :
-	{
-		"nativeTerrain": "meadow"
+	"kremlin-town:kremlin" : {
+		"nativeTerrain" : "meadow"
 	}
 }

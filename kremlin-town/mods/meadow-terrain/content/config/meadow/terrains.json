@@ -1,18 +1,33 @@
 {
-	"meadow" :
-	{
+	"meadow" : {
 		"text" : "Meadow",
 		"moveCost" : 100,
-		"minimapUnblocked" : [  96, 138, 30 ],
-		"minimapBlocked"   : [ 51, 116, 30 ],
-		"music" : [ "MEADOW.mp3" ],
+		"minimapUnblocked" : [
+			96,
+			138,
+			30
+		],
+		"minimapBlocked" : [
+			51,
+			116,
+			30
+		],
+		"music" : [
+			"MEADOW.mp3"
+		],
 		"tiles" : "terrain/tiles_meadow",
 		"river" : "waterRiver",
-		"rockTerrain":"rock",
+		"rockTerrain" : "rock",
 		"shortIdentifier" : "kr",
-		"type" : ["SURFACE"],
-		"battleFields" : ["meadowBattlefield_02"],
+		"type" : [],
+		"allowedLayers" : [
+			"surface",
+			"unknown"
+		],
+		"battleFields" : [
+			"meadowBattlefield_02"
+		],
 		"horseSound" : "horse30",
-		"horseSoundPenalty" : "horse20",
+		"horseSoundPenalty" : "horse20"
 	}
 }

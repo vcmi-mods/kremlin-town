@@ -1,40 +1,36 @@
 {
-	"rusMeadowGuard":
-	{
-		"name" :
-		{
+	"rusMeadowGuard" : {
+		"name" : {
 			"plural" : "Meadow Guards",
 			"singular" : "Meadow Guard"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 12,
-			 "min" : 8
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 8
 		},
 		"faction" : "kremlin",
 		"aiValue" : 545,
 		"attack" : 10,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 475
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 16,
 			"min" : 10
 		},
 		"defense" : 10,
 		"fightValue" : 550,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "kremlin/battle/creatures/drzewiecdown.def",
 			"map" : "kremlin/map/creatures/drzewiecdownm.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"iconSmall" : "kremlin/iconsSmall/creatures/drzds.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/drzd.png",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
@@ -43,79 +39,159 @@
 		"growth" : 3,
 		"hitPoints" : 55,
 		"level" : 5,
-		"upgrades": [ "rusForestProtector" ],
-		"sound" :
-		{
-			"attack": "OGREATTK.wav",
-			"defend": "TREEDFND.wav",
-			"killed": "OGREKILL.wav",
-			"move": "CYCLMOVE.wav",
-			"wince": "kremlin/DRZWWNCE.wav"
- 		},
+		"upgrades" : [
+			"rusForestProtector"
+		],
+		"sound" : {
+			"attack" : "OGREATTK.wav",
+			"defend" : "TREEDFND.wav",
+			"killed" : "OGREKILL.wav",
+			"move" : "CYCLMOVE.wav",
+			"wince" : "kremlin/DRZWWNCE.wav"
+		},
 		"speed" : 6,
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 0, 1, 2, 2, 4, 4, 5, 5, 6, 7 ]
-			},	
+				"values" : [
+					0,
+					1,
+					2,
+					2,
+					4,
+					4,
+					5,
+					5,
+					6,
+					7
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 2, 3, 3, 4, 4, 7, 7, 9, 9, 10 ]
+				"values" : [
+					2,
+					3,
+					3,
+					4,
+					4,
+					7,
+					7,
+					9,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 2, 3, 3, 3, 3, 4, 5, 6 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					3,
+					3,
+					3,
+					4,
+					5,
+					6
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 2, 2, 2, 4, 4, 6, 6, 7, 7 ]
+				"values" : [
+					0,
+					2,
+					2,
+					2,
+					4,
+					4,
+					6,
+					6,
+					7,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "HP_REGENERATION"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
 					"subtype" : "earth"
 				},
-				"values" : [ false, false, false, false, false, false, false, false, false, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true
+				]
 			}
 		]
 	}

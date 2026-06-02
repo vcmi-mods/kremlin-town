@@ -1,3 +1,5 @@
 {
-	"meadowBattlefield_02": { "graphics" : "terrain/CmBKMdTr.bmp" }
+	"meadowBattlefield_02" : {
+		"graphics" : "terrain/CmBKMdTr.bmp"
+	}
 }

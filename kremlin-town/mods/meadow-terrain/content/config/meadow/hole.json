@@ -5,8 +5,12 @@
 				"templates" : {
 					"hole1" : {
 						"animation" : "objects/AVLholgz",
-						"mask" : [ "V" ],
-						"allowedTerrains": [ "meadow" ]
+						"mask" : [
+							"V"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
 					}
 				}
 			}

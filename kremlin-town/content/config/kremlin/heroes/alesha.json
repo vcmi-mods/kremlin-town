@@ -1,31 +1,25 @@
 {
-	"rusAlesha" :
-	{
+	"rusAlesha" : {
 		"class" : "vityaz",
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Alesha",
 			"biography" : "Alesha is one of the legendary Three Bogatyrs. He is skilled in archery and has clean mind. Alesha once outwitted the usurper named Tugarin. Now, Alesha works in the archery range and trains future heroes.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Archery skill percentage.",
 				"tooltip" : "{Archery}\r\n\r\nReceives a 5% per level bonus to Archery skill percentage.",
 				"name" : "Archery"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "kremlin/heroes/suliss/Un32Scri.png",
 			"specialtyLarge" : "kremlin/heroes/suliss/Un44Scri.png",
 			"large" : "kremlin/heroes/suliss/hpl293.png",
 			"small" : "kremlin/heroes/suliss/hps293.png"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "rusHearthkeeper",
 				"max" : 30,
@@ -42,8 +36,7 @@
 				"min" : 4
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "archery"
@@ -54,5 +47,3 @@
 		}
 	}
 }
-
-

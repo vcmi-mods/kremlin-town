@@ -5,15 +5,32 @@
 				"templates" : {
 					"meadowSign" : {
 						"animation" : "objects/signm",
-						"allowedTerrains": [ "meadow" ],
-						"mask" : [ "A" ],
-						"visitableFrom" : [ "---", "+++", "+++" ]
+						"allowedTerrains" : [
+							"meadow"
+						],
+						"mask" : [
+							"A"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
 					},
 					"meadowSignStone" : {
 						"animation" : "objects/Pstone",
-						"allowedTerrains": [ "meadow" ],
-						"mask" : [ "VVV", "VAV" ],
-						"visitableFrom" : [ "---", "+++", "+++" ]
+						"allowedTerrains" : [
+							"meadow"
+						],
+						"mask" : [
+							"VVV",
+							"VAV"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
 					}
 				}
 			}

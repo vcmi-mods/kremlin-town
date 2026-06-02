@@ -1,42 +1,38 @@
 {
-	"rusCatBayun":
-	{
-		"name" :
-		{
+	"rusCatBayun" : {
+		"name" : {
 			"plural" : "Cat Bayuns",
 			"singular" : "Cat Bayun"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 25,
 			"min" : 16
 		},
 		"faction" : "kremlin",
 		"aiValue" : 205,
 		"attack" : 10,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 190
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 4,
 			"min" : 2
 		},
 		"defense" : 5,
-		"hasDoubleWeek": true,
+		"hasDoubleWeek" : true,
 		"doubleWide" : true,
 		"fightValue" : 240,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "kremlin/battle/creatures/cot_bayun.def",
 			"map" : "kremlin/map/creatures/cot_bauyn_map.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"iconSmall" : "kremlin/iconsSmall/creatures/bayuns.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/bayun.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
@@ -45,99 +41,170 @@
 		"growth" : 9,
 		"hitPoints" : 14,
 		"level" : 2,
-		"sound" :
-		{
-			"attack": "FMLRATTK.wav",
-			"defend": "kremlin/catDef.wav",
-			"killed": "kremlin/catDie.wav",
-			"move": "kremlin/catWalk.wav",
-			"wince": "kremlin/catHit.wav"
- 		},
+		"sound" : {
+			"attack" : "FMLRATTK.wav",
+			"defend" : "kremlin/catDef.wav",
+			"killed" : "kremlin/catDie.wav",
+			"move" : "kremlin/catWalk.wav",
+			"wince" : "kremlin/catHit.wav"
+		},
 		"speed" : 7,
-		"abilities" :
-		{
-			"manaChannel" :
-			{
+		"abilities" : {
+			"manaChannel" : {
 				"type" : "MANA_CHANNELING",
 				"val" : 20
 			},
-			"nocounter" :
-			{
+			"nocounter" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"summonGuardians" :
-			{
+			"summonGuardians" : {
 				"type" : "SUMMON_GUARDIANS",
 				"subtype" : "rusCotGuard",
 				"val" : 20
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
-
 				},
-				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
-			},	
-			{
-				"bonus" :
-				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
-
-				},
-				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
+					"subtype" : "defence",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4,
+					4
+				]
+			},
+			{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
-
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "MANA_CHANNELING"
 				},
-				"values" : [ 20, 20, 20, 20, 25, 25, 25, 25, 25, 30 ]
+				"values" : [
+					20,
+					20,
+					20,
+					20,
+					25,
+					25,
+					25,
+					25,
+					25,
+					30
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SUMMON_GUARDIANS",
 					"subtype" : "rusCotGuard"
 				},
-				"values" : [ 20, 20, 20, 20, 20, 25, 25, 25, 25, 25 ]
+				"values" : [
+					20,
+					20,
+					20,
+					20,
+					20,
+					25,
+					25,
+					25,
+					25,
+					25
+				]
 			}
 		]
 	}

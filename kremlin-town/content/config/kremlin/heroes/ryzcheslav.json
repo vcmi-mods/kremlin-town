@@ -1,37 +1,29 @@
 {
-	"rusRyzheslav" :
-	{
+	"rusRyzheslav" : {
 		"class" : "volhv",
 		"female" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Ryzheslav",
 			"biography" : "Long ago, Ryzheslav was Miloslav's favorite cat. But when the time came for his pet to die, the sorcerer did not want to part with his devoted friend. Using his colossal knowledge, Miloslav managed to turn him into a half-human. Having given his friend a new life, Miloslav endowed him with part of his knowledge. Thus, Ryzheslav became one of the most powerful sorcerers and the commander of the Bayuns.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of Wize Cats and Cats Bayuns or each level attained after 2nd level.",
 				"tooltip" : "{Wize Cats}\r\n\r\nIncreases the Attack and Defense skills of Wize Cats and Cats Bayuns or each level attained after 2nd level.",
 				"name" : "Wize Cats"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "kremlin/heroes/shebali/un32hunt.png",
 			"specialtyLarge" : "kremlin/heroes/shebali/un44hunt.png",
 			"large" : "kremlin/heroes/shebali/hpl286.png",
 			"small" : "kremlin/heroes/shebali/hps286.png"
 		},
-    		"spellbook" :
-    		[
-    		    "disguise"
-    		],
+		"spellbook" : [
+			"disguise"
+		],
 
-
-		"army" :
-		[
-			
+		"army" : [
 			{
 				"creature" : "rusCotUcheniy",
 				"max" : 10,
@@ -49,17 +41,15 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "wisdom"
 			}
 		],
-		
-		"specialty":
-			{
-				"creature" : "rusCotUcheniy"
-			} 
+
+		"specialty" : {
+			"creature" : "rusCotUcheniy"
+		}
 	}
 }

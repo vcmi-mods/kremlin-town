@@ -1,50 +1,41 @@
 {
-	"rusVolkhv":
-	{
-		"name" :
-		{
+	"rusVolkhv" : {
+		"name" : {
 			"plural" : "Believers",
 			"singular" : "Believer"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 10,
 			"min" : 4
 		},
 		"faction" : "kremlin",
 		"aiValue" : 1374,
 		"attack" : 13,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 850
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 18,
 			"min" : 16
 		},
 		"defense" : 15,
 		"shots" : 12,
 		"fightValue" : 1174,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "kremlin/battle/creatures/believer.def",
 			"map" : "kremlin/map/creatures/believer_map.def",
 			"iconSmall" : "kremlin/iconsSmall/creatures/believers.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/believer.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "kremlin/battle/creatures/projectile/ravenVolkhv.DEF",
 				"attackClimaxFrame" : 4,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -52,106 +43,183 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"growth" : 2,
 		"hitPoints" : 60,
 		"level" : 6,
-		"upgrades": [ "rusPriestOfPerun" ],
-		"sound" :
-		{
-			"attack": "kremlin/BELIATTK.wav",
-			"defend": "TREEDFND.wav",
-			"killed": "CNTRKILL.wav",
-			"move": "AMAGMOVE.wav",
-			"shoot": "kremlin/BELISHOT.wav",
-			"wince": "AMAGWNCE.wav"
- 		},
+		"upgrades" : [
+			"rusPriestOfPerun"
+		],
+		"sound" : {
+			"attack" : "kremlin/BELIATTK.wav",
+			"defend" : "TREEDFND.wav",
+			"killed" : "CNTRKILL.wav",
+			"move" : "AMAGMOVE.wav",
+			"shoot" : "kremlin/BELISHOT.wav",
+			"wince" : "AMAGWNCE.wav"
+		},
 		"speed" : 6,
-		"abilities" :
-		{
-			"shooter" :
-			{
-				"type": "SHOOTER"
+		"abilities" : {
+			"shooter" : {
+				"type" : "SHOOTER"
 			},
-			"throwingGrenade" :
-			{
+			"throwingGrenade" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "ravenExplosion"
 			},
-			"AirImmunity": 
-			{
-				"type": "SPELL_SCHOOL_IMMUNITY",
+			"AirImmunity" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "earth"
 			},
-			"castsMage" :
-			{
+			"castsMage" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "lightningBolt",
 				"val" : 1
 			},
-			"castsCount" :
-			{
+			"castsCount" : {
 				"type" : "CASTS",
 				"val" : 2
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "MIND_IMMUNITY"
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]	
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "RECEPTIVE"
 				},
-				"values" : [ false, false, true, true, true, true, true, true, true, true ]	
+				"values" : [
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			}
 		]
 	}

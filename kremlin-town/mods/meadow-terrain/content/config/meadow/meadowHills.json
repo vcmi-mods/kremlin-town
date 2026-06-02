@@ -1,24 +1,42 @@
 {
 	"meadowHills" : {
 		"name" : "Hills",
-		"handler": "static",
+		"handler" : "static",
 		"types" : {
 			"object" : {
 				"templates" : {
-					"zhill00" : { "animation" : "objects/lghil0", 
-						"mask" : [ "VVV", "VBB" ], 		
-						"allowedTerrains": ["meadow" ]
+					"zhill00" : {
+						"animation" : "objects/lghil0",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
 					},
-					"zhill01" : { "animation" : "objects/lghil1", 
-						"mask" : [ "VVV", "VBB" ], 		
-						"allowedTerrains": ["meadow" ]
+					"zhill01" : {
+						"animation" : "objects/lghil1",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
 					},
-					"zhill02" : { "animation" : "objects/lghil2", 
-						"mask" : [ "VVV", "VBB" ], 	
-						"allowedTerrains": ["meadow" ]
+					"zhill02" : {
+						"animation" : "objects/lghil2",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
 					}
 				}
 			}
-		}	
-	}	
+		}
+	}
 }

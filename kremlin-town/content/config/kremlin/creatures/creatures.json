@@ -1,48 +1,49 @@
 {
-	"tumborovik":
-	{
-		"name" :
-		{
+	"tumborovik" : {
+		"name" : {
 			"plural" : "Lesoviks",
 			"singular" : "Lesovik"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 14,
-			 "min" : 8
+		"advMapAmount" : {
+			"max" : 14,
+			"min" : 8
 		},
 		"faction" : "kremlin",
 		"level" : 5,
-		"upgrades" : ["tumleshiy"],
+		"upgrades" : [
+			"tumleshiy"
+		],
 		"aiValue" : 551,
 		"attack" : 12,
 		"hasDoubleWeek" : false,
-                "cost" :
-		{
+		"cost" : {
 			"gold" : 350
 		},
-		"damage" :
-		{
-			 "max" : 12,
-			 "min" : 8
+		"damage" : {
+			"max" : 12,
+			"min" : 8
 		},
 		"defense" : 10,
 		"fightValue" : 539,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "kremlin/rusichi/borocik.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
-			"mapMask" : [ "VVV", "VAV"],
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"map" : "kremlin/rusichi/borociks.def",
 			"iconSmall" : "kremlin/rusichi/boroviks.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/lesovik.png",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
-				"projectile": "kremlin/rusichi/lesoviksn.DEF",
+			"missile" : {
+				"projectile" : "kremlin/rusichi/lesoviksn.DEF",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -50,145 +51,254 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
-			
 		},
 		"growth" : 3,
 		"hitPoints" : 30,
 		"special" : true,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "DWRFATTK.wav",
 			"defend" : "PIKEDFND.wav",
 			"killed" : "DWRFKILL.wav",
-			"move"   : "MAGEMOVE.wav",
-			"wince"  : "DWRFWNCE.wav",
-			"shoot"  : "kremlin/lesoshot.wav"
+			"move" : "MAGEMOVE.wav",
+			"wince" : "DWRFWNCE.wav",
+			"shoot" : "kremlin/lesoshot.wav"
 		},
 		"speed" : 6,
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 0, 2, 2, 4, 4, 4, 6, 7, 9, 9 ]
-			},	
+				"values" : [
+					0,
+					2,
+					2,
+					4,
+					4,
+					4,
+					6,
+					7,
+					9,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 3, 3, 4, 4, 6, 8, 8, 9, 10, 10 ]
+				"values" : [
+					3,
+					3,
+					4,
+					4,
+					6,
+					8,
+					8,
+					9,
+					10,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 3, 3, 3, 3, 5, 6, 6, 8 ]
+				"values" : [
+					0,
+					1,
+					3,
+					3,
+					3,
+					3,
+					5,
+					6,
+					6,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 1, 3, 4, 4, 5, 6, 8 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					3,
+					4,
+					4,
+					5,
+					6,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SHOOTER"
 				},
-				"values" : [ false, false, false, true, true, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "LIMITED_SHOOTING_RANGE",
 					"addInfo" : 0
 				},
-				"values" : [ 0, 0, 0, 99, 99, 99, 99, 99, 99, 99 ]
+				"values" : [
+					0,
+					0,
+					0,
+					99,
+					99,
+					99,
+					99,
+					99,
+					99,
+					99
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "NO_MELEE_PENALTY"
 				},
-				"values" : [ false, false, false, true, true, true, true, false, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					false,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SHOTS"
 				},
-				"values" : [ 0, 0, 0, 4, 4, 6, 6, 8, 10, 12 ]
+				"values" : [
+					0,
+					0,
+					0,
+					4,
+					4,
+					6,
+					6,
+					8,
+					10,
+					12
+				]
 			}
 		]
 	},
-	"tumleshiy":
-	{
-		"name" :
-		{
+	"tumleshiy" : {
+		"name" : {
 			"plural" : "Leshiys",
 			"singular" : "Leshiy"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 12,
-			 "min" : 8
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 8
 		},
 		"faction" : "kremlin",
 		"aiValue" : 763,
 		"attack" : 13,
 		"hasDoubleWeek" : false,
-                "cost" :
-		{
+		"cost" : {
 			"gold" : 425
 		},
-		"damage" :
-		{
-			 "max" : 12,
-			 "min" : 10
+		"damage" : {
+			"max" : 12,
+			"min" : 10
 		},
 		"defense" : 10,
 		"fightValue" : 708,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "kremlin/rusichi/leshiy.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "kremlin/rusichi/leshiys.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"iconSmall" : "kremlin/rusichi/leshiys.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/leshiy.png",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
-				"projectile": "kremlin/rusichi/inv_shot.DEF",
+			"missile" : {
+				"projectile" : "kremlin/rusichi/inv_shot.DEF",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -196,168 +306,265 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
-			
 		},
 		"growth" : 3,
 		"hitPoints" : 30,
 		"shots" : 12,
 		"level" : 5,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "LICHATTK.wav",
 			"defend" : "TREEDFND.wav",
 			"killed" : "PSYCKILL.wav",
-			"move"   : "MAGEMOVE.wav",
-			"shoot"  : "BIND.wav",
-			"wince"  : "MAGEWNCE.wav"            
+			"move" : "MAGEMOVE.wav",
+			"shoot" : "BIND.wav",
+			"wince" : "MAGEWNCE.wav"
 		},
 		"speed" : 7,
-		"abilities" :
-		{
-   	            "shots":
-			{	
+		"abilities" : {
+			"shots" : {
 				"type" : "SHOOTER"
-	 		},
-                      "spells" :
-	 		{
+			},
+			"spells" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "woodSpikes",
 				"val" : 1
-			},	
-			"noMelee" :
-			{
-				"type":"NO_MELEE_PENALTY"
 			},
-			"supply" :
-			{
+			"noMelee" : {
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"supply" : {
 				"type" : "ENCHANTED",
 				"subtype" : "summonSupply",
 				"val" : 0,
-				"limiters": [ {
-					"type":"CREATURE_TYPE_LIMITER",
-					"creature":  "tumleshiy", 
-					"includeUpgrades" : true
-				} ],
+				"limiters" : [
+					{
+						"type" : "CREATURE_TYPE_LIMITER",
+						"creature" : "tumleshiy",
+						"includeUpgrades" : true
+					}
+				]
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 0, 2, 2, 4, 4, 4, 6, 7, 9, 9 ]
-			},	
+				"values" : [
+					0,
+					2,
+					2,
+					4,
+					4,
+					4,
+					6,
+					7,
+					9,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 3, 3, 4, 4, 6, 8, 8, 9, 10, 10 ]
+				"values" : [
+					3,
+					3,
+					4,
+					4,
+					6,
+					8,
+					8,
+					9,
+					10,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 3, 3, 3, 3, 5, 6, 6, 8 ]
+				"values" : [
+					0,
+					1,
+					3,
+					3,
+					3,
+					3,
+					5,
+					6,
+					6,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 1, 3, 4, 4, 5, 6, 8 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					3,
+					4,
+					4,
+					5,
+					6,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "FREE_SHOOTING"
 				},
-				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "NO_DISTANCE_PENALTY"
 				},
-				"values" : [ false, false, false, false, false, false, false, false, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "NO_WALL_PENALTY"
 				},
-				"values" : [ false, false, false, false, false, false, false, false, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true
+				]
 			}
 		]
 	},
-	"tumyaga":
-	{
-		"name" :
-		{
+	"tumyaga" : {
+		"name" : {
 			"plural" : "Forest Witches",
 			"singular" : "Forest Witch"
 		},
-		"extraNames": [ "rusForestWitch" ],
-		"upgrades": [ "rusYaga" ],
-		"advMapAmount" :
-		{
-			 "max" : 12,
-			 "min" : 8
+		"extraNames" : [
+			"rusForestWitch"
+		],
+		"upgrades" : [
+			"rusYaga"
+		],
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 8
 		},
 		"faction" : "kremlin",
 		"aiValue" : 620,
 		"doubleWide" : false,
 		"attack" : 12,
 		"hasDoubleWeek" : false,
-                "cost" :
-		{
+		"cost" : {
 			"gold" : 500
 		},
-		"damage" :
-		{
-			 "max" : 14,
-			 "min" : 9
+		"damage" : {
+			"max" : 14,
+			"min" : 9
 		},
 		"defense" : 7,
 		"fightValue" : 584,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "kremlin/rusichi/yaga.def",
-			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "kremlin/rusichi/yagas.def",
 			"iconSmall" : "kremlin/rusichi/yagas.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/yaga.png",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
-				"projectile": "kremlin/battle/creatures/projectile/yaga_shot.DEF",
+			"missile" : {
+				"projectile" : "kremlin/battle/creatures/projectile/yaga_shot.DEF",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -365,137 +572,212 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
-			
 		},
 		"growth" : 3,
 		"hitPoints" : 25,
 		"level" : 5,
 		"shots" : 12,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "kremlin/WITHSHOT.wav",
 			"defend" : "kremlin/WITHDFND.wav",
 			"killed" : "kremlin/WITHKILL.wav",
-			"move"   : "kremlin/WITHMOVE.wav",
-			"shoot"  : "kremlin/WITHSHOT.wav",
-			"wince"  : "kremlin/WITHWNCE.wav"            
+			"move" : "kremlin/WITHMOVE.wav",
+			"shoot" : "kremlin/WITHSHOT.wav",
+			"wince" : "kremlin/WITHWNCE.wav"
 		},
 		"speed" : 9,
-		"abilities" :
-		{
-   	            "shots":
-			{	
+		"abilities" : {
+			"shots" : {
 				"type" : "SHOOTER"
-	 		},
-   	            "flies":
-			{	
+			},
+			"flies" : {
 				"type" : "FLYING"
-	 		}
+			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 0, 2, 2, 4, 4, 4, 6, 7, 9, 9 ]
-			},	
+				"values" : [
+					0,
+					2,
+					2,
+					4,
+					4,
+					4,
+					6,
+					7,
+					9,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 3, 3, 4, 4, 6, 8, 8, 9, 10, 10 ]
+				"values" : [
+					3,
+					3,
+					4,
+					4,
+					6,
+					8,
+					8,
+					9,
+					10,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 3, 3, 3, 3, 5, 6, 6, 8 ]
+				"values" : [
+					0,
+					1,
+					3,
+					3,
+					3,
+					3,
+					5,
+					6,
+					6,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 1, 3, 4, 4, 5, 6, 8 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					3,
+					4,
+					4,
+					5,
+					6,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 1, 2, 2, 3 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "NO_MELEE_PENALTY"
 				},
-				"values" : [ false, false, false, true, true, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			}
 		]
 	},
-	"tumBogatyr":
-	{
-		"name" :
-		{
+	"tumBogatyr" : {
+		"name" : {
 			"plural" : "Epic Bogatyrs",
 			"singular" : "Epic Bogatyr"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 8,
-			 "min" : 3
+		"advMapAmount" : {
+			"max" : 8,
+			"min" : 3
 		},
 		"faction" : "kremlin",
 		"aiValue" : 8330,
 		"doubleWide" : true,
 		"attack" : 20,
 		"hasDoubleWeek" : false,
-		"extraNames": [ "rusEpicBogatyr" ],
-                "cost" :
-		{
+		"extraNames" : [
+			"rusEpicBogatyr"
+		],
+		"cost" : {
 			"gold" : 4250,
 			"gems" : 2
 		},
-		"damage" :
-		{
-			 "max" : 50,
-			 "min" : 30
+		"damage" : {
+			"max" : 50,
+			"min" : 30
 		},
 		"defense" : 25,
 		"fightValue" : 8061,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "kremlin/rusichi/bogatyr.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "kremlin/rusichi/bogatyrs.def",
 			"iconSmall" : "kremlin/rusichi/bogatyrs.bmp",
 			"iconLarge" : "kremlin/iconsBig/creatures/bogatyr.png",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
-				"projectile": "kremlin/centshot.def",
+			"missile" : {
+				"projectile" : "kremlin/centshot.def",
 				"attackClimaxFrame" : 5,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 50,
 					"upperY" : -100,
 					"middleX" : 60,
@@ -503,142 +785,233 @@
 					"lowerX" : 100,
 					"lowerY" : -30
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
-			
-			
 		},
 		"growth" : 1,
 		"hitPoints" : 200,
 		"level" : 7,
 		"shots" : 1,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "CAVAATTK.wav",
 			"defend" : "BLRDDFND.wav",
 			"killed" : "CHMPKILL.wav",
-			"move"   : "BLRDMOVE.wav",
+			"move" : "BLRDMOVE.wav",
 			//"wince"  : "CAVAWNCE.wav",
-			"wince"  : "CNTRSHOT.wav"
+			"wince" : "CNTRSHOT.wav"
 		},
 		"speed" : 11,
-		"abilities" :
-		{
-   	            "onhorse":
-			{	
+		"abilities" : {
+			"onhorse" : {
 				"type" : "JOUSTING",
 				"val" : 5
-	 		},
-                      "noCavalry" :
-	 		{
+			},
+			"noCavalry" : {
 				"type" : "CHARGE_IMMUNITY"
-			},	
-			"enchanted" :
-			{
-				"type":"ENCHANTED",
+			},
+			"enchanted" : {
+				"type" : "ENCHANTED",
 				"subtype" : "slayer",
 				"val" : 3
 			},
-			"deathStrike" :
-			{
+			"deathStrike" : {
 				"type" : "DOUBLE_DAMAGE_CHANCE",
 				"val" : 15
 			},
-			"bratzabrata" :
-                        {
+			"bratzabrata" : {
 				"type" : "REVENGE"
 			},
-			"shots" :
-                        {
+			"shots" : {
 				"type" : "SHOOTER"
 			},
-			"melee" :
-                        {
+			"melee" : {
 				"type" : "NO_MELEE_PENALTY"
-			},
-///			"hateGory" :
-///			{
-///				"type" : "RECEPTIVE"
-///			},
-///			"hatetiamats" :
-///			{
-///				"type" : "SLAYER",
-///				"val":3
-///			}
+			}
+			///			"hateGory" :
+			///			{
+			///				"type" : "RECEPTIVE"
+			///			},
+			///			"hatetiamats" :
+			///			{
+			///				"type" : "SLAYER",
+			///				"val":3
+			///			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "FEARFUL",
 					"valueType" : "INDEPENDENT_MIN",
 					"description" : "PLACEHOLDER",
 					"val" : 0
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
-					"type":"ENCHANTED",
-					"subtype" : "stoneSkin",
+				"bonus" : {
+					"type" : "ENCHANTED",
+					"subtype" : "stoneSkin"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SHOTS"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
 			}
 		]
 	}

@@ -1,71 +1,137 @@
 {
-	"name" : "Kremlin town",
-	"description" : "New town originally made by CoreWoG team, now redone by our small team",
-	"author" : "Olegmods.INC, Vovan1698. Forest Protector by Nephretes and Mitlandy. Meadow terrain alpha by Grossmaster. Music - Fabrice-Tiercelin and AI Udio. Original town idea - Kremlin town team, Bolotnik originally made by Axolotl.",
+	"name" : "Kremlin Expansion",
+	"description" : "New town originally made by CoreWoG team, now redone by Olegmods.INC with the help from the community. Also includes Meadow (is native to Kremlin if enabled) terrain alpha by Grossmaster.",
+	"author" : "Olegmods.INC (coordinator, mod), Vovan1698. Forest Protector by Nephretes and Mitlandy. Meadow terrain alpha by Grossmaster. Music - Fabrice-Tiercelin and AI Udio. Original town idea - Kremlin town team, Bolotnik originally made by Axolotl.",
 	"contact" : "https://vk.com/olegkomarant",
-	"version" : "3.1.2",
-	"changelog" :
-	{
-		"3.1.2"   : [ "Meadow update by Grossmaster, minor changes to the sprites of the Meadow Guard and Forest Protector, fixes the old Bear portrait showing up." ],
-		"3.1.1"   : [ "UnHotAifying the mod - HotA no longer required." ],
-		"3.1.0"   : [ "Update to vcmi-1.7 format." ],
-		"3.0.9"   : [ "Meadow trees updated." ],
-		"3.0.8"   : [ "Meadow battlefield changed." ],
-		"3.0.7"   : [ "Russian translation added." ],
-		"3.0.6"   : [ "Bear sprite update." ],
-		"3.0.5"   : [ "Bug fixes." ],
-		"3.0.4"   : [ "Stack experience update." ],
-		"3.0.3"   : [ "Bug fixes." ],
-                "3.0.2"   : [ "Stack experience added." ],
-                "3.0.1"   : [ "Bears and Rosomaha sprites updated" ],
-                "3.0.0"   : [ "Major update" ],
-                "2.3.6"   : [ "New music theme by Fabrice-Tiercelin and AI Udio" ],
-                "2.3.5"   : [ "Volot fix" ],
-                "2.3.4"   : [ "Cat Bayuns now spawn Cats" ],
-                "2.3.3"   : [ "Polish translation by FallainBlack" ],
-		"2.3.2"   : [ "Console fixes by George King" ],
-		"2.3.1"   : [ "Meadow Guard and Forest Protector fixes" ],
-		"2.3"   : [ "Mines fix" ],
-		"2.2"   : [ "Grail bug fix" ],
-		"2.1"   : [ "Meadow fixes. Forest Protector fixes." ],
-		"2.0"   : [ "Major re-release with bug fixes, graphical updates and much more." ],
-		"1.5"   : [ "Minor fixes" ],
-		"1.4"   : [ "Chinese translation by Demon King" ],
-		"1.3"   : [ "Conflict with Fairy town fixed by Demon King" ],
-		"1.2"   : [ "Minor fixes" ],
-		"1.1"   : [ "New town screen by Anton Sergeew" ],
-		"1.0"   : [ "Initial release" ]
-	},	
-	"compatibility" :
-	{
+	"version" : "3.1.5",
+	"changelog" : {
+		"3.1.5" : [
+			"Meadow update: graphical changes + 2 new objects"
+		],
+		"3.1.4" : [
+			"Update to some Meadow objects"
+		],
+		"3.1.3" : [
+			"Multiple icon fixes"
+		],
+		"3.1.2" : [
+			"Meadow update by Grossmaster, minor changes to the sprites of the Meadow Guard and Forest Protector, fixes the old Bear portrait showing up."
+		],
+		"3.1.1" : [
+			"UnHotAifying the mod - HotA no longer required."
+		],
+		"3.1.0" : [
+			"Update to vcmi-1.7 format."
+		],
+		"3.0.9" : [
+			"Meadow trees updated."
+		],
+		"3.0.8" : [
+			"Meadow battlefield changed."
+		],
+		"3.0.7" : [
+			"Russian translation added."
+		],
+		"3.0.6" : [
+			"Bear sprite update."
+		],
+		"3.0.5" : [
+			"Bug fixes."
+		],
+		"3.0.4" : [
+			"Stack experience update."
+		],
+		"3.0.3" : [
+			"Bug fixes."
+		],
+		"3.0.2" : [
+			"Stack experience added."
+		],
+		"3.0.1" : [
+			"Bears and Rosomaha sprites updated"
+		],
+		"3.0.0" : [
+			"Major update"
+		],
+		"2.3.6" : [
+			"New music theme by Fabrice-Tiercelin and AI Udio"
+		],
+		"2.3.5" : [
+			"Volot fix"
+		],
+		"2.3.4" : [
+			"Cat Bayuns now spawn Cats"
+		],
+		"2.3.3" : [
+			"Polish translation by FallainBlack"
+		],
+		"2.3.2" : [
+			"Console fixes by George King"
+		],
+		"2.3.1" : [
+			"Meadow Guard and Forest Protector fixes"
+		],
+		"2.3" : [
+			"Mines fix"
+		],
+		"2.2" : [
+			"Grail bug fix"
+		],
+		"2.1" : [
+			"Meadow fixes. Forest Protector fixes."
+		],
+		"2.0" : [
+			"Major re-release with bug fixes, graphical updates and much more."
+		],
+		"1.5" : [
+			"Minor fixes"
+		],
+		"1.4" : [
+			"Chinese translation by Demon King"
+		],
+		"1.3" : [
+			"Conflict with Fairy town fixed by Demon King"
+		],
+		"1.2" : [
+			"Minor fixes"
+		],
+		"1.1" : [
+			"New town screen by Anton Sergeew"
+		],
+		"1.0" : [
+			"Initial release"
+		]
+	},
+	"compatibility" : {
 		"min" : "1.7.0"
-	},	
-	"modType" : "Town",	
-    	"factions" : [ "config/kremlin/town" ],
-	
-	"chinese": {
-		"name" : "克里姆林",
+	},
+	"modType" : "Expansion",
+	"factions" : [
+		"config/kremlin/town"
+	],
+
+	"chinese" : {
+		"name" : "克里姆林 (the translation is outdated)",
 		"description" : "New Towns团队制作的新城镇，从未发布过。Olegmods.INC在Anton Sergeew的帮助下重置。",
 		"translations" : [
 			"translation/kremlin/chinese.json"
 		]
 	},
-        "polish": {
+	"polish" : {
 		"name" : "Gród",
 		"description" : "Nowe miasto oparte na folklorze Rosyjskim.",
 		"translations" : [
 			"translation/kremlin/polish.json"
 		]
 	},
-	"russian": {
-		"name" : "Кремль",
-		"description" : "Новый город, оригинально создававшийся командой CoreWoG, теперь воссозданный.",
+	"russian" : {
+		"name" : "Кремль (аддон)",
+		"description" : "Новый город, оригинально создававшийся командой CoreWoG, теперь воссозданный Olegmods.INC с неоценимой помощью сообщества. Также включает почву Луг (в альфа-версии), созданную Grossmaster, которая является родной почвой Кремля, если она включена.",
 		"translations" : [
 			"translation/kremlin/russian.json"
 		]
 	},
-	"creatures" :
-	[
+	"creatures" : [
 		"config/kremlin/creatures/fairy1.json",
 		"config/kremlin/creatures/fairy2.json",
 		"config/kremlin/creatures/fench1.json",
@@ -76,32 +142,28 @@
 		"config/kremlin/creatures/wisp2.json",
 		"config/kremlin/creatures/hatchling1.json",
 		"config/kremlin/creatures/hatchling2.json",
-//		"config/kremlin/creatures/fwyvern1.json",
-//		"config/kremlin/creatures/fwyvern2.json",
 		"config/kremlin/creatures/fdrag1.json",
-//		"config/kremlin/creatures/fdrag2.json",
-//		"config/kremlin/creatures/forestwitch.json",
-		"config/kremlin/creatures/yaga.json",	
-		"config/kremlin/creatures/kuznets.json",	
-		"config/kremlin/creatures/volot.json",	
+		"config/kremlin/creatures/yaga.json",
+		"config/kremlin/creatures/kuznets.json",
+		"config/kremlin/creatures/volot.json",
 		"config/kremlin/creatures/creatures.json",
 		"config/kremlin/creatures/summon1.json",
 		"config/kremlin/creatures/summon2.json",
 		"config/kremlin/creatures/volot.json",
-		"config/kremlin/creatures/rosomaha.json",	
+		"config/kremlin/creatures/rosomaha.json",
 		"config/kremlin/creatures/cat.json",
 		"config/kremlin/creatures/mohovik.json",
 		"config/kremlin/creatures/ratoborets.json",
-		"config/kremlin/creatures/ataman.json",	
+		"config/kremlin/creatures/ataman.json",
 		"config/kremlin/creatures/believer.json",
-		"config/kremlin/creatures/devotee.json",	
-		"config/kremlin/creatures/bolotnik.json"			
+		"config/kremlin/creatures/devotee.json",
+		"config/kremlin/creatures/bolotnik.json"
 	],
-	"heroClasses" : [ 
-		"config/kremlin/classes/vityaz", 
+	"heroClasses" : [
+		"config/kremlin/classes/vityaz",
 		"config/kremlin/classes/volchv"
 	],
-	"heroes" : [ 
+	"heroes" : [
 		"config/kremlin/heroes/oleg",
 		"config/kremlin/heroes/sadko",
 		"config/kremlin/heroes/rogneda",
@@ -119,8 +181,7 @@
 		"config/kremlin/heroes/sveneld",
 		"config/kremlin/heroes/vseglas"
 	],
-	"spells" :
-	[
+	"spells" : [
 		"config/kremlin/spells/repair.json",
 		"config/kremlin/spells/summonKremlin.json",
 		"config/kremlin/spells/summonFirebird.json",
@@ -131,19 +192,16 @@
 		"config/kremlin/spells/raven1.json",
 		"config/kremlin/spells/raven2.json"
 	],
-	"artifacts" :
-	[
+	"artifacts" : [
 		"config/kremlin/artifacts/bogatyrshelm.json",
 		"config/kremlin/artifacts/firebirdsegg.json",
 		"config/kremlin/artifacts/kasheysneedle.json",
 		"config/kremlin/artifacts/ratnikscuirass.json"
 	],
-	"objects" :
-    	[ 
+	"objects" : [
 		"config/kremlin/dwellings.json",
 		"config/kremlin/banks/bogatyrCache.json",
 		"config/kremlin/banks/covenHill.json",
-		"config/kremlin/banks/enchantedGlade.json",
-
-    	]
+		"config/kremlin/banks/enchantedGlade.json"
+	]
 }
