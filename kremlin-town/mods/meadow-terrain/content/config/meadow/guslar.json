@@ -1,11 +1,15 @@
 {
-    "rusGuslar" : {
+	"rusGuslar" : {
 		"name" : "Guslar",
-		"handler": "configurable",
+		"handler" : "configurable",
 		"base" : {
 			"sounds" : {
-				"ambient" : ["LOOPGARD"],
-				"visit" : ["EXPERNCE"]
+				"ambient" : [
+					"LOOPGARD"
+				],
+				"visit" : [
+					"EXPERNCE"
+				]
 			}
 		},
 		"types" : {
@@ -29,10 +33,12 @@
 				},
 				"aiValue" : 500,
 				"rmg" : {
-					"value"		: 500,
-					"rarity"	: 50
+					"value" : 500,
+					"rarity" : 50
 				},
-				"compatibilityIdentifiers" : [ "object" ],
+				"compatibilityIdentifiers" : [
+					"object"
+				],
 
 				"onVisitedMessage" : "The sound of music brings you to a small garden, where you see an old man sitting on a stone and playing something on his instrument. \"I have nothing for you. Please come back next week.\"",
 				"resetParameters" : {
@@ -45,13 +51,21 @@
 				"rewards" : [
 					{
 						"message" : "The sound of music brings you to a small garden, where you see an old man sitting on a stone and playing something on his instrument. \"Friend, isn't the sound of music simply great? If it wasn't, you wouldn't come to me. Here, take a gift from me, and return here next week to hear more of these wonderful sounds!\"",
-						"appearChance" : { "max" : 50 },
-						"resources" : { "crystal" : 5 }
+						"appearChance" : {
+							"max" : 50
+						},
+						"resources" : {
+							"crystal" : 5
+						}
 					},
 					{
-					    "message" : "The sound of music brings you to a small garden, where you see an old man sitting on a stone and playing something on his instrument. \"Friend, isn't the sound of music simply great? If it wasn't, you wouldn't come to me. Here, take a gift from me, and return here next week to hear more of these wonderful sounds!\"",
-						"appearChance" : { "min" : 50 },
-						"resources" : { "gold" : 500 }
+						"message" : "The sound of music brings you to a small garden, where you see an old man sitting on a stone and playing something on his instrument. \"Friend, isn't the sound of music simply great? If it wasn't, you wouldn't come to me. Here, take a gift from me, and return here next week to hear more of these wonderful sounds!\"",
+						"appearChance" : {
+							"min" : 50
+						},
+						"resources" : {
+							"gold" : 500
+						}
 					}
 				]
 			}
