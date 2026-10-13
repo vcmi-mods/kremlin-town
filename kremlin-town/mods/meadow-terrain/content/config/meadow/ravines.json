@@ -1,0 +1,146 @@
+{
+	"ravinesMeadow" : {
+		"name" : "Ravine",
+		"handler" : "generic",
+		"types" : {
+			"object" : {
+				"templates" : {
+					"Ravnlg00" : {
+						"animation" : "objects/RavnLG00.def",
+						"mask" : [
+							"BBV",
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
+					},
+					"Ravnlg01" : {
+						"animation" : "objects/RavnLG01.def",
+						"mask" : [
+							"VBB",
+							"BBV",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
+					},
+					"Ravnlg02" : {
+						"animation" : "objects/RavnLG02.def",
+						"mask" : [
+							"VVBB",
+							"VBBV",
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
+					},
+					"Ravnlg03" : {
+						"animation" : "objects/RavnLG03.def",
+						"mask" : [
+							"VBBV",
+							"VVBB",
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
+					},
+					"Ravnlg04" : {
+						"animation" : "objects/RavnLG04.def",
+						"mask" : [
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
+					},
+					"Ravnlg05" : {
+						"animation" : "objects/RavnLG05.def",
+						"mask" : [
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
+					},
+					"Ravnlg06" : {
+						"animation" : "objects/RavnLG06.def",
+						"mask" : [
+							"VB",
+							"VB",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
+					},
+					"Ravnlg07" : {
+						"animation" : "objects/RavnLG07.def",
+						"mask" : [
+							"VB",
+							"VB",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
+					},
+					"Ravnlg08" : {
+						"animation" : "objects/RavnLG08.def",
+						"mask" : [
+							"VVVV",
+							"VBVV",
+							"VBBV",
+							"VVBV"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
+					},
+					"Ravnlg09" : {
+						"animation" : "objects/RavnLG09.def",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBBV",
+							"VBVV"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
+					},
+					"Ravnlg10" : {
+						"animation" : "objects/RavnLG10.def",
+						"mask" : [
+							"VVVV",
+							"VBVV",
+							"VBBV",
+							"VVBV"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
+					},
+					"Ravnlg11" : {
+						"animation" : "objects/RavnLG11.def",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBBV",
+							"VBVV"
+						],
+						"allowedTerrains" : [
+							"meadow"
+						]
+					}
+                }
+            }
+        }
+    }
+}

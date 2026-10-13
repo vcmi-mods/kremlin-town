@@ -3,8 +3,11 @@
 	"description" : "The Meadow terrain for Kremlin town. Music from Nox. It's still in alpha version",
 	"author" : "Grossmaster, mod by Olegmods.INC",
 	"contact" : "https://vk.com/olegkomarant",
-	"version" : "1.0.5",
+	"version" : "1.0.6",
 	"changelog" : {
+		"1.0.6" : [
+			"Added ravines"
+		],
 		"1.0.5" : [
 			"Even more Meadow edits by Grossmaster"
 		],
@@ -57,7 +60,7 @@
 		"config/meadow/puddles",
 		"config/meadow/signs",
 		"config/meadow/swanPond",
-		///		"config/meadow/stoneSign",
+		"config/meadow/ravines",
 		"config/meadow/waterwheel",
 		"config/meadow/greatKapishe.json",
 		"config/meadow/meadowShrubs",
